@@ -1,0 +1,31 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_matricula_s5,codex_matricula_s5,servico,,Complex method,verificar_elegibilidade,83 - 111,projetos/codex_matricula_s5/servico.py,"Method 'verificar_elegibilidade' has a cyclomatic complexity of 8, exceeding the max of 6."
+codex_matricula_s5,codex_matricula_s5,servico,,Complex method,atualizar_fila,121 - 160,projetos/codex_matricula_s5/servico.py,"Method 'atualizar_fila' has a cyclomatic complexity of 10, exceeding the max of 6."
+codex_matricula_s5,codex_matricula_s5,servico,,Complex method,encerrar_matricula,191 - 217,projetos/codex_matricula_s5/servico.py,"Method 'encerrar_matricula' has a cyclomatic complexity of 9, exceeding the max of 6."
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,fila,70,projetos/codex_matricula_s5/servico.py,A line with 180 chars in fila exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,contar_ocupadas,78,projetos/codex_matricula_s5/servico.py,A line with 151 chars in contar_ocupadas exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,verificar_elegibilidade,99,projetos/codex_matricula_s5/servico.py,A line with 298 chars in verificar_elegibilidade exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,alterar_matricula,115,projetos/codex_matricula_s5/servico.py,A line with 243 chars in alterar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,atualizar_fila,125,projetos/codex_matricula_s5/servico.py,A line with 251 chars in atualizar_fila exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,expirar_reservas,164,projetos/codex_matricula_s5/servico.py,A line with 179 chars in expirar_reservas exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,fechar_turma,176,projetos/codex_matricula_s5/servico.py,A line with 154 chars in fechar_turma exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,registrar_evento,184,projetos/codex_matricula_s5/servico.py,A line with 257 chars in registrar_evento exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,encerrar_matricula,204,projetos/codex_matricula_s5/servico.py,A line with 211 chars in encerrar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,aplicar_trancamento_do_aluno,226,projetos/codex_matricula_s5/servico.py,A line with 163 chars in aplicar_trancamento_do_aluno exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,aplicar_trancamento_do_aluno,229,projetos/codex_matricula_s5/servico.py,A line with 130 chars in aplicar_trancamento_do_aluno exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Long statement,,16,projetos/codex_matricula_s5/servico.py,A line with 129 chars in servico exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,servico,,Magic number,verificar_elegibilidade,97,projetos/codex_matricula_s5/servico.py,Magic number 3 used in verificar_elegibilidade.
+codex_matricula_s5,codex_matricula_s5,servico,,Magic number,atualizar_fila,143,projetos/codex_matricula_s5/servico.py,Magic number 409 used in atualizar_fila.
+codex_matricula_s5,codex_matricula_s5,servico,,Magic number,aplicar_trancamento_do_aluno,223,projetos/codex_matricula_s5/servico.py,Magic number 3 used in aplicar_trancamento_do_aluno.
+codex_matricula_s5,codex_matricula_s5,app,,Complex method,preparar_turma,104 - 129,projetos/codex_matricula_s5/app.py,"Method 'preparar_turma' has a cyclomatic complexity of 14, exceeding the max of 6."
+codex_matricula_s5,codex_matricula_s5,app,,Long message chain,conexao,44,projetos/codex_matricula_s5/app.py,"A long message chain has 4 attributes/calls chained together, more than the recommended 3 in the following statement: caminho = request.app.state.caminho."
+codex_matricula_s5,codex_matricula_s5,app,,Long method,criar_app,132 - 320,projetos/codex_matricula_s5/app.py,Method 'criar_app' is too long (150 lines).
+codex_matricula_s5,codex_matricula_s5,app,,Long statement,gravar,26,projetos/codex_matricula_s5/app.py,A line with 122 chars in gravar exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,app,,Long statement,criar_app,179,projetos/codex_matricula_s5/app.py,A line with 163 chars in criar_app exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,app,,Long statement,criar_app,218,projetos/codex_matricula_s5/app.py,A line with 126 chars in criar_app exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,app,,Long statement,criar_app,227,projetos/codex_matricula_s5/app.py,A line with 301 chars in criar_app exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,app,,Long statement,criar_app,239,projetos/codex_matricula_s5/app.py,A line with 180 chars in criar_app exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,app,,Long statement,criar_app,248,projetos/codex_matricula_s5/app.py,A line with 316 chars in criar_app exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,app,,Long statement,criar_app,286,projetos/codex_matricula_s5/app.py,A line with 326 chars in criar_app exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,app,,Long statement,criar_app,294,projetos/codex_matricula_s5/app.py,A line with 593 chars in criar_app exceeds the maximum length of 120 characters.
+codex_matricula_s5,codex_matricula_s5,app,,Long statement,criar_app,306,projetos/codex_matricula_s5/app.py,A line with 745 chars in criar_app exceeds the maximum length of 120 characters.

@@ -1,0 +1,14 @@
+Project,Package,Module,Class,Method,LOC,CC,PC
+codex_banco_s4,codex_banco_s4,main,,agora,2,1,0
+codex_banco_s4,codex_banco_s4,main,,centavos,2,1,1
+codex_banco_s4,codex_banco_s4,main,,apresentar,7,1,1
+codex_banco_s4,codex_banco_s4,main,,buscar,5,2,3
+codex_banco_s4,codex_banco_s4,main,,listar,2,1,3
+codex_banco_s4,codex_banco_s4,main,,inserir,7,1,2
+codex_banco_s4,codex_banco_s4,main,,atualizar,3,1,3
+codex_banco_s4,codex_banco_s4,main,,saldo,6,3,4
+codex_banco_s4,codex_banco_s4,main,,validar_conta,5,3,2
+codex_banco_s4,codex_banco_s4,main,,calendario,54,6,2
+codex_banco_s4,codex_banco_s4,main,,cobrar,5,2,3
+codex_banco_s4,codex_banco_s4,main,,criar_app,321,8,2
+codex_banco_s4,codex_banco_s4,modelos,Cliente,validar_cpf,12,5,2

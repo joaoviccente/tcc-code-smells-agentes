@@ -1,0 +1,34 @@
+Implemente uma API REST em Python para gestao de matriculas academicas de uma universidade.
+
+ENTIDADES
+
+- Aluno: nome, matricula, e-mail, categoria (graduacao, pos ou especial), situacao (ativo, trancado ou jubilado).
+- Disciplina: codigo, nome, numero de creditos, carga horaria, departamento.
+- Turma: pertence a uma disciplina, com semestre, professor, numero de vagas, horario e estado (aberta, lotada, cancelada, encerrada).
+- Matricula: aluno, turma, data, estado (solicitada, confirmada, lista_de_espera, cancelada, trancada).
+- PreRequisito: liga uma disciplina a outra disciplina exigida.
+- Historico: aluno, disciplina, semestre, nota e situacao (aprovado, reprovado, trancado).
+
+REGRAS POR CATEGORIA DE ALUNO
+
+Graduacao: maximo de 28 creditos por semestre; ate 2 trancamentos por disciplina; prazo de cancelamento de 15 dias; prioridade media na lista de espera.
+Pos: maximo de 16 creditos por semestre; 1 trancamento por disciplina; prazo de cancelamento de 30 dias; prioridade alta na lista de espera.
+Especial: maximo de 8 creditos por semestre; nenhum trancamento permitido; prazo de cancelamento de 7 dias; prioridade baixa na lista de espera.
+
+REGRAS DE NEGOCIO
+
+1. A matricula so e permitida a aluno ativo, que tenha sido aprovado em todos os pre-requisitos da disciplina segundo o historico, e que nao ultrapasse o maximo de creditos da sua categoria no semestre.
+2. Se a turma estiver lotada, a matricula entra em lista de espera ordenada pela prioridade da categoria e, em caso de empate, pela data da solicitacao. Quando uma vaga e liberada, o primeiro da fila tem 48 horas para confirmar; esgotado o prazo, a matricula e cancelada e a vez passa ao proximo.
+3. Aluno reprovado tres vezes na mesma disciplina fica impedido de se matricular nela novamente.
+4. O trancamento de uma disciplina so e permitido dentro do prazo de cancelamento da categoria e respeitando o limite de trancamentos. Fora do prazo, o cancelamento registra reprovacao por falta no historico.
+5. Turma com menos de 5 matriculas confirmadas ao fim do periodo de matricula e cancelada, e todas as suas matriculas passam ao estado cancelada.
+6. Matricula em turma cujo horario conflita com outra turma ja confirmada do aluno e negada.
+7. Aluno que acumular tres trancamentos no semestre passa a situacao trancado, e todas as suas matriculas confirmadas sao canceladas.
+
+ENDPOINTS
+
+CRUD de alunos, disciplinas e turmas. Matricula: solicitar, confirmar, cancelar, trancar e listar por aluno. Lista de espera: consultar a fila de uma turma. Historico: consultar por aluno. Relatorios: disciplinas mais procuradas no semestre, taxa de reprovacao por disciplina e ocupacao das turmas por departamento.
+
+REQUISITOS TECNICOS
+
+Persistencia em banco relacional. Validacao dos dados de entrada. Codigos HTTP apropriados para cada situacao. Os valores numericos indicados acima devem ser respeitados exatamente.

@@ -1,0 +1,11 @@
+Project,Package,Module,Smell,Class,Line no,File,Description
+codex_banco_s1,codex_banco_s1,app,Broken hierarchy,AlterarCliente,291,projetos/codex_banco_s1/app.py,Class 'AlterarCliente' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s1,codex_banco_s1,app,Broken hierarchy,NovoCliente,320,projetos/codex_banco_s1/app.py,Class 'NovoCliente' and its superclass 'AlterarCliente' may not share a proper 'IS-A' relationship.
+codex_banco_s1,codex_banco_s1,app,Broken hierarchy,AlterarConta,328,projetos/codex_banco_s1/app.py,Class 'AlterarConta' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s1,codex_banco_s1,app,Broken hierarchy,NovaConta,335,projetos/codex_banco_s1/app.py,Class 'NovaConta' and its superclass 'AlterarConta' may not share a proper 'IS-A' relationship.
+codex_banco_s1,codex_banco_s1,app,Broken hierarchy,AlterarCartao,343,projetos/codex_banco_s1/app.py,Class 'AlterarCartao' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s1,codex_banco_s1,app,Broken hierarchy,NovoCartao,349,projetos/codex_banco_s1/app.py,Class 'NovoCartao' and its superclass 'AlterarCartao' may not share a proper 'IS-A' relationship.
+codex_banco_s1,codex_banco_s1,app,Broken hierarchy,Operacao,356,projetos/codex_banco_s1/app.py,Class 'Operacao' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s1,codex_banco_s1,app,Broken hierarchy,Transferencia,361,projetos/codex_banco_s1/app.py,Class 'Transferencia' and its superclass 'Operacao' may not share a proper 'IS-A' relationship.
+codex_banco_s1,codex_banco_s1,app,Broken hierarchy,NovaFatura,365,projetos/codex_banco_s1/app.py,Class 'NovaFatura' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s1,codex_banco_s1,app,Insufficient modularization,app,1,projetos/codex_banco_s1/app.py,"Module 'app' is insufficiently modularized with NOPM: 53, WMC: 118, NOM: 53."

@@ -1,0 +1,27 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Number of Classes (NOC),"Project has 12.0 weighted classes:
+- Regular classes: 12
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_matricula_s5,Project,,High
+Code,Feature Envy,Method 'transacao' makes 5 calls to 'db' but only 0 local calls in projetos/codex_matricula_s5/servico.py,projetos/codex_matricula_s5/servico.py,transacao,26,medium
+Code,Long Method,'criar_app' has 167 lines in projetos/codex_matricula_s5/app.py at line 132,projetos/codex_matricula_s5/app.py,criar_app,132,
+Code,Potential Shotgun Surgery,Method 'listar' called in 8 different contexts across 8 locations in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,listar,72,high
+Code,Feature Envy,Method 'conexao' makes 4 calls to 'db' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,conexao,43,medium
+Code,Feature Envy,Method 'criar_crud' makes 8 calls to 's' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,criar_crud,60,medium
+Code,Feature Envy,Method 'atualizar' makes 5 calls to 's' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,atualizar,78,medium
+Code,Feature Envy,Method 'preparar_turma' makes 8 calls to 's' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,preparar_turma,104,medium
+Code,Feature Envy,Method 'criar_app' makes 46 calls to 's' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,criar_app,132,medium
+Code,Feature Envy,Method 'solicitar' makes 7 calls to 's' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,solicitar,169,medium
+Code,Feature Envy,Method 'confirmar' makes 10 calls to 's' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,confirmar,186,medium
+Code,Feature Envy,Method 'cancelar' makes 5 calls to 's' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,cancelar,200,medium
+Code,Feature Envy,Method 'trancar' makes 5 calls to 's' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,trancar,205,medium
+Code,Feature Envy,Method 'adicionar_pre_requisito' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,adicionar_pre_requisito,244,medium
+Code,Feature Envy,Method 'inserir_historico' makes 5 calls to 's' but only 0 local calls in projetos/codex_matricula_s5/app.py,projetos/codex_matricula_s5/app.py,inserir_historico,273,medium
+Architectural,Hub-like Dependency,"Module 'app' is a potential hub with 14 connections (in: 0, out: 14, external: 0)",projetos/codex_matricula_s5/app.py,app,,high
+Architectural,God Object,Module 'app' has too many public functions (28),projetos/codex_matricula_s5/app.py,app,,medium
+Architectural,Potential Improper API Usage,"Module 'servico' has repetitive API calls: fetchall(4x), loads(3x), execute(16x), fromisoformat(3x), isoformat(4x)",projetos/codex_matricula_s5/servico.py,servico,,medium
+Architectural,Potential Improper API Usage,"Module 'app' has repetitive API calls: serializar(8x), post(8x), get(10x), obter(23x), fetchone(5x), join(3x), execute(15x), model_dump(4x), conflito(9x), agora(8x), atualizar_fila(3x)",projetos/codex_matricula_s5/app.py,app,,medium
+Architectural,Unstable Dependency,Module 'servico' has high instability (0.88) with 7 outgoing and 1 incoming dependencies,projetos/codex_matricula_s5/servico.py,servico,,medium
+Architectural,Unstable Dependency,Module 'app' has high instability (1.00) with 14 outgoing and 0 incoming dependencies,projetos/codex_matricula_s5/app.py,app,,medium

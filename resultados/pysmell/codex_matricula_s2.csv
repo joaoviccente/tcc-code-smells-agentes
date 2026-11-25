@@ -1,0 +1,4 @@
+smell,file,entity,line,metrics
+LongParameterList,banco.py,projetos/codex_matricula_s2/banco.py,54,4
+LongMethod,main.py,projetos/codex_matricula_s2/main.py,45,42
+LongMethod,servico.py,projetos/codex_matricula_s2/servico.py,135,33

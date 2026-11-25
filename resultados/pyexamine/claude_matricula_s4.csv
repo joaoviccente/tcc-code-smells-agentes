@@ -1,0 +1,68 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Number of Classes (NOCC),Module 'app.schemas' has 20 significant classes (avg complexity: 0.2),projetos/claude_matricula_s4/app/schemas.py,app.schemas,,Medium
+Structural,High Lines of Code (LOC),"Module 'app.servicos' has 234 effective code lines
+(Total: 391, Code: 234, Doc: 87, Import: 0, Blank: 60)",projetos/claude_matricula_s4/app/servicos.py,app.servicos,,High
+Structural,High Number of Classes (NOC),"Project has 37.3 weighted classes:
+- Regular classes: 37
+- Abstract/Interface classes: 0
+- Utility classes: 1
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/claude_matricula_s4,Project,,High
+Code,Temporary Field,"Potentially unused fields entidade, self, id_ in class 'NaoEncontrado' at line 15 in projetos/claude_matricula_s4/app/errors.py",projetos/claude_matricula_s4/app/errors.py,NaoEncontrado,15,low
+Code,Temporary Field,"Potentially unused fields codigo, mensagem, self, detalhes in class 'Conflito' at line 21 in projetos/claude_matricula_s4/app/errors.py",projetos/claude_matricula_s4/app/errors.py,Conflito,21,low
+Code,Temporary Field,"Potentially unused fields codigo, mensagem, self, detalhes in class 'RegraViolada' at line 26 in projetos/claude_matricula_s4/app/errors.py",projetos/claude_matricula_s4/app/errors.py,RegraViolada,26,low
+Code,Feature Envy,Method 'tratar_erro_negocio' makes 5 calls to 'exc' but only 0 local calls in projetos/claude_matricula_s4/app/errors.py,projetos/claude_matricula_s4/app/errors.py,tratar_erro_negocio,31,medium
+Code,Potential Shotgun Surgery,Method 'Field' called in 7 different contexts across 15 locations in projetos/claude_matricula_s4/app/schemas.py,projetos/claude_matricula_s4/app/schemas.py,Field,51,high
+Code,Potential Shotgun Surgery,Method 'mapped_column' called in 6 different contexts across 39 locations in projetos/claude_matricula_s4/app/models.py,projetos/claude_matricula_s4/app/models.py,mapped_column,53,high
+Code,Potential Shotgun Surgery,Method 'String' called in 5 different contexts across 10 locations in projetos/claude_matricula_s4/app/models.py,projetos/claude_matricula_s4/app/models.py,String,54,high
+Code,Potential Shotgun Surgery,Method 'relationship' called in 5 different contexts across 7 locations in projetos/claude_matricula_s4/app/models.py,projetos/claude_matricula_s4/app/models.py,relationship,61,high
+Code,Potential Shotgun Surgery,Method 'ForeignKey' called in 4 different contexts across 8 locations in projetos/claude_matricula_s4/app/models.py,projetos/claude_matricula_s4/app/models.py,ForeignKey,88,high
+Code,Long Method,'solicitar' has 46 lines in projetos/claude_matricula_s4/app/servicos.py at line 191,projetos/claude_matricula_s4/app/servicos.py,solicitar,191,
+Code,Long Method,'trancar' has 48 lines in projetos/claude_matricula_s4/app/servicos.py at line 310,projetos/claude_matricula_s4/app/servicos.py,trancar,310,
+Code,Potential Shotgun Surgery,Method 'select' called in 11 different contexts across 13 locations in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,select,24,high
+Code,Potential Shotgun Surgery,Method '_encerrar' called in 5 different contexts across 6 locations in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,_encerrar,97,high
+Code,Potential Shotgun Surgery,Method 'obter' called in 5 different contexts across 9 locations in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,obter,135,high
+Code,Potential Shotgun Surgery,Method 'RegraViolada' called in 4 different contexts across 8 locations in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,RegraViolada,177,high
+Code,Potential Shotgun Surgery,Method 'Conflito' called in 4 different contexts across 8 locations in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,Conflito,200,high
+Code,Feature Envy,Method 'vagas_ocupadas' makes 5 calls to 'Matricula' but only 0 local calls in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,vagas_ocupadas,56,medium
+Code,Feature Envy,Method 'processar_expiracoes' makes 6 calls to 'Matricula' but only 0 local calls in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,processar_expiracoes,103,medium
+Code,Feature Envy,Method '_verificar_conflito_horario' makes 5 calls to 'm' but only 0 local calls in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,_verificar_conflito_horario,169,medium
+Code,Feature Envy,Method 'solicitar' makes 6 calls to 'turma' but only 0 local calls in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,solicitar,191,medium
+Code,Feature Envy,Method 'confirmar' makes 9 calls to 'm' but only 0 local calls in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,confirmar,251,medium
+Code,Feature Envy,Method 'cancelar' makes 6 calls to 'm' but only 0 local calls in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,cancelar,281,medium
+Code,Feature Envy,Method 'trancar' makes 7 calls to 'aluno' but only 0 local calls in projetos/claude_matricula_s4/app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,trancar,310,medium
+Code,Potential Shotgun Surgery,Method 'select' called in 5 different contexts across 7 locations in projetos/claude_matricula_s4/app/routers/alunos.py,projetos/claude_matricula_s4/app/routers/alunos.py,select,20,high
+Code,Potential Shotgun Surgery,Method 'Depends' called in 7 different contexts across 7 locations in projetos/claude_matricula_s4/app/routers/alunos.py,projetos/claude_matricula_s4/app/routers/alunos.py,Depends,28,high
+Code,Feature Envy,Method '_unicidade' makes 6 calls to 'Aluno' but only 0 local calls in projetos/claude_matricula_s4/app/routers/alunos.py,projetos/claude_matricula_s4/app/routers/alunos.py,_unicidade,19,medium
+Code,Feature Envy,Method 'criar' makes 4 calls to 'dados' but only 0 local calls in projetos/claude_matricula_s4/app/routers/alunos.py,projetos/claude_matricula_s4/app/routers/alunos.py,criar,27,medium
+Code,Feature Envy,Method 'remover' makes 4 calls to 'db' but only 0 local calls in projetos/claude_matricula_s4/app/routers/alunos.py,projetos/claude_matricula_s4/app/routers/alunos.py,remover,70,medium
+Code,Potential Shotgun Surgery,Method 'Depends' called in 8 different contexts across 8 locations in projetos/claude_matricula_s4/app/routers/disciplinas.py,projetos/claude_matricula_s4/app/routers/disciplinas.py,Depends,18,high
+Code,Potential Shotgun Surgery,Method 'select' called in 7 different contexts across 9 locations in projetos/claude_matricula_s4/app/routers/disciplinas.py,projetos/claude_matricula_s4/app/routers/disciplinas.py,select,19,high
+Code,Feature Envy,Method 'remover' makes 6 calls to 'db' but only 0 local calls in projetos/claude_matricula_s4/app/routers/disciplinas.py,projetos/claude_matricula_s4/app/routers/disciplinas.py,remover,52,medium
+Code,Feature Envy,Method 'adicionar_prereq' makes 5 calls to 'dados' but only 0 local calls in projetos/claude_matricula_s4/app/routers/disciplinas.py,projetos/claude_matricula_s4/app/routers/disciplinas.py,adicionar_prereq,92,medium
+Code,Long Parameter List,'listar' has 6 parameters in projetos/claude_matricula_s4/app/routers/turmas.py,projetos/claude_matricula_s4/app/routers/turmas.py,listar,29,
+Code,Potential Shotgun Surgery,Method 'Depends' called in 6 different contexts across 6 locations in projetos/claude_matricula_s4/app/routers/turmas.py,projetos/claude_matricula_s4/app/routers/turmas.py,Depends,21,high
+Code,Feature Envy,Method 'listar' makes 4 calls to 'Turma' but only 0 local calls in projetos/claude_matricula_s4/app/routers/turmas.py,projetos/claude_matricula_s4/app/routers/turmas.py,listar,29,medium
+Code,Feature Envy,Method 'atualizar' makes 5 calls to 'sv' but only 0 local calls in projetos/claude_matricula_s4/app/routers/turmas.py,projetos/claude_matricula_s4/app/routers/turmas.py,atualizar,51,medium
+Code,Feature Envy,Method 'lista_espera' makes 7 calls to 'm' but only 0 local calls in projetos/claude_matricula_s4/app/routers/turmas.py,projetos/claude_matricula_s4/app/routers/turmas.py,lista_espera,97,medium
+Code,Potential Shotgun Surgery,Method 'Depends' called in 6 different contexts across 6 locations in projetos/claude_matricula_s4/app/routers/outros.py,projetos/claude_matricula_s4/app/routers/outros.py,Depends,23,high
+Code,Feature Envy,Method 'mais_procuradas' makes 7 calls to 'Disciplina' but only 0 local calls in projetos/claude_matricula_s4/app/routers/outros.py,projetos/claude_matricula_s4/app/routers/outros.py,mais_procuradas,46,medium
+Code,Feature Envy,Method 'taxa_reprovacao' makes 6 calls to 'Disciplina' but only 0 local calls in projetos/claude_matricula_s4/app/routers/outros.py,projetos/claude_matricula_s4/app/routers/outros.py,taxa_reprovacao,69,medium
+Code,Feature Envy,Method 'ocupacao' makes 11 calls to 't' but only 0 local calls in projetos/claude_matricula_s4/app/routers/outros.py,projetos/claude_matricula_s4/app/routers/outros.py,ocupacao,92,medium
+Architectural,Scattered Functionality,"Function 'obter' appears in 5 modules: app.servicos, app.routers.alunos, app.routers.disciplinas, app.routers.matriculas, app.routers.turmas",projetos/claude_matricula_s4/app/servicos.py,app.servicos,,medium
+Architectural,Scattered Functionality,"Function 'remover' appears in 3 modules: app.routers.alunos, app.routers.disciplinas, app.routers.turmas",projetos/claude_matricula_s4/app/routers/alunos.py,app.routers.alunos,,medium
+Architectural,Scattered Functionality,"Function 'listar' appears in 3 modules: app.routers.alunos, app.routers.disciplinas, app.routers.turmas",projetos/claude_matricula_s4/app/routers/alunos.py,app.routers.alunos,,medium
+Architectural,Scattered Functionality,"Function 'atualizar' appears in 3 modules: app.routers.alunos, app.routers.disciplinas, app.routers.turmas",projetos/claude_matricula_s4/app/routers/alunos.py,app.routers.alunos,,medium
+Architectural,Scattered Functionality,"Function 'criar' appears in 3 modules: app.routers.alunos, app.routers.disciplinas, app.routers.turmas",projetos/claude_matricula_s4/app/routers/alunos.py,app.routers.alunos,,medium
+Architectural,Potential Improper API Usage,"Module 'app.servicos' has repetitive API calls: where(13x), flush(4x), all(6x), agora(7x), commit(8x), add(3x), scalar(4x), scalars(8x), append(3x), in_(4x), join(5x), count(3x), is_not(3x)",projetos/claude_matricula_s4/app/servicos.py,app.servicos,,medium
+Architectural,Potential Improper API Usage,"Module 'app.routers.alunos' has repetitive API calls: get(5x), commit(3x), order_by(3x), all(3x), obter(5x), where(10x), scalar(4x), scalars(3x), limit(3x)",projetos/claude_matricula_s4/app/routers/alunos.py,app.routers.alunos,,medium
+Architectural,Potential Improper API Usage,"Module 'app.routers.disciplinas' has repetitive API calls: get(3x), delete(5x), scalar(6x), add(3x), commit(5x), all(3x), obter(6x), where(9x), limit(4x), scalars(3x)",projetos/claude_matricula_s4/app/routers/disciplinas.py,app.routers.disciplinas,,medium
+Architectural,Potential Improper API Usage,"Module 'app.routers.turmas' has repetitive API calls: get(4x), obter(5x), commit(5x), processar_expiracoes(3x), model_dump(3x), where(5x)",projetos/claude_matricula_s4/app/routers/turmas.py,app.routers.turmas,,medium
+Architectural,Potential Improper API Usage,"Module 'app.routers.outros' has repetitive API calls: post(3x), get(3x), all(3x), order_by(3x), where(3x), join(4x), sum(5x)",projetos/claude_matricula_s4/app/routers/outros.py,app.routers.outros,,medium
+Architectural,Unstable Dependency,Module 'app.main' has high instability (1.00) with 8 outgoing and 0 incoming dependencies,projetos/claude_matricula_s4/app/main.py,app.main,,medium
+Architectural,Unstable Dependency,Module 'app.servicos' has high instability (1.00) with 8 outgoing and 0 incoming dependencies,projetos/claude_matricula_s4/app/servicos.py,app.servicos,,medium
+Architectural,Unstable Dependency,Module 'app.routers.alunos' has high instability (1.00) with 10 outgoing and 0 incoming dependencies,projetos/claude_matricula_s4/app/routers/alunos.py,app.routers.alunos,,medium
+Architectural,Unstable Dependency,Module 'app.routers.disciplinas' has high instability (1.00) with 9 outgoing and 0 incoming dependencies,projetos/claude_matricula_s4/app/routers/disciplinas.py,app.routers.disciplinas,,medium
+Architectural,Unstable Dependency,Module 'app.routers.matriculas' has high instability (1.00) with 7 outgoing and 0 incoming dependencies,projetos/claude_matricula_s4/app/routers/matriculas.py,app.routers.matriculas,,medium
+Architectural,Unstable Dependency,Module 'app.routers.turmas' has high instability (1.00) with 11 outgoing and 0 incoming dependencies,projetos/claude_matricula_s4/app/routers/turmas.py,app.routers.turmas,,medium
+Architectural,Unstable Dependency,Module 'app.routers.outros' has high instability (1.00) with 9 outgoing and 0 incoming dependencies,projetos/claude_matricula_s4/app/routers/outros.py,app.routers.outros,,medium

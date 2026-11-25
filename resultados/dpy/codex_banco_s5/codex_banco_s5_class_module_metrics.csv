@@ -1,0 +1,13 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_banco_s5,codex_banco_s5,banco,,172,42,16,16,3,3,0.12,0,0,0,projetos/codex_banco_s5/banco.py
+codex_banco_s5,codex_banco_s5,main,,225,66,38,38,7,7,0.21,0,0,0,projetos/codex_banco_s5/main.py
+codex_banco_s5,codex_banco_s5,main,Entrada,2,0,0,0,1,1,-1,0,0,0,projetos/codex_banco_s5/main.py
+codex_banco_s5,codex_banco_s5,main,Cliente,12,5,1,1,0,0,0,0,0,1,projetos/codex_banco_s5/main.py
+codex_banco_s5,codex_banco_s5,main,DadosConta,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s5/main.py
+codex_banco_s5,codex_banco_s5,main,NovaConta,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s5/main.py
+codex_banco_s5,codex_banco_s5,main,Conta,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s5/main.py
+codex_banco_s5,codex_banco_s5,main,DadosCartao,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s5/main.py
+codex_banco_s5,codex_banco_s5,main,NovoCartao,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s5/main.py
+codex_banco_s5,codex_banco_s5,main,Movimento,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s5/main.py
+codex_banco_s5,codex_banco_s5,main,Transferencia,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s5/main.py
+codex_banco_s5,codex_banco_s5,main,Fatura,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s5/main.py

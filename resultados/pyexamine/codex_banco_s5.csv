@@ -1,0 +1,30 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'main' has 164 effective code lines
+(Total: 407, Code: 164, Doc: 126, Import: 12, Blank: 105)",projetos/codex_banco_s5/main.py,main,,Medium
+Structural,High Number of Classes (NOC),"Project has 10.0 weighted classes:
+- Regular classes: 10
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_banco_s5,Project,,Medium
+Structural,Too Many Branches,Method 'validar_cpf' has 4 branches with max nesting of 4,projetos/codex_banco_s5/main.py,main.Cliente,40,Medium
+Code,Long Parameter List,'movimentar' has 6 parameters in projetos/codex_banco_s5/banco.py,projetos/codex_banco_s5/banco.py,movimentar,183,
+Code,Potential Shotgun Surgery,Method 'obter' called in 4 different contexts across 7 locations in projetos/codex_banco_s5/banco.py,projetos/codex_banco_s5/banco.py,obter,102,high
+Code,Potential Shotgun Surgery,Method 'conflito' called in 4 different contexts across 8 locations in projetos/codex_banco_s5/banco.py,projetos/codex_banco_s5/banco.py,conflito,112,high
+Code,Potential Shotgun Surgery,Method 'instante' called in 7 different contexts across 7 locations in projetos/codex_banco_s5/banco.py,projetos/codex_banco_s5/banco.py,instante,119,high
+Code,Feature Envy,Method 'manutencao' makes 5 calls to 'db' but only 0 local calls in projetos/codex_banco_s5/banco.py,projetos/codex_banco_s5/banco.py,manutencao,140,medium
+Code,Potential Shotgun Surgery,Method 'agora' called in 9 different contexts across 9 locations in projetos/codex_banco_s5/main.py,projetos/codex_banco_s5/main.py,agora,98,high
+Code,Potential Shotgun Surgery,Method 'publico' called in 6 different contexts across 6 locations in projetos/codex_banco_s5/main.py,projetos/codex_banco_s5/main.py,publico,148,high
+Code,Potential Shotgun Surgery,Method 'obter' called in 17 different contexts across 20 locations in projetos/codex_banco_s5/main.py,projetos/codex_banco_s5/main.py,obter,160,high
+Code,Potential Shotgun Surgery,Method 'gravar' called in 9 different contexts across 9 locations in projetos/codex_banco_s5/main.py,projetos/codex_banco_s5/main.py,gravar,165,high
+Code,Potential Shotgun Surgery,Method 'listar' called in 9 different contexts across 9 locations in projetos/codex_banco_s5/main.py,projetos/codex_banco_s5/main.py,listar,170,high
+Code,Potential Shotgun Surgery,Method 'conflito' called in 8 different contexts across 11 locations in projetos/codex_banco_s5/main.py,projetos/codex_banco_s5/main.py,conflito,185,high
+Code,Potential Shotgun Surgery,Method 'centavos' called in 8 different contexts across 8 locations in projetos/codex_banco_s5/main.py,projetos/codex_banco_s5/main.py,centavos,204,high
+Code,Feature Envy,Method 'criar_cartao' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_banco_s5/main.py,projetos/codex_banco_s5/main.py,criar_cartao,264,medium
+Architectural,Hub-like Dependency,"Module 'banco' is a potential hub with 7 connections (in: 1, out: 6, external: 0)",projetos/codex_banco_s5/banco.py,banco,,medium
+Architectural,Hub-like Dependency,"Module 'main' is a potential hub with 12 connections (in: 0, out: 12, external: 0)",projetos/codex_banco_s5/main.py,main,,high
+Architectural,God Object,Module 'main' has too many public functions (37),projetos/codex_banco_s5/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'banco' has repetitive API calls: isoformat(3x), execute(17x), fetchone(4x)",projetos/codex_banco_s5/banco.py,banco,,medium
+Architectural,Potential Improper API Usage,"Module 'main' has repetitive API calls: post(10x), get(12x), put(3x), delete(3x), execute(13x), fetchone(3x), join(3x), model_dump(7x)",projetos/codex_banco_s5/main.py,main,,medium
+Architectural,Unstable Dependency,Module 'banco' has high instability (0.86) with 6 outgoing and 1 incoming dependencies,projetos/codex_banco_s5/banco.py,banco,,medium
+Architectural,Unstable Dependency,Module 'main' has high instability (1.00) with 12 outgoing and 0 incoming dependencies,projetos/codex_banco_s5/main.py,main,,medium

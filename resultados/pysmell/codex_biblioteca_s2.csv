@@ -1,0 +1,3 @@
+smell,file,entity,line,metrics
+LongParameterList,app.py,projetos/codex_biblioteca_s2/app.py,126,4
+LongMethod,app.py,projetos/codex_biblioteca_s2/app.py,369,30

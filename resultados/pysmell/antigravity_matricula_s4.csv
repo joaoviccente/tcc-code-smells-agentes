@@ -1,0 +1,15 @@
+smell,file,entity,line,metrics
+LongBaseClassList,app/config.py,projetos/antigravity_matricula_s4/app/config.py,6,2
+LongBaseClassList,app/config.py,projetos/antigravity_matricula_s4/app/config.py,12,2
+LongBaseClassList,app/config.py,projetos/antigravity_matricula_s4/app/config.py,18,2
+LongBaseClassList,app/config.py,projetos/antigravity_matricula_s4/app/config.py,25,2
+LongBaseClassList,app/config.py,projetos/antigravity_matricula_s4/app/config.py,33,2
+LongMethod,app/services/schedule_parser.py,projetos/antigravity_matricula_s4/app/services/schedule_parser.py,37,33
+LongMethod,app/services/matricula_service.py,projetos/antigravity_matricula_s4/app/services/matricula_service.py,113,37
+LongMethod,app/services/matricula_service.py,projetos/antigravity_matricula_s4/app/services/matricula_service.py,176,39
+LongMethod,app/services/matricula_service.py,projetos/antigravity_matricula_s4/app/services/matricula_service.py,237,75
+LongMethod,app/services/matricula_service.py,projetos/antigravity_matricula_s4/app/services/matricula_service.py,360,49
+LongMethod,app/services/matricula_service.py,projetos/antigravity_matricula_s4/app/services/matricula_service.py,437,29
+LongMethod,app/services/matricula_service.py,projetos/antigravity_matricula_s4/app/services/matricula_service.py,484,54
+LongMethod,app/services/relatorio_service.py,projetos/antigravity_matricula_s4/app/services/relatorio_service.py,85,39
+ComplexContainerComprehension,app/routers/historicos.py,projetos/antigravity_matricula_s4/app/routers/historicos.py,33,266|3|30

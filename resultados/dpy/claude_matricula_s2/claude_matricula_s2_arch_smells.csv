@@ -1,0 +1,3 @@
+Project,Package,Smell,Description
+claude_matricula_s2,claude_matricula_s2.app,Feature concentration,The component realizes more than one architectural concern/feature. Independent sets of related modules within this component are: [main]; [clock]; [regras]; [errors]; [schemas]; [services; models; database]. LCC (Lack of Component Cohesion) = 0.75
+claude_matricula_s2,claude_matricula_s2.app.routers,Feature concentration,The component realizes more than one architectural concern/feature. Independent sets of related modules within this component are: [alunos]; [disciplinas]; [matriculas]; [turmas]; [relatorios]. LCC (Lack of Component Cohesion) = 1.0

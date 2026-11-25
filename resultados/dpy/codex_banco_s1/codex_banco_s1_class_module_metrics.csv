@@ -1,0 +1,12 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_banco_s1,codex_banco_s1,app,,436,118,53,53,17,17,0,0,0,0,projetos/codex_banco_s1/app.py
+codex_banco_s1,codex_banco_s1,app,Entrada,6,2,1,1,1,1,0,0,0,0,projetos/codex_banco_s1/app.py
+codex_banco_s1,codex_banco_s1,app,AlterarCliente,16,7,2,2,0,0,1,0,0,1,projetos/codex_banco_s1/app.py
+codex_banco_s1,codex_banco_s1,app,NovoCliente,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s1/app.py
+codex_banco_s1,codex_banco_s1,app,AlterarConta,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s1/app.py
+codex_banco_s1,codex_banco_s1,app,NovaConta,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s1/app.py
+codex_banco_s1,codex_banco_s1,app,AlterarCartao,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s1/app.py
+codex_banco_s1,codex_banco_s1,app,NovoCartao,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s1/app.py
+codex_banco_s1,codex_banco_s1,app,Operacao,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s1/app.py
+codex_banco_s1,codex_banco_s1,app,Transferencia,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s1/app.py
+codex_banco_s1,codex_banco_s1,app,NovaFatura,4,1,1,1,0,0,0,0,0,1,projetos/codex_banco_s1/app.py

@@ -1,0 +1,37 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'main' has 280 effective code lines
+(Total: 547, Code: 280, Doc: 178, Import: 11, Blank: 76)",projetos/codex_banco_s4/main.py,main,,High
+Structural,High Number of Classes (NOC),"Project has 9.0 weighted classes:
+- Regular classes: 9
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_banco_s4,Project,,Medium
+Structural,Long File,File 'main' has 291 meaningful lines of code,projetos/codex_banco_s4/main.py,main,,Medium
+Structural,Too Many Branches,Method 'validar_cpf' has 4 branches with max nesting of 4,projetos/codex_banco_s4/modelos.py,modelos.Cliente,29,Medium
+Code,Long Method,'calendario' has 54 lines in projetos/codex_banco_s4/main.py at line 83,projetos/codex_banco_s4/main.py,calendario,83,
+Code,Long Method,'criar_app' has 351 lines in projetos/codex_banco_s4/main.py at line 148,projetos/codex_banco_s4/main.py,criar_app,148,
+Code,Long Parameter List,'tarifa_transferencia' has 6 parameters in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,tarifa_transferencia,353,
+Code,Potential Shotgun Surgery,Method 'Decimal' called in 4 different contexts across 6 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,Decimal,36,high
+Code,Potential Shotgun Surgery,Method 'HTTPException' called in 16 different contexts across 19 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,HTTPException,46,high
+Code,Potential Shotgun Surgery,Method 'apresentar' called in 14 different contexts across 14 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,apresentar,51,high
+Code,Potential Shotgun Surgery,Method 'atualizar' called in 10 different contexts across 11 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,atualizar,73,high
+Code,Potential Shotgun Surgery,Method 'buscar' called in 22 different contexts across 37 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,buscar,77,high
+Code,Potential Shotgun Surgery,Method 'inserir' called in 7 different contexts across 7 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,inserir,129,high
+Code,Potential Shotgun Surgery,Method 'saldo' called in 5 different contexts across 7 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,saldo,144,high
+Code,Potential Shotgun Surgery,Method 'calendario' called in 6 different contexts across 6 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,calendario,171,high
+Code,Potential Shotgun Surgery,Method 'operacao' called in 23 different contexts across 23 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,operacao,217,high
+Code,Potential Shotgun Surgery,Method 'listar' called in 7 different contexts across 7 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,listar,222,high
+Code,Potential Shotgun Surgery,Method 'centavos' called in 9 different contexts across 9 locations in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,centavos,263,high
+Code,Feature Envy,Method 'calendario' makes 6 calls to 'db' but only 0 local calls in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,calendario,83,medium
+Code,Feature Envy,Method 'criar_app' makes 28 calls to 'app' but only 0 local calls in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,criar_app,148,medium
+Code,Feature Envy,Method 'sessao' makes 5 calls to 'db' but only 0 local calls in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,sessao,154,medium
+Code,Feature Envy,Method 'criar_conta' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,criar_conta,256,medium
+Code,Feature Envy,Method 'editar_conta' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,editar_conta,286,medium
+Code,Feature Envy,Method 'criar_cartao' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_banco_s4/main.py,projetos/codex_banco_s4/main.py,criar_cartao,307,medium
+Code,Potential Shotgun Surgery,Method 'Field' called in 6 different contexts across 7 locations in projetos/codex_banco_s4/modelos.py,projetos/codex_banco_s4/modelos.py,Field,11,high
+Architectural,Hub-like Dependency,"Module 'main' is a potential hub with 11 connections (in: 0, out: 11, external: 0)",projetos/codex_banco_s4/main.py,main,,high
+Architectural,God Object,Module 'main' has too many public functions (48),projetos/codex_banco_s4/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'main' has repetitive API calls: fetchone(5x), join(3x), execute(22x), date(4x), isoformat(11x), fetchall(3x), post(9x), get(13x), put(3x), delete(3x), astimezone(5x), model_dump(5x)",projetos/codex_banco_s4/main.py,main,,medium
+Architectural,Unstable Dependency,Module 'main' has high instability (1.00) with 11 outgoing and 0 incoming dependencies,projetos/codex_banco_s4/main.py,main,,medium
+Architectural,Unstable Dependency,Module 'modelos' has high instability (0.83) with 5 outgoing and 1 incoming dependencies,projetos/codex_banco_s4/modelos.py,modelos,,medium

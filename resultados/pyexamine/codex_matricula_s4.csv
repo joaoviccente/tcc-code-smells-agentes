@@ -1,0 +1,26 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'main' has 157 effective code lines
+(Total: 331, Code: 157, Doc: 103, Import: 9, Blank: 62)",projetos/codex_matricula_s4/main.py,main,,Medium
+Structural,High Number of Classes (NOC),"Project has 9.0 weighted classes:
+- Regular classes: 9
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_matricula_s4,Project,,Medium
+Code,Potential Shotgun Surgery,Method 'dict' called in 8 different contexts across 9 locations in projetos/codex_matricula_s4/main.py,projetos/codex_matricula_s4/main.py,dict,105,high
+Code,Feature Envy,Method 'salvar' makes 9 calls to 'regras' but only 0 local calls in projetos/codex_matricula_s4/main.py,projetos/codex_matricula_s4/main.py,salvar,64,medium
+Code,Feature Envy,Method 'registrar_crud' makes 7 calls to 'regras' but only 0 local calls in projetos/codex_matricula_s4/main.py,projetos/codex_matricula_s4/main.py,registrar_crud,99,medium
+Code,Feature Envy,Method 'adicionar_pre_requisito' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_matricula_s4/main.py,projetos/codex_matricula_s4/main.py,adicionar_pre_requisito,164,medium
+Code,Feature Envy,Method 'registrar_historico' makes 7 calls to 'dados' but only 0 local calls in projetos/codex_matricula_s4/main.py,projetos/codex_matricula_s4/main.py,registrar_historico,246,medium
+Code,Feature Envy,Method 'encerrar_periodo' makes 4 calls to 'db' but only 0 local calls in projetos/codex_matricula_s4/main.py,projetos/codex_matricula_s4/main.py,encerrar_periodo,271,medium
+Code,Potential Shotgun Surgery,Method 'exigir' called in 4 different contexts across 13 locations in projetos/codex_matricula_s4/regras.py,projetos/codex_matricula_s4/regras.py,exigir,90,high
+Code,Potential Shotgun Surgery,Method 'buscar' called in 5 different contexts across 14 locations in projetos/codex_matricula_s4/regras.py,projetos/codex_matricula_s4/regras.py,buscar,111,high
+Code,Feature Envy,Method 'solicitar' makes 5 calls to 'dados' but only 0 local calls in projetos/codex_matricula_s4/regras.py,projetos/codex_matricula_s4/regras.py,solicitar,166,medium
+Code,Potential Shotgun Surgery,Method 'Field' called in 4 different contexts across 6 locations in projetos/codex_matricula_s4/modelos.py,projetos/codex_matricula_s4/modelos.py,Field,6,high
+Architectural,Hub-like Dependency,"Module 'main' is a potential hub with 9 connections (in: 0, out: 9, external: 0)",projetos/codex_matricula_s4/main.py,main,,medium
+Architectural,Hub-like Dependency,"Module 'regras' is a potential hub with 8 connections (in: 1, out: 7, external: 0)",projetos/codex_matricula_s4/regras.py,regras,,medium
+Architectural,God Object,Module 'main' has too many public functions (26),projetos/codex_matricula_s4/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'main' has repetitive API calls: post(7x), get(7x), add_api_route(5x), execute(21x), buscar(16x), exigir(6x), join(3x), atualizar_fila(3x), cancelar_registros(3x)",projetos/codex_matricula_s4/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'regras' has repetitive API calls: execute(21x), fetchone(7x), fetchall(3x), isoformat(5x)",projetos/codex_matricula_s4/regras.py,regras,,medium
+Architectural,Unstable Dependency,Module 'main' has high instability (1.00) with 9 outgoing and 0 incoming dependencies,projetos/codex_matricula_s4/main.py,main,,medium
+Architectural,Unstable Dependency,Module 'regras' has high instability (0.88) with 7 outgoing and 1 incoming dependencies,projetos/codex_matricula_s4/regras.py,regras,,medium

@@ -1,0 +1,2 @@
+Project,Package,Smell,Description
+claude_biblioteca_s3,claude_biblioteca_s3.app,Feature concentration,The component realizes more than one architectural concern/feature. Independent sets of related modules within this component are: [main]; [clock]; [regras]; [schemas]; [erros]; [database; models; servicos]; [deps]; [relatorios]; [enums]. LCC (Lack of Component Cohesion) = 0.82

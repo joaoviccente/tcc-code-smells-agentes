@@ -1,0 +1,15 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_banco_s2,codex_banco_s2,regras,,185,52,18,18,2,2,0.06,0,0,0,projetos/codex_banco_s2/regras.py
+codex_banco_s2,codex_banco_s2,regras,Politica,1,0,0,0,0,0,-1,0,0,0,projetos/codex_banco_s2/regras.py
+codex_banco_s2,codex_banco_s2,schemas,,22,5,0,0,11,11,-1,0,0,0,projetos/codex_banco_s2/schemas.py
+codex_banco_s2,codex_banco_s2,schemas,Entrada,2,0,0,0,1,1,-1,0,0,0,projetos/codex_banco_s2/schemas.py
+codex_banco_s2,codex_banco_s2,schemas,ClienteDados,13,5,1,1,0,0,0,0,0,1,projetos/codex_banco_s2/schemas.py
+codex_banco_s2,codex_banco_s2,schemas,ContaDados,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s2/schemas.py
+codex_banco_s2,codex_banco_s2,schemas,ContaNova,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s2/schemas.py
+codex_banco_s2,codex_banco_s2,schemas,CartaoDados,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s2/schemas.py
+codex_banco_s2,codex_banco_s2,schemas,CartaoNovo,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s2/schemas.py
+codex_banco_s2,codex_banco_s2,schemas,Movimento,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s2/schemas.py
+codex_banco_s2,codex_banco_s2,schemas,Transferencia,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s2/schemas.py
+codex_banco_s2,codex_banco_s2,schemas,FaturaNova,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s2/schemas.py
+codex_banco_s2,codex_banco_s2,database,,20,3,3,3,1,1,0,0,0,0,projetos/codex_banco_s2/database.py
+codex_banco_s2,codex_banco_s2,app,,200,55,34,34,3,3,0.62,0,0,0,projetos/codex_banco_s2/app.py

@@ -1,0 +1,13 @@
+smell,file,entity,line,metrics
+LongMethod,app/services/reserva_service.py,projetos/antigravity_biblioteca_s3/app/services/reserva_service.py,40,33
+LongMethod,app/services/reserva_service.py,projetos/antigravity_biblioteca_s3/app/services/reserva_service.py,87,41
+LongMethod,app/services/reserva_service.py,projetos/antigravity_biblioteca_s3/app/services/reserva_service.py,149,35
+LongMethod,app/services/emprestimo_service.py,projetos/antigravity_biblioteca_s3/app/services/emprestimo_service.py,33,72
+LongMethod,app/services/emprestimo_service.py,projetos/antigravity_biblioteca_s3/app/services/emprestimo_service.py,142,36
+LongMethod,app/services/emprestimo_service.py,projetos/antigravity_biblioteca_s3/app/services/emprestimo_service.py,197,71
+LongBaseClassList,app/models/enums.py,projetos/antigravity_biblioteca_s3/app/models/enums.py,4,2
+LongBaseClassList,app/models/enums.py,projetos/antigravity_biblioteca_s3/app/models/enums.py,10,2
+LongBaseClassList,app/models/enums.py,projetos/antigravity_biblioteca_s3/app/models/enums.py,15,2
+LongBaseClassList,app/models/enums.py,projetos/antigravity_biblioteca_s3/app/models/enums.py,23,2
+LongBaseClassList,app/models/enums.py,projetos/antigravity_biblioteca_s3/app/models/enums.py,29,2
+LongBaseClassList,app/models/enums.py,projetos/antigravity_biblioteca_s3/app/models/enums.py,36,2

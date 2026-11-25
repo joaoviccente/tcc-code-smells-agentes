@@ -1,0 +1,6 @@
+smell,file,entity,line,metrics
+ComplexContainerComprehension,banco.py,projetos/codex_banco_s5/banco.py,95,140|3|25
+LongParameterList,banco.py,projetos/codex_banco_s5/banco.py,115,4
+LongParameterList,banco.py,projetos/codex_banco_s5/banco.py,183,5
+LongMethod,banco.py,projetos/codex_banco_s5/banco.py,183,29
+LongParameterList,banco.py,projetos/codex_banco_s5/banco.py,220,5

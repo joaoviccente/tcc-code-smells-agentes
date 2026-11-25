@@ -1,0 +1,31 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'main' has 222 effective code lines
+(Total: 526, Code: 222, Doc: 178, Import: 12, Blank: 114)",projetos/codex_banco_s3/main.py,main,,Medium
+Structural,High Number of Classes (NOC),"Project has 9.0 weighted classes:
+- Regular classes: 9
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_banco_s3,Project,,Medium
+Code,Feature Envy,Method 'atualizar_pendencias' makes 7 calls to 'db' but only 0 local calls in projetos/codex_banco_s3/banco.py,projetos/codex_banco_s3/banco.py,atualizar_pendencias,113,medium
+Code,Long Parameter List,'registrar' has 6 parameters in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,registrar,327,
+Code,Potential Shotgun Surgery,Method 'banco' called in 29 different contexts across 29 locations in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,banco,99,high
+Code,Potential Shotgun Surgery,Method 'agora' called in 10 different contexts across 10 locations in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,agora,100,high
+Code,Potential Shotgun Surgery,Method 'mostrar' called in 15 different contexts across 15 locations in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,mostrar,159,high
+Code,Potential Shotgun Surgery,Method 'obter' called in 24 different contexts across 39 locations in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,obter,167,high
+Code,Potential Shotgun Surgery,Method 'lista' called in 9 different contexts across 9 locations in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,lista,173,high
+Code,Potential Shotgun Surgery,Method 'centavos' called in 8 different contexts across 9 locations in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,centavos,208,high
+Code,Potential Shotgun Surgery,Method 'conflito' called in 11 different contexts across 14 locations in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,conflito,229,high
+Code,Feature Envy,Method 'lifespan' makes 4 calls to 'asyncio' but only 0 local calls in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,lifespan,112,medium
+Code,Feature Envy,Method 'criar_conta' makes 5 calls to 'dados' but only 0 local calls in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,criar_conta,201,medium
+Code,Feature Envy,Method 'atualizar_conta' makes 5 calls to 'dados' but only 0 local calls in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,atualizar_conta,234,medium
+Code,Feature Envy,Method 'criar_cartao' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,criar_cartao,257,medium
+Code,Feature Envy,Method 'atualizar_cartao' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,atualizar_cartao,279,medium
+Code,Feature Envy,Method 'estorno' makes 4 calls to 'db' but only 0 local calls in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,estorno,399,medium
+Code,Feature Envy,Method 'criar_fatura' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_banco_s3/main.py,projetos/codex_banco_s3/main.py,criar_fatura,433,medium
+Architectural,Hub-like Dependency,"Module 'main' is a potential hub with 12 connections (in: 0, out: 12, external: 0)",projetos/codex_banco_s3/main.py,main,,high
+Architectural,God Object,Module 'main' has too many public functions (40),projetos/codex_banco_s3/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'banco' has repetitive API calls: execute(14x), fetchall(3x), isoformat(4x)",projetos/codex_banco_s3/banco.py,banco,,medium
+Architectural,Potential Improper API Usage,"Module 'main' has repetitive API calls: post(10x), get(13x), put(3x), delete(3x), fetchone(6x), execute(35x), to_thread(4x), isoformat(9x)",projetos/codex_banco_s3/main.py,main,,medium
+Architectural,Unstable Dependency,Module 'banco' has high instability (0.86) with 6 outgoing and 1 incoming dependencies,projetos/codex_banco_s3/banco.py,banco,,medium
+Architectural,Unstable Dependency,Module 'main' has high instability (1.00) with 12 outgoing and 0 incoming dependencies,projetos/codex_banco_s3/main.py,main,,medium

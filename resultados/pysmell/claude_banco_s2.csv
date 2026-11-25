@@ -1,0 +1,16 @@
+smell,file,entity,line,metrics
+LongParameterList,app/services/transacoes.py,projetos/claude_banco_s2/app/services/transacoes.py,67,5
+LongParameterList,app/services/transacoes.py,projetos/claude_banco_s2/app/services/transacoes.py,82,5
+LongParameterList,app/services/transacoes.py,projetos/claude_banco_s2/app/services/transacoes.py,108,6
+LongMethod,app/services/transacoes.py,projetos/claude_banco_s2/app/services/transacoes.py,140,32
+LongParameterList,app/services/transacoes.py,projetos/claude_banco_s2/app/services/transacoes.py,193,4
+LongParameterList,app/services/clientes.py,projetos/claude_banco_s2/app/services/clientes.py,47,4
+LongParameterList,app/services/tarifas.py,projetos/claude_banco_s2/app/services/tarifas.py,24,4
+LongMethod,app/services/tarifas.py,projetos/claude_banco_s2/app/services/tarifas.py,61,30
+LongParameterList,app/services/comum.py,projetos/claude_banco_s2/app/services/comum.py,11,4
+LongMessageChain,app/services/faturas.py,projetos/claude_banco_s2/app/services/faturas.py,47,4
+LongParameterList,app/services/faturas.py,projetos/claude_banco_s2/app/services/faturas.py,68,4
+LongParameterList,app/services/faturas.py,projetos/claude_banco_s2/app/services/faturas.py,92,4
+LongParameterList,app/services/relatorios.py,projetos/claude_banco_s2/app/services/relatorios.py,21,4
+ComplexContainerComprehension,app/services/relatorios.py,projetos/claude_banco_s2/app/services/relatorios.py,62,287|2|31
+ComplexContainerComprehension,app/services/relatorios.py,projetos/claude_banco_s2/app/services/relatorios.py,86,171|1|32

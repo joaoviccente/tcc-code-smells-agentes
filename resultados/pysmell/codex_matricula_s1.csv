@@ -1,0 +1,5 @@
+smell,file,entity,line,metrics
+MultiplyNestedContainer,verificar.py,projetos/codex_matricula_s1/verificar.py,132,4
+LongParameterList,matriculas.py,projetos/codex_matricula_s1/matriculas.py,111,4
+LongParameterList,matriculas.py,projetos/codex_matricula_s1/matriculas.py,153,5
+LongMethod,matriculas.py,projetos/codex_matricula_s1/matriculas.py,153,34

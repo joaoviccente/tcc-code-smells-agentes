@@ -1,0 +1,16 @@
+smell,file,entity,line,metrics
+LongParameterList,app/errors.py,projetos/claude_matricula_s5/app/errors.py,7,4
+LongBaseClassList,app/enums.py,projetos/claude_matricula_s5/app/enums.py,4,2
+LongBaseClassList,app/enums.py,projetos/claude_matricula_s5/app/enums.py,10,2
+LongBaseClassList,app/enums.py,projetos/claude_matricula_s5/app/enums.py,16,2
+LongBaseClassList,app/enums.py,projetos/claude_matricula_s5/app/enums.py,23,2
+LongBaseClassList,app/enums.py,projetos/claude_matricula_s5/app/enums.py,31,2
+LongBaseClassList,app/enums.py,projetos/claude_matricula_s5/app/enums.py,37,2
+LongParameterList,app/servicos.py,projetos/claude_matricula_s5/app/servicos.py,27,4
+LongParameterList,app/servicos.py,projetos/claude_matricula_s5/app/servicos.py,182,4
+LongMethod,app/servicos.py,projetos/claude_matricula_s5/app/servicos.py,239,56
+LongMethod,app/servicos.py,projetos/claude_matricula_s5/app/servicos.py,375,53
+LongMethod,app/routers/turmas.py,projetos/claude_matricula_s5/app/routers/turmas.py,165,28
+ComplexContainerComprehension,app/routers/turmas.py,projetos/claude_matricula_s5/app/routers/turmas.py,190,274|1|32
+LongMethod,app/routers/relatorios.py,projetos/claude_matricula_s5/app/routers/relatorios.py,66,29
+LongMethod,app/routers/relatorios.py,projetos/claude_matricula_s5/app/routers/relatorios.py,110,43

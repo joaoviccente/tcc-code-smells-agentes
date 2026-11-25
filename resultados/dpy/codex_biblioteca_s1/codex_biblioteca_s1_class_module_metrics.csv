@@ -1,0 +1,13 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_biblioteca_s1,codex_biblioteca_s1,main,,284,72,32,32,6,6,0.84,0,0,0,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,main,Contexto,1,0,0,0,0,0,-1,0,0,0,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,main,Categoria,4,0,0,0,3,3,-1,0,0,0,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,main,Situacao,3,0,0,0,2,2,-1,0,0,0,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,main,EstadoAdministrativo,4,0,0,0,3,3,-1,0,0,0,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,main,Entrada,2,0,0,0,1,1,-1,0,0,0,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,main,Usuario,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,main,Livro,11,6,1,1,0,0,0,0,0,1,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,main,Exemplar,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,main,NovoEmprestimo,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,main,NovaReserva,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s1/main.py
+codex_biblioteca_s1,codex_biblioteca_s1,biblioteca,,177,33,18,18,3,3,0.33,0,0,0,projetos/codex_biblioteca_s1/biblioteca.py

@@ -1,0 +1,37 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Complex method,atualizar_exemplar,183 - 202,projetos/codex_biblioteca_s5/main.py,"Method 'atualizar_exemplar' has a cyclomatic complexity of 7, exceeding the max of 6."
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,atualizar_exemplar,189,projetos/codex_biblioteca_s5/main.py,A line with 149 chars in atualizar_exemplar exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,criar_emprestimo,222,projetos/codex_biblioteca_s5/main.py,A line with 190 chars in criar_emprestimo exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,criar_emprestimo,228,projetos/codex_biblioteca_s5/main.py,A line with 139 chars in criar_emprestimo exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,criar_emprestimo,233,projetos/codex_biblioteca_s5/main.py,A line with 129 chars in criar_emprestimo exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,criar_emprestimo,243,projetos/codex_biblioteca_s5/main.py,A line with 218 chars in criar_emprestimo exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,renovar_emprestimo,270,projetos/codex_biblioteca_s5/main.py,A line with 137 chars in renovar_emprestimo exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,criar_reserva,297,projetos/codex_biblioteca_s5/main.py,A line with 175 chars in criar_reserva exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,listar_multas,329,projetos/codex_biblioteca_s5/main.py,A line with 190 chars in listar_multas exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,livros_mais_emprestados,348,projetos/codex_biblioteca_s5/main.py,A line with 375 chars in livros_mais_emprestados exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,usuarios_com_mais_atrasos,359,projetos/codex_biblioteca_s5/main.py,A line with 318 chars in usuarios_com_mais_atrasos exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Long statement,ocupacao_por_area,369,projetos/codex_biblioteca_s5/main.py,A line with 547 chars in ocupacao_por_area exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,main,,Magic number,devolver_emprestimo,282,projetos/codex_biblioteca_s5/main.py,Magic number 60 used in devolver_emprestimo.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,distribuir,84,projetos/codex_biblioteca_s5/biblioteca.py,A line with 129 chars in distribuir exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,distribuir,88,projetos/codex_biblioteca_s5/biblioteca.py,A line with 125 chars in distribuir exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,distribuir,95,projetos/codex_biblioteca_s5/biblioteca.py,A line with 141 chars in distribuir exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,liberar_reserva,104,projetos/codex_biblioteca_s5/biblioteca.py,A line with 122 chars in liberar_reserva exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,cancelar_reservas_se_baixa,112,projetos/codex_biblioteca_s5/biblioteca.py,A line with 126 chars in cancelar_reservas_se_baixa exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,cancelar_reservas_se_baixa,117,projetos/codex_biblioteca_s5/biblioteca.py,A line with 133 chars in cancelar_reservas_se_baixa exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,fila_reservas,126,projetos/codex_biblioteca_s5/biblioteca.py,A line with 142 chars in fila_reservas exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,reserva_publica,136,projetos/codex_biblioteca_s5/biblioteca.py,A line with 128 chars in reserva_publica exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,atualizar_multa,153,projetos/codex_biblioteca_s5/biblioteca.py,A line with 462 chars in atualizar_multa exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,sincronizar,166,projetos/codex_biblioteca_s5/biblioteca.py,A line with 173 chars in sincronizar exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,sincronizar,176,projetos/codex_biblioteca_s5/biblioteca.py,A line with 134 chars in sincronizar exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Long statement,sincronizar,187,projetos/codex_biblioteca_s5/biblioteca.py,A line with 168 chars in sincronizar exceeds the maximum length of 120 characters.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Magic number,atualizar_multa,152,projetos/codex_biblioteca_s5/biblioteca.py,Magic number 2 used in atualizar_multa.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Magic number,sincronizar,185,projetos/codex_biblioteca_s5/biblioteca.py,Magic number 15 used in sincronizar.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Magic number,multa_publica,198,projetos/codex_biblioteca_s5/biblioteca.py,Magic number 100 used in multa_publica.
+codex_biblioteca_s5,codex_biblioteca_s5,biblioteca,,Magic number,multa_publica,199,projetos/codex_biblioteca_s5/biblioteca.py,Magic number 100 used in multa_publica.
+codex_biblioteca_s5,codex_biblioteca_s5,modelos,Livro,Complex conditional,validar_isbn,39,projetos/codex_biblioteca_s5/modelos.py,"A conditional in validar_isbn has 4 conditions, more than the recommended maximum 3 conditions."
+codex_biblioteca_s5,codex_biblioteca_s5,modelos,Livro,Complex method,validar_isbn,32 - 42,projetos/codex_biblioteca_s5/modelos.py,"Method 'validar_isbn' has a cyclomatic complexity of 7, exceeding the max of 6."
+codex_biblioteca_s5,codex_biblioteca_s5,modelos,Livro,Magic number,validar_isbn,34,projetos/codex_biblioteca_s5/modelos.py,Magic number 10 used in validar_isbn.
+codex_biblioteca_s5,codex_biblioteca_s5,modelos,Livro,Magic number,validar_isbn,39,projetos/codex_biblioteca_s5/modelos.py,Magic number 13 used in validar_isbn.
+codex_biblioteca_s5,codex_biblioteca_s5,modelos,Livro,Magic number,validar_isbn,40,projetos/codex_biblioteca_s5/modelos.py,Magic number 10 used in validar_isbn.
+codex_biblioteca_s5,codex_biblioteca_s5,modelos,Livro,Magic number,validar_isbn,36,projetos/codex_biblioteca_s5/modelos.py,Magic number 10 used in validar_isbn.
+codex_biblioteca_s5,codex_biblioteca_s5,modelos,Livro,Magic number,validar_isbn,37,projetos/codex_biblioteca_s5/modelos.py,Magic number 11 used in validar_isbn.

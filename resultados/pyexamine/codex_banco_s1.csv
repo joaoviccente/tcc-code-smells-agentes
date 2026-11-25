@@ -1,0 +1,29 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'app' has 346 effective code lines
+(Total: 725, Code: 346, Doc: 224, Import: 12, Blank: 141)",projetos/codex_banco_s1/app.py,app,,High
+Structural,High Number of Classes (NOC),"Project has 10.0 weighted classes:
+- Regular classes: 10
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_banco_s1,Project,,Medium
+Structural,Long File,File 'app' has 358 meaningful lines of code,projetos/codex_banco_s1/app.py,app,,Medium
+Code,Long Method,'manutencao' has 46 lines in projetos/codex_banco_s1/app.py at line 175,projetos/codex_banco_s1/app.py,manutencao,175,
+Code,Long Parameter List,'transacao' has 7 parameters in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,transacao,524,
+Code,Potential Shotgun Surgery,Method 'HTTPException' called in 5 different contexts across 6 locations in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,HTTPException,105,high
+Code,Potential Shotgun Surgery,Method 'publicar' called in 14 different contexts across 14 locations in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,publicar,125,high
+Code,Potential Shotgun Surgery,Method 'registro' called in 26 different contexts across 39 locations in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,registro,140,high
+Code,Potential Shotgun Surgery,Method 'conflito' called in 14 different contexts across 20 locations in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,conflito,146,high
+Code,Potential Shotgun Surgery,Method 'alterar_saldo' called in 6 different contexts across 8 locations in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,alterar_saldo,201,high
+Code,Potential Shotgun Surgery,Method 'atualizar' called in 9 different contexts across 11 locations in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,atualizar,202,high
+Code,Potential Shotgun Surgery,Method 'agora' called in 9 different contexts across 9 locations in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,agora,228,high
+Code,Potential Shotgun Surgery,Method 'inserir' called in 6 different contexts across 6 locations in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,inserir,391,high
+Code,Potential Shotgun Surgery,Method 'listar' called in 8 different contexts across 10 locations in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,listar,397,high
+Code,Potential Shotgun Surgery,Method 'campos' called in 6 different contexts across 6 locations in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,campos,408,high
+Code,Feature Envy,Method 'manutencao' makes 6 calls to 'db' but only 0 local calls in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,manutencao,175,medium
+Code,Feature Envy,Method 'sessao' makes 4 calls to 'db' but only 0 local calls in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,sessao,249,medium
+Code,Feature Envy,Method 'periodo' makes 5 calls to 'datetime' but only 0 local calls in projetos/codex_banco_s1/app.py,projetos/codex_banco_s1/app.py,periodo,678,medium
+Architectural,Hub-like Dependency,"Module 'app' is a potential hub with 12 connections (in: 0, out: 12, external: 0)",projetos/codex_banco_s1/app.py,app,,high
+Architectural,God Object,Module 'app' has too many public functions (55),projetos/codex_banco_s1/app.py,app,,medium
+Architectural,Potential Improper API Usage,"Module 'app' has repetitive API calls: post(10x), get(18x), patch(3x), delete(3x), execute(25x), astimezone(3x), fetchone(7x), join(3x), date(3x), fetchall(4x), setdefault(4x), close(3x), isoformat(14x), fromisoformat(3x)",projetos/codex_banco_s1/app.py,app,,medium
+Architectural,Unstable Dependency,Module 'app' has high instability (1.00) with 12 outgoing and 0 incoming dependencies,projetos/codex_banco_s1/app.py,app,,medium

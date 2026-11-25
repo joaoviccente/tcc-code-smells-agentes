@@ -1,0 +1,8 @@
+smell,file,entity,line,metrics
+LongParameterList,app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,37,4
+LongMethod,app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,144,36
+LongMethod,app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,210,47
+LongTernaryConditionalExpression,app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,259,128|3
+LongParameterList,app/routers/livros.py,projetos/claude_biblioteca_s4/app/routers/livros.py,57,4
+LongParameterList,app/routers/usuarios.py,projetos/claude_biblioteca_s4/app/routers/usuarios.py,65,4
+LongParameterList,app/routers/exemplares.py,projetos/claude_biblioteca_s4/app/routers/exemplares.py,41,4

@@ -1,0 +1,30 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Number of Methods (NOM),Class 'biblioteca.Biblioteca' has 13 methods (excluding special methods and properties),projetos/codex_biblioteca_s4/biblioteca.py,biblioteca.Biblioteca,,Medium
+Structural,High Response for a Class (RFC),"Class 'biblioteca.Biblioteca' has RFC of 21 (methods: 13, external calls: 8)",projetos/codex_biblioteca_s4/biblioteca.py,biblioteca.Biblioteca,,Medium
+Structural,High Lines of Code (LOC),"Module 'main' has 187 effective code lines
+(Total: 299, Code: 187, Doc: 63, Import: 8, Blank: 41)",projetos/codex_biblioteca_s4/main.py,main,,Medium
+Structural,High Number of Classes (NOC),"Project has 11.0 weighted classes:
+- Regular classes: 11
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_biblioteca_s4,Project,,High
+Structural,Too Many Branches,Method 'registrar_atraso' has 4 branches with max nesting of 4,projetos/codex_biblioteca_s4/biblioteca.py,biblioteca.Biblioteca,99,Medium
+Code,Long Method,'criar_app' has 247 lines in projetos/codex_biblioteca_s4/main.py at line 17,projetos/codex_biblioteca_s4/main.py,criar_app,17,
+Code,Potential Shotgun Surgery,Method 'conflito' called in 9 different contexts across 17 locations in projetos/codex_biblioteca_s4/main.py,projetos/codex_biblioteca_s4/main.py,conflito,51,high
+Code,Feature Envy,Method 'criar_app' makes 88 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s4/main.py,projetos/codex_biblioteca_s4/main.py,criar_app,17,medium
+Code,Feature Envy,Method 'criar_exemplar' makes 5 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s4/main.py,projetos/codex_biblioteca_s4/main.py,criar_exemplar,86,medium
+Code,Feature Envy,Method 'atualizar_exemplar' makes 9 calls to 'dados' but only 0 local calls in projetos/codex_biblioteca_s4/main.py,projetos/codex_biblioteca_s4/main.py,atualizar_exemplar,103,medium
+Code,Feature Envy,Method 'criar_emprestimo' makes 11 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s4/main.py,projetos/codex_biblioteca_s4/main.py,criar_emprestimo,131,medium
+Code,Feature Envy,Method 'renovar_emprestimo' makes 5 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s4/main.py,projetos/codex_biblioteca_s4/main.py,renovar_emprestimo,167,medium
+Code,Feature Envy,Method 'devolver_emprestimo' makes 11 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s4/main.py,projetos/codex_biblioteca_s4/main.py,devolver_emprestimo,184,medium
+Code,Feature Envy,Method 'criar_reserva' makes 8 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s4/main.py,projetos/codex_biblioteca_s4/main.py,criar_reserva,207,medium
+Code,Feature Envy,Method 'cancelar_reserva' makes 5 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s4/main.py,projetos/codex_biblioteca_s4/main.py,cancelar_reserva,222,medium
+Code,Potential Divergent Change,"Class 'Biblioteca' has 13 different method prefixes: fila, liberar, cancelar, executar, um, atualizar, sincronizar, obter, inserir, distribuir, registrar, apos, linhas in projetos/codex_biblioteca_s4/biblioteca.py",projetos/codex_biblioteca_s4/biblioteca.py,Biblioteca,21,medium
+Code,Feature Envy,Method 'transacao' makes 7 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s4/biblioteca.py,projetos/codex_biblioteca_s4/biblioteca.py,transacao,146,medium
+Architectural,Hub-like Dependency,"Module 'main' is a potential hub with 8 connections (in: 0, out: 8, external: 0)",projetos/codex_biblioteca_s4/main.py,main,,medium
+Architectural,God Object,Module 'main' has too many public functions (31),projetos/codex_biblioteca_s4/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'main' has repetitive API calls: post(9x), get(12x), put(3x), delete(3x), inserir(5x), obter(35x), linhas(8x), atualizar(9x), executar(4x), distribuir(5x), apos_baixa(3x), um(5x), fila(3x), isoformat(7x), model_dump(7x)",projetos/codex_biblioteca_s4/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'biblioteca' has repetitive API calls: execute(5x), um(3x), join(3x), executar(6x), linhas(6x), atualizar(6x), isoformat(5x)",projetos/codex_biblioteca_s4/biblioteca.py,biblioteca,,medium
+Architectural,Unstable Dependency,Module 'main' has high instability (1.00) with 8 outgoing and 0 incoming dependencies,projetos/codex_biblioteca_s4/main.py,main,,medium
+Architectural,Unstable Dependency,Module 'biblioteca' has high instability (0.83) with 5 outgoing and 1 incoming dependencies,projetos/codex_biblioteca_s4/biblioteca.py,biblioteca,,medium

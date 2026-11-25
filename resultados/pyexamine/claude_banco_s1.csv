@@ -1,0 +1,57 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Number of Classes (NOCC),Module 'app.schemas' has 25 significant classes (avg complexity: 0.0),projetos/claude_banco_s1/app/schemas.py,app.schemas,,High
+Structural,High Lines of Code (LOC),"Module 'app.schemas' has 163 effective code lines
+(Total: 232, Code: 163, Doc: 0, Import: 5, Blank: 56)",projetos/claude_banco_s1/app/schemas.py,app.schemas,,Medium
+Structural,High Number of Classes (NOC),"Project has 36.6 weighted classes:
+- Regular classes: 36
+- Abstract/Interface classes: 0
+- Utility classes: 2
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/claude_banco_s1,Project,,High
+Code,Potential Shotgun Surgery,Method 'Field' called in 7 different contexts across 13 locations in projetos/claude_banco_s1/app/schemas.py,projetos/claude_banco_s1/app/schemas.py,Field,11,high
+Code,Potential Shotgun Surgery,Method 'CheckConstraint' called in 6 different contexts across 15 locations in projetos/claude_banco_s1/app/models.py,projetos/claude_banco_s1/app/models.py,CheckConstraint,28,high
+Code,Potential Shotgun Surgery,Method '_in' called in 6 different contexts across 10 locations in projetos/claude_banco_s1/app/models.py,projetos/claude_banco_s1/app/models.py,_in,28,high
+Code,Potential Shotgun Surgery,Method 'mapped_column' called in 6 different contexts across 50 locations in projetos/claude_banco_s1/app/models.py,projetos/claude_banco_s1/app/models.py,mapped_column,32,high
+Code,Potential Shotgun Surgery,Method 'String' called in 6 different contexts across 18 locations in projetos/claude_banco_s1/app/models.py,projetos/claude_banco_s1/app/models.py,String,33,high
+Code,Potential Shotgun Surgery,Method 'relationship' called in 6 different contexts across 10 locations in projetos/claude_banco_s1/app/models.py,projetos/claude_banco_s1/app/models.py,relationship,40,high
+Code,Potential Shotgun Surgery,Method 'ForeignKey' called in 5 different contexts across 8 locations in projetos/claude_banco_s1/app/models.py,projetos/claude_banco_s1/app/models.py,ForeignKey,53,high
+Code,Long Parameter List,'transferir' has 6 parameters in projetos/claude_banco_s1/app/services/transacoes.py,projetos/claude_banco_s1/app/services/transacoes.py,transferir,79,
+Code,Potential Shotgun Surgery,Method 'obter' called in 5 different contexts across 6 locations in projetos/claude_banco_s1/app/services/transacoes.py,projetos/claude_banco_s1/app/services/transacoes.py,obter,31,high
+Code,Potential Shotgun Surgery,Method 'RegraViolada' called in 4 different contexts across 8 locations in projetos/claude_banco_s1/app/services/transacoes.py,projetos/claude_banco_s1/app/services/transacoes.py,RegraViolada,63,high
+Code,Feature Envy,Method 'sacado_no_dia' makes 6 calls to 'Transacao' but only 0 local calls in projetos/claude_banco_s1/app/services/transacoes.py,projetos/claude_banco_s1/app/services/transacoes.py,sacado_no_dia,40,medium
+Code,Feature Envy,Method 'sacar' makes 4 calls to 'conta' but only 0 local calls in projetos/claude_banco_s1/app/services/transacoes.py,projetos/claude_banco_s1/app/services/transacoes.py,sacar,56,medium
+Code,Feature Envy,Method 'transferir' makes 4 calls to 'origem' but only 0 local calls in projetos/claude_banco_s1/app/services/transacoes.py,projetos/claude_banco_s1/app/services/transacoes.py,transferir,79,medium
+Code,Feature Envy,Method 'estornar' makes 17 calls to 'original' but only 0 local calls in projetos/claude_banco_s1/app/services/transacoes.py,projetos/claude_banco_s1/app/services/transacoes.py,estornar,119,medium
+Code,Feature Envy,Method 'efeito_na_conta' makes 9 calls to 't' but only 0 local calls in projetos/claude_banco_s1/app/services/transacoes.py,projetos/claude_banco_s1/app/services/transacoes.py,efeito_na_conta,163,medium
+Code,Feature Envy,Method 'extrato' makes 7 calls to 'conta' but only 0 local calls in projetos/claude_banco_s1/app/services/transacoes.py,projetos/claude_banco_s1/app/services/transacoes.py,extrato,176,medium
+Code,Feature Envy,Method 'tarifa_devida_por_transacao' makes 4 calls to 'Tarifa' but only 0 local calls in projetos/claude_banco_s1/app/services/tarifas.py,projetos/claude_banco_s1/app/services/tarifas.py,tarifa_devida_por_transacao,12,medium
+Code,Feature Envy,Method 'gerar_tarifa_mensal' makes 4 calls to 'conta' but only 0 local calls in projetos/claude_banco_s1/app/services/tarifas.py,projetos/claude_banco_s1/app/services/tarifas.py,gerar_tarifa_mensal,48,medium
+Code,Feature Envy,Method 'exigir_operavel' makes 6 calls to 'conta' but only 0 local calls in projetos/claude_banco_s1/app/services/comum.py,projetos/claude_banco_s1/app/services/comum.py,exigir_operavel,78,medium
+Code,Feature Envy,Method 'atualizar_situacao' makes 7 calls to 'fatura' but only 0 local calls in projetos/claude_banco_s1/app/services/faturas.py,projetos/claude_banco_s1/app/services/faturas.py,atualizar_situacao,44,medium
+Code,Message Chains,Long chain (4 calls: cartao -> conta -> cliente -> categoria) in atualizar_situacao at line 56 in projetos/claude_banco_s1/app/services/faturas.py,projetos/claude_banco_s1/app/services/faturas.py,atualizar_situacao,56,medium
+Code,Feature Envy,Method 'processar' makes 4 calls to 'db' but only 0 local calls in projetos/claude_banco_s1/app/services/rotinas.py,projetos/claude_banco_s1/app/services/rotinas.py,processar,11,medium
+Code,Feature Envy,Method 'clientes_maior_movimentacao' makes 4 calls to 'Transacao' but only 0 local calls in projetos/claude_banco_s1/app/services/relatorios.py,projetos/claude_banco_s1/app/services/relatorios.py,clientes_maior_movimentacao,12,medium
+Code,Feature Envy,Method 'contas_saldo_negativo' makes 9 calls to 'c' but only 0 local calls in projetos/claude_banco_s1/app/services/relatorios.py,projetos/claude_banco_s1/app/services/relatorios.py,contas_saldo_negativo,48,medium
+Code,Feature Envy,Method 'receita_tarifas_por_categoria' makes 5 calls to 'Tarifa' but only 0 local calls in projetos/claude_banco_s1/app/services/relatorios.py,projetos/claude_banco_s1/app/services/relatorios.py,receita_tarifas_por_categoria,65,medium
+Code,Potential Shotgun Surgery,Method 'Conflito' called in 10 different contexts across 17 locations in projetos/claude_banco_s1/app/services/cadastros.py,projetos/claude_banco_s1/app/services/cadastros.py,Conflito,19,high
+Code,Potential Shotgun Surgery,Method 'obter' called in 8 different contexts across 8 locations in projetos/claude_banco_s1/app/services/cadastros.py,projetos/claude_banco_s1/app/services/cadastros.py,obter,35,high
+Code,Feature Envy,Method 'criar_cliente' makes 4 calls to 'Cliente' but only 0 local calls in projetos/claude_banco_s1/app/services/cadastros.py,projetos/claude_banco_s1/app/services/cadastros.py,criar_cliente,23,medium
+Code,Feature Envy,Method 'encerrar_conta' makes 5 calls to 'conta' but only 0 local calls in projetos/claude_banco_s1/app/services/cadastros.py,projetos/claude_banco_s1/app/services/cadastros.py,encerrar_conta,99,medium
+Code,Feature Envy,Method 'criar_cartao' makes 4 calls to 'conta' but only 0 local calls in projetos/claude_banco_s1/app/services/cadastros.py,projetos/claude_banco_s1/app/services/cadastros.py,criar_cartao,133,medium
+Code,Potential Shotgun Surgery,Method 'Depends' called in 14 different contexts across 14 locations in projetos/claude_banco_s1/app/routers/operacoes.py,projetos/claude_banco_s1/app/routers/operacoes.py,Depends,40,high
+Code,Potential Shotgun Surgery,Method 'Depends' called in 17 different contexts across 17 locations in projetos/claude_banco_s1/app/routers/cadastros.py,projetos/claude_banco_s1/app/routers/cadastros.py,Depends,36,high
+Code,Feature Envy,Method 'listar_tarifas' makes 4 calls to 'Tarifa' but only 0 local calls in projetos/claude_banco_s1/app/routers/cadastros.py,projetos/claude_banco_s1/app/routers/cadastros.py,listar_tarifas,117,medium
+Architectural,God Object,Module 'app.schemas' has too many public functions (24),projetos/claude_banco_s1/app/schemas.py,app.schemas,,medium
+Architectural,Potential Improper API Usage,"Module 'app.services.rotinas' has repetitive API calls: all(3x), scalars(3x), where(3x)",projetos/claude_banco_s1/app/services/rotinas.py,app.services.rotinas,,medium
+Architectural,Potential Improper API Usage,"Module 'app.services.cadastros' has repetitive API calls: scalar(5x), add(3x), items(3x), commit(7x), get(4x), where(5x)",projetos/claude_banco_s1/app/services/cadastros.py,app.services.cadastros,,medium
+Architectural,Potential Improper API Usage,"Module 'app.routers.operacoes' has repetitive API calls: post(8x), get(6x), agora(11x)",projetos/claude_banco_s1/app/routers/operacoes.py,app.routers.operacoes,,medium
+Architectural,Potential Improper API Usage,"Module 'app.routers.cadastros' has repetitive API calls: post(4x), get(8x), patch(3x), delete(3x), order_by(4x), all(4x), model_dump(6x), agora(6x), where(9x), scalars(4x)",projetos/claude_banco_s1/app/routers/cadastros.py,app.routers.cadastros,,medium
+Architectural,Unstable Dependency,Module 'app.main' has high instability (1.00) with 8 outgoing and 0 incoming dependencies,projetos/claude_banco_s1/app/main.py,app.main,,medium
+Architectural,Unstable Dependency,Module 'app.routers.cadastros' has high instability (0.92) with 11 outgoing and 1 incoming dependencies,projetos/claude_banco_s1/app/routers/cadastros.py,app.routers.cadastros,,medium
+Architectural,Unstable Dependency,Module 'app.routers.operacoes' has high instability (0.91) with 10 outgoing and 1 incoming dependencies,projetos/claude_banco_s1/app/routers/operacoes.py,app.routers.operacoes,,medium
+Architectural,Unstable Dependency,Module 'app.services.transacoes' has high instability (1.00) with 9 outgoing and 0 incoming dependencies,projetos/claude_banco_s1/app/services/transacoes.py,app.services.transacoes,,medium
+Architectural,Unstable Dependency,Module 'app.services.tarifas' has high instability (1.00) with 7 outgoing and 0 incoming dependencies,projetos/claude_banco_s1/app/services/tarifas.py,app.services.tarifas,,medium
+Architectural,Unstable Dependency,Module 'app.services.faturas' has high instability (1.00) with 10 outgoing and 0 incoming dependencies,projetos/claude_banco_s1/app/services/faturas.py,app.services.faturas,,medium
+Architectural,Unstable Dependency,Module 'app.services.rotinas' has high instability (1.00) with 6 outgoing and 0 incoming dependencies,projetos/claude_banco_s1/app/services/rotinas.py,app.services.rotinas,,medium
+Architectural,Unstable Dependency,Module 'app.services.relatorios' has high instability (1.00) with 7 outgoing and 0 incoming dependencies,projetos/claude_banco_s1/app/services/relatorios.py,app.services.relatorios,,medium
+Architectural,Unstable Dependency,Module 'app.services.cadastros' has high instability (1.00) with 9 outgoing and 0 incoming dependencies,projetos/claude_banco_s1/app/services/cadastros.py,app.services.cadastros,,medium

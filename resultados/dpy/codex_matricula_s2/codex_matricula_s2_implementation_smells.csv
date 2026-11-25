@@ -1,0 +1,25 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_matricula_s2,codex_matricula_s2,main,,Complex method,salvar,45 - 95,projetos/codex_matricula_s2/main.py,"Method 'salvar' has a cyclomatic complexity of 24, exceeding the max of 6."
+codex_matricula_s2,codex_matricula_s2,main,,Long statement,salvar,89,projetos/codex_matricula_s2/main.py,A line with 205 chars in salvar exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,main,,Long statement,adicionar_pre_requisito,140,projetos/codex_matricula_s2/main.py,A line with 316 chars in adicionar_pre_requisito exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,main,,Long statement,listar_pre_requisitos,158,projetos/codex_matricula_s2/main.py,A line with 125 chars in listar_pre_requisitos exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,main,,Long statement,consultar_fila,222,projetos/codex_matricula_s2/main.py,A line with 277 chars in consultar_fila exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,main,,Long statement,disciplinas_mais_procuradas,241,projetos/codex_matricula_s2/main.py,A line with 367 chars in disciplinas_mais_procuradas exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,main,,Long statement,taxa_reprovacao,252,projetos/codex_matricula_s2/main.py,A line with 625 chars in taxa_reprovacao exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,main,,Long statement,ocupacao_turmas,266,projetos/codex_matricula_s2/main.py,A line with 764 chars in ocupacao_turmas exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Complex method,distribuir_vagas,71 - 92,projetos/codex_matricula_s2/servico.py,"Method 'distribuir_vagas' has a cyclomatic complexity of 7, exceeding the max of 6."
+codex_matricula_s2,codex_matricula_s2,servico,,Complex method,desfazer,135 - 174,projetos/codex_matricula_s2/servico.py,"Method 'desfazer' has a cyclomatic complexity of 13, exceeding the max of 6."
+codex_matricula_s2,codex_matricula_s2,servico,,Long statement,validar_matricula,40,projetos/codex_matricula_s2/servico.py,A line with 300 chars in validar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Long statement,fila,57,projetos/codex_matricula_s2/servico.py,A line with 246 chars in fila exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Long statement,ocupadas,65,projetos/codex_matricula_s2/servico.py,A line with 152 chars in ocupadas exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Long statement,expirar_ofertas,98,projetos/codex_matricula_s2/servico.py,A line with 242 chars in expirar_ofertas exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Long statement,desfazer,148,projetos/codex_matricula_s2/servico.py,A line with 174 chars in desfazer exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Long statement,desfazer,154,projetos/codex_matricula_s2/servico.py,A line with 186 chars in desfazer exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Long statement,desfazer,164,projetos/codex_matricula_s2/servico.py,A line with 230 chars in desfazer exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Long statement,aplicar_trancamento_do_aluno,178,projetos/codex_matricula_s2/servico.py,A line with 161 chars in aplicar_trancamento_do_aluno exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Long statement,aplicar_trancamento_do_aluno,185,projetos/codex_matricula_s2/servico.py,A line with 253 chars in aplicar_trancamento_do_aluno exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Long statement,cancelar_turma,195,projetos/codex_matricula_s2/servico.py,A line with 124 chars in cancelar_turma exceeds the maximum length of 120 characters.
+codex_matricula_s2,codex_matricula_s2,servico,,Magic number,validar_matricula,38,projetos/codex_matricula_s2/servico.py,Magic number 3 used in validar_matricula.
+codex_matricula_s2,codex_matricula_s2,servico,,Magic number,distribuir_vagas,82,projetos/codex_matricula_s2/servico.py,Magic number 409 used in distribuir_vagas.
+codex_matricula_s2,codex_matricula_s2,servico,,Magic number,aplicar_trancamento_do_aluno,182,projetos/codex_matricula_s2/servico.py,Magic number 3 used in aplicar_trancamento_do_aluno.
+codex_matricula_s2,codex_matricula_s2,servico,,Magic number,fechar_periodo,205,projetos/codex_matricula_s2/servico.py,Magic number 5 used in fechar_periodo.

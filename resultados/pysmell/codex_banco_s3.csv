@@ -1,0 +1,5 @@
+smell,file,entity,line,metrics
+LongParameterList,banco.py,projetos/codex_banco_s3/banco.py,92,4
+LongParameterList,main.py,projetos/codex_banco_s3/main.py,311,4
+LongParameterList,main.py,projetos/codex_banco_s3/main.py,327,5
+LongMethod,main.py,projetos/codex_banco_s3/main.py,363,28

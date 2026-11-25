@@ -1,0 +1,15 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_biblioteca_s4,codex_biblioteca_s4,main,,221,2,2,2,1,1,1,0,0,0,projetos/codex_biblioteca_s4/main.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,,32,8,0,0,2,2,-1,0,0,0,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Categoria,4,0,0,0,3,3,-1,0,0,0,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Situacao,3,0,0,0,2,2,-1,0,0,0,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,EstadoExemplar,6,0,0,0,5,5,-1,0,0,0,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Entrada,2,0,0,0,1,1,-1,0,0,0,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Usuario,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Livro,9,6,1,1,1,1,0,0,0,1,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Exemplar,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,NovoEmprestimo,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,NovaReserva,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Periodo,4,2,1,1,0,0,0,0,0,1,projetos/codex_biblioteca_s4/esquemas.py
+codex_biblioteca_s4,codex_biblioteca_s4,biblioteca,,136,35,3,3,1,1,0.33,1,1,0,projetos/codex_biblioteca_s4/biblioteca.py
+codex_biblioteca_s4,codex_biblioteca_s4,biblioteca,Biblioteca,111,30,14,13,3,3,0,0,0,0,projetos/codex_biblioteca_s4/biblioteca.py

@@ -1,0 +1,53 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Number of Classes (NOCC),Module 'app.schemas' has 21 significant classes (avg complexity: 0.1),projetos/antigravity_biblioteca_s1/app/schemas.py,app.schemas,,Medium
+Structural,High Number of Classes (NOC),"Project has 32.9 weighted classes:
+- Regular classes: 32
+- Abstract/Interface classes: 0
+- Utility classes: 3
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/antigravity_biblioteca_s1,Project,,High
+Code,Potential Shotgun Surgery,Method 'Field' called in 6 different contexts across 16 locations in projetos/antigravity_biblioteca_s1/app/schemas.py,projetos/antigravity_biblioteca_s1/app/schemas.py,Field,17,high
+Code,Potential Shotgun Surgery,Method 'ConfigDict' called in 6 different contexts across 6 locations in projetos/antigravity_biblioteca_s1/app/schemas.py,projetos/antigravity_biblioteca_s1/app/schemas.py,ConfigDict,42,high
+Code,Long Method,'criar_emprestimo' has 95 lines in projetos/antigravity_biblioteca_s1/app/services.py at line 368,projetos/antigravity_biblioteca_s1/app/services.py,criar_emprestimo,368,
+Code,Long Method,'devolver_emprestimo' has 68 lines in projetos/antigravity_biblioteca_s1/app/services.py at line 535,projetos/antigravity_biblioteca_s1/app/services.py,devolver_emprestimo,535,
+Code,Potential Shotgun Surgery,Method 'now_datetime' called in 8 different contexts across 8 locations in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,now_datetime,41,high
+Code,Potential Shotgun Surgery,Method 'timedelta' called in 6 different contexts across 7 locations in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,timedelta,72,high
+Code,Potential Shotgun Surgery,Method 'HTTPException' called in 21 different contexts across 34 locations in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,HTTPException,177,high
+Code,Potential Shotgun Surgery,Method 'verificar_reservas_expiradas' called in 6 different contexts across 6 locations in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,verificar_reservas_expiradas,421,high
+Code,Feature Envy,Method 'atualizar_status_atrasos_usuario' makes 5 calls to 'db' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,atualizar_status_atrasos_usuario,38,medium
+Code,Feature Envy,Method 'verificar_reservas_expiradas' makes 8 calls to 'Reserva' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,verificar_reservas_expiradas,79,medium
+Code,Feature Envy,Method 'reordenar_fila_reservas' makes 7 calls to 'Reserva' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,reordenar_fila_reservas,121,medium
+Code,Feature Envy,Method 'verificar_e_cancelar_reservas_se_sem_exemplares' makes 4 calls to 'db' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,verificar_e_cancelar_reservas_se_sem_exemplares,145,medium
+Code,Feature Envy,Method 'criar_usuario' makes 6 calls to 'dados' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,criar_usuario,181,medium
+Code,Feature Envy,Method 'atualizar_usuario' makes 16 calls to 'dados' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,atualizar_usuario,200,medium
+Code,Feature Envy,Method 'criar_livro' makes 6 calls to 'dados' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,criar_livro,246,medium
+Code,Feature Envy,Method 'atualizar_livro' makes 12 calls to 'dados' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,atualizar_livro,262,medium
+Code,Feature Envy,Method 'criar_exemplar' makes 5 calls to 'dados' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,criar_exemplar,305,medium
+Code,Feature Envy,Method 'atualizar_exemplar' makes 7 calls to 'dados' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,atualizar_exemplar,321,medium
+Code,Feature Envy,Method 'criar_emprestimo' makes 13 calls to 'db' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,criar_emprestimo,368,medium
+Code,Feature Envy,Method 'renovar_emprestimo' makes 9 calls to 'emp' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,renovar_emprestimo,487,medium
+Code,Feature Envy,Method 'devolver_emprestimo' makes 11 calls to 'db' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,devolver_emprestimo,535,medium
+Code,Feature Envy,Method 'get_reservas_livro' makes 4 calls to 'Reserva' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,get_reservas_livro,624,medium
+Code,Feature Envy,Method 'get_reservas' makes 5 calls to 'Reserva' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,get_reservas,633,medium
+Code,Feature Envy,Method 'criar_reserva' makes 6 calls to 'db' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,criar_reserva,651,medium
+Code,Feature Envy,Method 'cancelar_reserva' makes 7 calls to 'res' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,cancelar_reserva,701,medium
+Code,Feature Envy,Method 'relatorio_livros_mais_emprestados' makes 7 calls to 'Livro' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,relatorio_livros_mais_emprestados,777,medium
+Code,Feature Envy,Method 'relatorio_usuarios_mais_atrasos' makes 7 calls to 'Emprestimo' but only 0 local calls in projetos/antigravity_biblioteca_s1/app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,relatorio_usuarios_mais_atrasos,810,medium
+Code,Potential Shotgun Surgery,Method 'Column' called in 6 different contexts across 39 locations in projetos/antigravity_biblioteca_s1/app/models.py,projetos/antigravity_biblioteca_s1/app/models.py,Column,59,high
+Code,Potential Shotgun Surgery,Method 'Enum' called in 5 different contexts across 6 locations in projetos/antigravity_biblioteca_s1/app/models.py,projetos/antigravity_biblioteca_s1/app/models.py,Enum,63,high
+Code,Potential Shotgun Surgery,Method 'relationship' called in 6 different contexts across 14 locations in projetos/antigravity_biblioteca_s1/app/models.py,projetos/antigravity_biblioteca_s1/app/models.py,relationship,67,high
+Code,Potential Shotgun Surgery,Method 'ForeignKey' called in 4 different contexts across 7 locations in projetos/antigravity_biblioteca_s1/app/models.py,projetos/antigravity_biblioteca_s1/app/models.py,ForeignKey,89,high
+Code,Potential Shotgun Surgery,Method 'Depends' called in 6 different contexts across 6 locations in projetos/antigravity_biblioteca_s1/app/routers/livros.py,projetos/antigravity_biblioteca_s1/app/routers/livros.py,Depends,11,high
+Code,Potential Shotgun Surgery,Method 'Depends' called in 7 different contexts across 7 locations in projetos/antigravity_biblioteca_s1/app/routers/usuarios.py,projetos/antigravity_biblioteca_s1/app/routers/usuarios.py,Depends,18,high
+Architectural,God Object,Module 'app.services' has too many public functions (36),projetos/antigravity_biblioteca_s1/app/services.py,app.services,,medium
+Architectural,Potential Improper API Usage,"Module 'app.services' has repetitive API calls: first(23x), all(14x), commit(19x), filter(56x), count(13x), query(49x), add(31x), refresh(14x), delete(3x), join(8x), order_by(8x), in_(10x), asc(12x), label(5x)",projetos/antigravity_biblioteca_s1/app/services.py,app.services,,medium
+Architectural,Potential Improper API Usage,"Module 'app.routers.usuarios' has repetitive API calls: get(4x), get_usuario(3x)",projetos/antigravity_biblioteca_s1/app/routers/usuarios.py,app.routers.usuarios,,medium
+Architectural,Unstable Dependency,Module 'app.main' has high instability (1.00) with 5 outgoing and 0 incoming dependencies,projetos/antigravity_biblioteca_s1/app/main.py,app.main,,medium
+Architectural,Unstable Dependency,Module 'app.rules' has high instability (0.83) with 5 outgoing and 1 incoming dependencies,projetos/antigravity_biblioteca_s1/app/rules.py,app.rules,,medium
+Architectural,Unstable Dependency,Module 'app.routers.livros' has high instability (1.00) with 6 outgoing and 0 incoming dependencies,projetos/antigravity_biblioteca_s1/app/routers/livros.py,app.routers.livros,,medium
+Architectural,Unstable Dependency,Module 'app.routers.usuarios' has high instability (1.00) with 7 outgoing and 0 incoming dependencies,projetos/antigravity_biblioteca_s1/app/routers/usuarios.py,app.routers.usuarios,,medium
+Architectural,Unstable Dependency,Module 'app.routers.emprestimos' has high instability (1.00) with 7 outgoing and 0 incoming dependencies,projetos/antigravity_biblioteca_s1/app/routers/emprestimos.py,app.routers.emprestimos,,medium
+Architectural,Unstable Dependency,Module 'app.routers.reservas' has high instability (1.00) with 7 outgoing and 0 incoming dependencies,projetos/antigravity_biblioteca_s1/app/routers/reservas.py,app.routers.reservas,,medium
+Architectural,Unstable Dependency,Module 'app.routers.multas' has high instability (1.00) with 7 outgoing and 0 incoming dependencies,projetos/antigravity_biblioteca_s1/app/routers/multas.py,app.routers.multas,,medium
+Architectural,Unstable Dependency,Module 'app.routers.relatorios' has high instability (1.00) with 7 outgoing and 0 incoming dependencies,projetos/antigravity_biblioteca_s1/app/routers/relatorios.py,app.routers.relatorios,,medium
+Architectural,Unstable Dependency,Module 'app.routers.exemplares' has high instability (1.00) with 7 outgoing and 0 incoming dependencies,projetos/antigravity_biblioteca_s1/app/routers/exemplares.py,app.routers.exemplares,,medium

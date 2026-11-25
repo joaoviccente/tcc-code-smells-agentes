@@ -1,0 +1,27 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_banco_s4,codex_banco_s4,main,,Complex method,criar_app,148 - 540,projetos/codex_banco_s4/main.py,"Method 'criar_app' has a cyclomatic complexity of 8, exceeding the max of 6."
+codex_banco_s4,codex_banco_s4,main,,Long method,criar_app,148 - 540,projetos/codex_banco_s4/main.py,Method 'criar_app' is too long (321 lines).
+codex_banco_s4,codex_banco_s4,main,,Long statement,apresentar,35,projetos/codex_banco_s4/main.py,A line with 216 chars in apresentar exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,calendario,93,projetos/codex_banco_s4/main.py,A line with 182 chars in calendario exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,calendario,98,projetos/codex_banco_s4/main.py,A line with 291 chars in calendario exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,calendario,114,projetos/codex_banco_s4/main.py,A line with 673 chars in calendario exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,calendario,129,projetos/codex_banco_s4/main.py,A line with 174 chars in calendario exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,calendario,133,projetos/codex_banco_s4/main.py,A line with 195 chars in calendario exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,criar_app,244,projetos/codex_banco_s4/main.py,A line with 173 chars in criar_app exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,criar_app,277,projetos/codex_banco_s4/main.py,A line with 202 chars in criar_app exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,criar_app,347,projetos/codex_banco_s4/main.py,A line with 193 chars in criar_app exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,criar_app,359,projetos/codex_banco_s4/main.py,A line with 252 chars in criar_app exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,criar_app,364,projetos/codex_banco_s4/main.py,A line with 294 chars in criar_app exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,criar_app,391,projetos/codex_banco_s4/main.py,A line with 284 chars in criar_app exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,criar_app,454,projetos/codex_banco_s4/main.py,A line with 154 chars in criar_app exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,criar_app,501,projetos/codex_banco_s4/main.py,A line with 936 chars in criar_app exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Long statement,criar_app,532,projetos/codex_banco_s4/main.py,A line with 191 chars in criar_app exceeds the maximum length of 120 characters.
+codex_banco_s4,codex_banco_s4,main,,Magic number,calendario,110,projetos/codex_banco_s4/main.py,Magic number 10 used in calendario.
+codex_banco_s4,codex_banco_s4,main,,Magic number,calendario,128,projetos/codex_banco_s4/main.py,Magic number 2 used in calendario.
+codex_banco_s4,codex_banco_s4,main,,Magic number,calendario,105,projetos/codex_banco_s4/main.py,Magic number 4 used in calendario.
+codex_banco_s4,codex_banco_s4,main,,Magic number,criar_app,355,projetos/codex_banco_s4/main.py,Magic number 3 used in criar_app.
+codex_banco_s4,codex_banco_s4,modelos,Cliente,Magic number,validar_cpf,37,projetos/codex_banco_s4/modelos.py,Magic number 9 used in validar_cpf.
+codex_banco_s4,codex_banco_s4,modelos,Cliente,Magic number,validar_cpf,37,projetos/codex_banco_s4/modelos.py,Magic number 10 used in validar_cpf.
+codex_banco_s4,codex_banco_s4,modelos,Cliente,Magic number,validar_cpf,39,projetos/codex_banco_s4/modelos.py,Magic number 10 used in validar_cpf.
+codex_banco_s4,codex_banco_s4,modelos,Cliente,Magic number,validar_cpf,39,projetos/codex_banco_s4/modelos.py,Magic number 11 used in validar_cpf.
+codex_banco_s4,codex_banco_s4,modelos,Cliente,Magic number,validar_cpf,39,projetos/codex_banco_s4/modelos.py,Magic number 10 used in validar_cpf.

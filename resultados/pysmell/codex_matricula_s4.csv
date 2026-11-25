@@ -1,0 +1,3 @@
+smell,file,entity,line,metrics
+LongMethod,main.py,projetos/codex_matricula_s4/main.py,64,30
+LongMethod,regras.py,projetos/codex_matricula_s4/regras.py,218,30

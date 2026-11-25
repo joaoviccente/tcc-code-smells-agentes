@@ -1,0 +1,34 @@
+Implemente uma API REST em Python para gestao de contas correntes de um banco.
+
+ENTIDADES
+
+- Cliente: nome, CPF, e-mail, categoria (comum, premium ou empresarial), situacao (ativo ou bloqueado).
+- Conta: pertence a um cliente, com numero, tipo (corrente ou poupanca), saldo, limite de credito e estado (ativa, bloqueada, encerrada).
+- Transacao: conta, tipo (deposito, saque, transferencia, estorno), valor, data, estado (pendente, efetivada, estornada).
+- Cartao: pertence a uma conta, com numero, limite e estado (ativo, bloqueado, cancelado).
+- Fatura: cartao, mes de referencia, valor, estado (aberta, fechada, paga, atrasada).
+- Tarifa: conta, tipo, valor, estado (pendente, cobrada, isenta).
+
+REGRAS POR CATEGORIA DE CLIENTE
+
+Comum: limite diario de saque R$ 1.000,00; limite por transferencia R$ 5.000,00; tarifa mensal R$ 30,00; 3 transacoes isentas por mes; juros de atraso 8% ao mes.
+Premium: limite diario de saque R$ 5.000,00; limite por transferencia R$ 50.000,00; sem tarifa mensal; transacoes isentas ilimitadas; juros de atraso 5% ao mes.
+Empresarial: limite diario de saque R$ 20.000,00; limite por transferencia R$ 200.000,00; tarifa mensal R$ 120,00; 50 transacoes isentas por mes; juros de atraso 3% ao mes.
+
+REGRAS DE NEGOCIO
+
+1. Saque e transferencia so sao permitidos em conta ativa, de cliente ativo, respeitando o limite diario acumulado da categoria.
+2. O saldo pode ficar negativo ate o limite de credito da conta. Abaixo disso, a operacao e negada.
+3. Transferencia entre contas do mesmo cliente e isenta de tarifa. As demais consomem a franquia de transacoes isentas da categoria e, esgotada a franquia, geram tarifa.
+4. Uma transacao efetivada pode ser estornada em ate 24 horas. O estorno reverte o saldo das contas envolvidas e registra uma nova transacao do tipo estorno.
+5. Fatura nao paga ate o vencimento passa ao estado atrasada e acumula juros conforme a categoria. Apos 10 dias de atraso, o cartao e bloqueado.
+6. Conta com saldo negativo por mais de 30 dias bloqueia o cliente e todos os seus cartoes.
+7. O encerramento de conta exige saldo zero e nenhuma fatura aberta. Ao encerrar, todos os cartoes da conta sao cancelados.
+
+ENDPOINTS
+
+CRUD de clientes, contas e cartoes. Transacoes: deposito, saque, transferencia, estorno e extrato por conta. Faturas: listar por cartao e registrar pagamento. Tarifas: listar por conta. Relatorios: clientes com maior movimentacao no periodo, contas com saldo negativo e receita de tarifas por categoria.
+
+REQUISITOS TECNICOS
+
+Persistencia em banco relacional. Validacao dos dados de entrada. Codigos HTTP apropriados para cada situacao. Os valores numericos indicados acima devem ser respeitados exatamente.

@@ -1,0 +1,13 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_matricula_s2,codex_matricula_s2,banco,,37,9,6,6,0,0,0.5,0,0,0,projetos/codex_matricula_s2/banco.py
+codex_matricula_s2,codex_matricula_s2,main,,201,44,19,19,1,1,0.74,0,0,0,projetos/codex_matricula_s2/main.py
+codex_matricula_s2,codex_matricula_s2,servico,,168,45,13,13,2,2,0,0,0,0,projetos/codex_matricula_s2/servico.py
+codex_matricula_s2,codex_matricula_s2,modelos,,14,3,0,0,6,6,-1,0,0,0,projetos/codex_matricula_s2/modelos.py
+codex_matricula_s2,codex_matricula_s2,modelos,Entrada,2,0,0,0,1,1,-1,0,0,0,projetos/codex_matricula_s2/modelos.py
+codex_matricula_s2,codex_matricula_s2,modelos,Aluno,2,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s2/modelos.py
+codex_matricula_s2,codex_matricula_s2,modelos,Disciplina,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s2/modelos.py
+codex_matricula_s2,codex_matricula_s2,modelos,Horario,5,3,1,1,0,0,0,0,0,1,projetos/codex_matricula_s2/modelos.py
+codex_matricula_s2,codex_matricula_s2,modelos,Turma,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s2/modelos.py
+codex_matricula_s2,codex_matricula_s2,modelos,Solicitacao,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s2/modelos.py
+codex_matricula_s2,codex_matricula_s2,modelos,PreRequisito,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s2/modelos.py
+codex_matricula_s2,codex_matricula_s2,modelos,Historico,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s2/modelos.py

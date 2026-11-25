@@ -1,0 +1,4 @@
+smell,file,entity,line,metrics
+LongParameterList,app/deps.py,projetos/claude_biblioteca_s5/app/deps.py,25,4
+LongParameterList,app/servicos.py,projetos/claude_biblioteca_s5/app/servicos.py,21,4
+LongMethod,app/servicos.py,projetos/claude_biblioteca_s5/app/servicos.py,155,38

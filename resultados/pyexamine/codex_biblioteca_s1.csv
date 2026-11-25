@@ -1,0 +1,31 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'main' has 315 effective code lines
+(Total: 446, Code: 315, Doc: 28, Import: 11, Blank: 92)",projetos/codex_biblioteca_s1/main.py,main,,High
+Structural,High Lines of Code (LOC),"Module 'biblioteca' has 175 effective code lines
+(Total: 232, Code: 175, Doc: 10, Import: 6, Blank: 40)",projetos/codex_biblioteca_s1/biblioteca.py,biblioteca,,Medium
+Structural,High Number of Classes (NOC),"Project has 10.0 weighted classes:
+- Regular classes: 10
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_biblioteca_s1,Project,,Medium
+Structural,High Cyclomatic Complexity,Method 'validar_isbn' has cyclomatic complexity of 11,projetos/codex_biblioteca_s1/main.py,main.Livro,116,Medium
+Structural,Long File,File 'main' has 326 meaningful lines of code,projetos/codex_biblioteca_s1/main.py,main,,Medium
+Structural,Too Many Branches,Method 'validar_isbn' has 4 branches with max nesting of 4,projetos/codex_biblioteca_s1/main.py,main.Livro,116,Medium
+Code,Feature Envy,Method 'lifespan' makes 4 calls to 'asyncio' but only 0 local calls in projetos/codex_biblioteca_s1/main.py,projetos/codex_biblioteca_s1/main.py,lifespan,30,medium
+Code,Feature Envy,Method 'contexto' makes 5 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s1/main.py,projetos/codex_biblioteca_s1/main.py,contexto,52,medium
+Code,Feature Envy,Method 'criar_exemplar' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_biblioteca_s1/main.py,projetos/codex_biblioteca_s1/main.py,criar_exemplar,205,medium
+Code,Feature Envy,Method 'editar_exemplar' makes 7 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s1/main.py,projetos/codex_biblioteca_s1/main.py,editar_exemplar,225,medium
+Code,Feature Envy,Method 'criar_emprestimo' makes 12 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s1/main.py,projetos/codex_biblioteca_s1/main.py,criar_emprestimo,259,medium
+Code,Feature Envy,Method 'renovar_emprestimo' makes 9 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s1/main.py,projetos/codex_biblioteca_s1/main.py,renovar_emprestimo,299,medium
+Code,Feature Envy,Method 'devolver_emprestimo' makes 7 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s1/main.py,projetos/codex_biblioteca_s1/main.py,devolver_emprestimo,319,medium
+Code,Feature Envy,Method 'criar_reserva' makes 5 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s1/main.py,projetos/codex_biblioteca_s1/main.py,criar_reserva,344,medium
+Code,Feature Envy,Method 'cancelar_reserva' makes 4 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s1/main.py,projetos/codex_biblioteca_s1/main.py,cancelar_reserva,361,medium
+Code,Feature Envy,Method 'pagar_multa' makes 4 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s1/main.py,projetos/codex_biblioteca_s1/main.py,pagar_multa,387,medium
+Code,Potential Shotgun Surgery,Method 'atualizar' called in 4 different contexts across 6 locations in projetos/codex_biblioteca_s1/biblioteca.py,projetos/codex_biblioteca_s1/biblioteca.py,atualizar,127,high
+Architectural,Hub-like Dependency,"Module 'main' is a potential hub with 11 connections (in: 0, out: 11, external: 0)",projetos/codex_biblioteca_s1/main.py,main,,high
+Architectural,God Object,Module 'main' has too many public functions (31),projetos/codex_biblioteca_s1/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'main' has repetitive API calls: post(9x), get(12x), put(3x), delete(3x), obter(22x), execute(7x), inserir(5x), usuario_publico(5x), atualizar(6x), listar(8x), fetchone(5x), emprestimo_publico(4x), fila(3x), to_thread(3x), model_dump(6x), conflito(17x), baixar_exemplar(3x), isoformat(6x)",projetos/codex_biblioteca_s1/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'biblioteca' has repetitive API calls: execute(12x), fetchone(4x), join(3x), isoformat(6x)",projetos/codex_biblioteca_s1/biblioteca.py,biblioteca,,medium
+Architectural,Unstable Dependency,Module 'main' has high instability (1.00) with 11 outgoing and 0 incoming dependencies,projetos/codex_biblioteca_s1/main.py,main,,medium
+Architectural,Unstable Dependency,Module 'biblioteca' has high instability (0.86) with 6 outgoing and 1 incoming dependencies,projetos/codex_biblioteca_s1/biblioteca.py,biblioteca,,medium

@@ -1,0 +1,13 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_matricula_s4,codex_matricula_s4,main,,238,45,24,24,2,2,0.71,0,0,0,projetos/codex_matricula_s4/main.py
+codex_matricula_s4,codex_matricula_s4,regras,,197,34,16,16,2,2,0.12,0,0,0,projetos/codex_matricula_s4/regras.py
+codex_matricula_s4,codex_matricula_s4,regras,Regra,1,0,0,0,0,0,-1,0,0,0,projetos/codex_matricula_s4/regras.py
+codex_matricula_s4,codex_matricula_s4,modelos,,13,3,0,0,6,6,-1,0,0,0,projetos/codex_matricula_s4/modelos.py
+codex_matricula_s4,codex_matricula_s4,modelos,Entrada,2,0,0,0,1,1,-1,0,0,0,projetos/codex_matricula_s4/modelos.py
+codex_matricula_s4,codex_matricula_s4,modelos,Aluno,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s4/modelos.py
+codex_matricula_s4,codex_matricula_s4,modelos,Disciplina,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s4/modelos.py
+codex_matricula_s4,codex_matricula_s4,modelos,Horario,5,3,1,1,0,0,0,0,0,1,projetos/codex_matricula_s4/modelos.py
+codex_matricula_s4,codex_matricula_s4,modelos,Turma,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s4/modelos.py
+codex_matricula_s4,codex_matricula_s4,modelos,Solicitacao,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s4/modelos.py
+codex_matricula_s4,codex_matricula_s4,modelos,PreRequisito,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s4/modelos.py
+codex_matricula_s4,codex_matricula_s4,modelos,Historico,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s4/modelos.py

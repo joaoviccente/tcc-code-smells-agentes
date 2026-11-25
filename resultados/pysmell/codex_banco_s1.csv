@@ -1,0 +1,7 @@
+smell,file,entity,line,metrics
+LongParameterList,app.py,projetos/codex_banco_s1/app.py,136,4
+LongParameterList,app.py,projetos/codex_banco_s1/app.py,143,4
+LongParameterList,app.py,projetos/codex_banco_s1/app.py,524,5
+LongMethod,app.py,projetos/codex_banco_s1/app.py,564,28
+LongTernaryConditionalExpression,app.py,projetos/codex_banco_s1/app.py,683,108|2
+LongParameterList,app.py,projetos/codex_banco_s1/app.py,690,4

@@ -1,0 +1,14 @@
+smell,file,entity,line,metrics
+LongParameterList,app/errors.py,projetos/claude_matricula_s4/app/errors.py,8,4
+LongBaseClassList,app/models.py,projetos/claude_matricula_s4/app/models.py,13,2
+LongBaseClassList,app/models.py,projetos/claude_matricula_s4/app/models.py,19,2
+LongBaseClassList,app/models.py,projetos/claude_matricula_s4/app/models.py,25,2
+LongBaseClassList,app/models.py,projetos/claude_matricula_s4/app/models.py,32,2
+LongBaseClassList,app/models.py,projetos/claude_matricula_s4/app/models.py,40,2
+LongParameterList,app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,23,4
+LongParameterList,app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,161,4
+LongMethod,app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,191,43
+LongMethod,app/servicos.py,projetos/claude_matricula_s4/app/servicos.py,310,47
+LongMethod,app/routers/turmas.py,projetos/claude_matricula_s4/app/routers/turmas.py,53,29
+ComplexContainerComprehension,app/routers/turmas.py,projetos/claude_matricula_s4/app/routers/turmas.py,102,329|1|38
+ComplexContainerComprehension,app/routers/outros.py,projetos/claude_matricula_s4/app/routers/outros.py,63,161|1|35

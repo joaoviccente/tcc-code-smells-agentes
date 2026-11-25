@@ -1,0 +1,24 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'main' has 194 effective code lines
+(Total: 376, Code: 194, Doc: 93, Import: 10, Blank: 79)",projetos/codex_biblioteca_s5/main.py,main,,Medium
+Structural,High Cyclomatic Complexity,Method 'validar_isbn' has cyclomatic complexity of 11,projetos/codex_biblioteca_s5/modelos.py,modelos.Livro,32,Medium
+Structural,Too Many Branches,Method 'validar_isbn' has 5 branches with max nesting of 5,projetos/codex_biblioteca_s5/modelos.py,modelos.Livro,32,Medium
+Code,Potential Shotgun Surgery,Method 'gravar' called in 11 different contexts across 12 locations in projetos/codex_biblioteca_s5/main.py,projetos/codex_biblioteca_s5/main.py,gravar,111,high
+Code,Feature Envy,Method 'atualizar_relogio' makes 4 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s5/main.py,projetos/codex_biblioteca_s5/main.py,atualizar_relogio,18,medium
+Code,Feature Envy,Method 'contexto' makes 4 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s5/main.py,projetos/codex_biblioteca_s5/main.py,contexto,56,medium
+Code,Feature Envy,Method 'criar_exemplar' makes 4 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s5/main.py,projetos/codex_biblioteca_s5/main.py,criar_exemplar,162,medium
+Code,Feature Envy,Method 'atualizar_exemplar' makes 9 calls to 'entrada' but only 0 local calls in projetos/codex_biblioteca_s5/main.py,projetos/codex_biblioteca_s5/main.py,atualizar_exemplar,182,medium
+Code,Feature Envy,Method 'criar_emprestimo' makes 9 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s5/main.py,projetos/codex_biblioteca_s5/main.py,criar_emprestimo,215,medium
+Code,Feature Envy,Method 'renovar_emprestimo' makes 7 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s5/main.py,projetos/codex_biblioteca_s5/main.py,renovar_emprestimo,260,medium
+Code,Feature Envy,Method 'devolver_emprestimo' makes 8 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s5/main.py,projetos/codex_biblioteca_s5/main.py,devolver_emprestimo,276,medium
+Code,Feature Envy,Method 'criar_reserva' makes 5 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s5/main.py,projetos/codex_biblioteca_s5/main.py,criar_reserva,292,medium
+Code,Feature Envy,Method 'cancelar_reserva' makes 5 calls to 'b' but only 0 local calls in projetos/codex_biblioteca_s5/main.py,projetos/codex_biblioteca_s5/main.py,cancelar_reserva,308,medium
+Code,Feature Envy,Method 'distribuir' makes 4 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s5/biblioteca.py,projetos/codex_biblioteca_s5/biblioteca.py,distribuir,83,medium
+Code,Feature Envy,Method 'sincronizar' makes 4 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s5/biblioteca.py,projetos/codex_biblioteca_s5/biblioteca.py,sincronizar,164,medium
+Architectural,Hub-like Dependency,"Module 'main' is a potential hub with 10 connections (in: 0, out: 10, external: 0)",projetos/codex_biblioteca_s5/main.py,main,,medium
+Architectural,Hub-like Dependency,"Module 'biblioteca' is a potential hub with 8 connections (in: 1, out: 7, external: 0)",projetos/codex_biblioteca_s5/biblioteca.py,biblioteca,,medium
+Architectural,God Object,Module 'main' has too many public functions (34),projetos/codex_biblioteca_s5/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'main' has repetitive API calls: post(9x), get(12x), put(3x), delete(3x), obter(23x), execute(18x), model_dump(7x), usuario_publico(5x), exigir(16x), distribuir(5x), cancelar_reservas_se_baixa(4x), fetchone(5x), join(3x), isoformat(7x)",projetos/codex_biblioteca_s5/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'biblioteca' has repetitive API calls: execute(17x), fetchone(3x), pop(3x), fetchall(4x), isoformat(5x)",projetos/codex_biblioteca_s5/biblioteca.py,biblioteca,,medium
+Architectural,Unstable Dependency,Module 'main' has high instability (1.00) with 10 outgoing and 0 incoming dependencies,projetos/codex_biblioteca_s5/main.py,main,,medium
+Architectural,Unstable Dependency,Module 'biblioteca' has high instability (0.88) with 7 outgoing and 1 incoming dependencies,projetos/codex_biblioteca_s5/biblioteca.py,biblioteca,,medium

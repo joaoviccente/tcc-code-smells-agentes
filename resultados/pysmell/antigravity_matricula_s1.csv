@@ -1,0 +1,15 @@
+smell,file,entity,line,metrics
+LongParameterList,app/services/horario_service.py,projetos/antigravity_matricula_s1/app/services/horario_service.py,45,4
+LongMethod,app/services/horario_service.py,projetos/antigravity_matricula_s1/app/services/horario_service.py,60,54
+LongMethod,app/services/matricula_service.py,projetos/antigravity_matricula_s1/app/services/matricula_service.py,146,109
+LongMethod,app/services/matricula_service.py,projetos/antigravity_matricula_s1/app/services/matricula_service.py,323,63
+LongTernaryConditionalExpression,app/services/matricula_service.py,projetos/antigravity_matricula_s1/app/services/matricula_service.py,378,109|1
+LongMethod,app/services/matricula_service.py,projetos/antigravity_matricula_s1/app/services/matricula_service.py,420,31
+LongMethod,app/services/matricula_service.py,projetos/antigravity_matricula_s1/app/services/matricula_service.py,476,72
+LongMethod,app/services/relatorio_service.py,projetos/antigravity_matricula_s1/app/services/relatorio_service.py,18,34
+LongMethod,app/services/relatorio_service.py,projetos/antigravity_matricula_s1/app/services/relatorio_service.py,122,48
+LongBaseClassList,app/models/enums.py,projetos/antigravity_matricula_s1/app/models/enums.py,4,2
+LongBaseClassList,app/models/enums.py,projetos/antigravity_matricula_s1/app/models/enums.py,10,2
+LongBaseClassList,app/models/enums.py,projetos/antigravity_matricula_s1/app/models/enums.py,16,2
+LongBaseClassList,app/models/enums.py,projetos/antigravity_matricula_s1/app/models/enums.py,23,2
+LongBaseClassList,app/models/enums.py,projetos/antigravity_matricula_s1/app/models/enums.py,31,2

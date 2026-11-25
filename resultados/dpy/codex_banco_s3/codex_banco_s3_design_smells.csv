@@ -1,0 +1,11 @@
+Project,Package,Module,Smell,Class,Line no,File,Description
+codex_banco_s3,codex_banco_s3,main,Broken hierarchy,Cliente,50,projetos/codex_banco_s3/main.py,Class 'Cliente' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s3,codex_banco_s3,main,Broken hierarchy,Conta,58,projetos/codex_banco_s3/main.py,Class 'Conta' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s3,codex_banco_s3,main,Broken hierarchy,AtualizarConta,65,projetos/codex_banco_s3/main.py,Class 'AtualizarConta' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s3,codex_banco_s3,main,Broken hierarchy,Cartao,72,projetos/codex_banco_s3/main.py,Class 'Cartao' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s3,codex_banco_s3,main,Broken hierarchy,AtualizarCartao,78,projetos/codex_banco_s3/main.py,Class 'AtualizarCartao' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s3,codex_banco_s3,main,Broken hierarchy,Movimento,84,projetos/codex_banco_s3/main.py,Class 'Movimento' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_banco_s3,codex_banco_s3,main,Broken hierarchy,Transferencia,88,projetos/codex_banco_s3/main.py,Class 'Transferencia' and its superclass 'Movimento' may not share a proper 'IS-A' relationship.
+codex_banco_s3,codex_banco_s3,main,Broken hierarchy,NovaFatura,92,projetos/codex_banco_s3/main.py,Class 'NovaFatura' and its superclass 'Movimento' may not share a proper 'IS-A' relationship.
+codex_banco_s3,codex_banco_s3,main,Insufficient modularization,main,1,projetos/codex_banco_s3/main.py,"Module 'main' is insufficiently modularized with NOPM: 44, WMC: 81, NOM: 44."
+codex_banco_s3,codex_banco_s3,main,Wide hierarchy,Entrada,0,projetos/codex_banco_s3/main.py,Class 'Entrada' has a wide hierarchy with 6 direct subclasses.

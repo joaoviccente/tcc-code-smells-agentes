@@ -1,0 +1,35 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_banco_s3,codex_banco_s3,banco,,Long statement,atualizar_pendencias,131,projetos/codex_banco_s3/banco.py,A line with 177 chars in atualizar_pendencias exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,banco,,Long statement,atualizar_pendencias,139,projetos/codex_banco_s3/banco.py,A line with 251 chars in atualizar_pendencias exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,banco,,Long statement,,21,projetos/codex_banco_s3/banco.py,A line with 2053 chars in banco exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,banco,,Magic number,atualizar_pendencias,121,projetos/codex_banco_s3/banco.py,Magic number 3000 used in atualizar_pendencias.
+codex_banco_s3,codex_banco_s3,banco,,Magic number,atualizar_pendencias,124,projetos/codex_banco_s3/banco.py,Magic number 10 used in atualizar_pendencias.
+codex_banco_s3,codex_banco_s3,banco,,Magic number,atualizar_pendencias,138,projetos/codex_banco_s3/banco.py,Magic number 2 used in atualizar_pendencias.
+codex_banco_s3,codex_banco_s3,banco,,Magic number,atualizar_pendencias,121,projetos/codex_banco_s3/banco.py,Magic number 1500 used in atualizar_pendencias.
+codex_banco_s3,codex_banco_s3,banco,,Magic number,atualizar_pendencias,121,projetos/codex_banco_s3/banco.py,Magic number 4 used in atualizar_pendencias.
+codex_banco_s3,codex_banco_s3,main,,Complex method,transferencia,363 - 396,projetos/codex_banco_s3/main.py,"Method 'transferencia' has a cyclomatic complexity of 8, exceeding the max of 6."
+codex_banco_s3,codex_banco_s3,main,,Long parameter list,registrar,327 - 333,projetos/codex_banco_s3/main.py,"registrar has 6 parameters, exceeding the max of 5."
+codex_banco_s3,codex_banco_s3,main,,Long statement,criar_cliente,165,projetos/codex_banco_s3/main.py,A line with 139 chars in criar_cliente exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,atualizar_cliente,187,projetos/codex_banco_s3/main.py,A line with 124 chars in atualizar_cliente exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,criar_conta,205,projetos/codex_banco_s3/main.py,A line with 242 chars in criar_conta exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,atualizar_conta,245,projetos/codex_banco_s3/main.py,A line with 138 chars in atualizar_conta exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,criar_cartao,262,projetos/codex_banco_s3/main.py,A line with 143 chars in criar_cartao exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,atualizar_cartao,291,projetos/codex_banco_s3/main.py,A line with 128 chars in atualizar_cartao exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,mostrar_transacao,321,projetos/codex_banco_s3/main.py,A line with 151 chars in mostrar_transacao exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,registrar,328,projetos/codex_banco_s3/main.py,A line with 146 chars in registrar exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,saque,352,projetos/codex_banco_s3/main.py,A line with 338 chars in saque exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,transferencia,380,projetos/codex_banco_s3/main.py,A line with 351 chars in transferencia exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,transferencia,391,projetos/codex_banco_s3/main.py,A line with 359 chars in transferencia exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,estorno,407,projetos/codex_banco_s3/main.py,A line with 157 chars in estorno exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,estorno,410,projetos/codex_banco_s3/main.py,A line with 128 chars in estorno exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,extrato,426,projetos/codex_banco_s3/main.py,A line with 257 chars in extrato exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,criar_fatura,440,projetos/codex_banco_s3/main.py,A line with 256 chars in criar_fatura exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,maior_movimentacao,496,projetos/codex_banco_s3/main.py,A line with 688 chars in maior_movimentacao exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,receita_tarifas,520,projetos/codex_banco_s3/main.py,A line with 230 chars in receita_tarifas exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Long statement,,42,projetos/codex_banco_s3/main.py,A line with 128 chars in main exceeds the maximum length of 120 characters.
+codex_banco_s3,codex_banco_s3,main,,Magic number,normalizar_cpf,35,projetos/codex_banco_s3/main.py,Magic number 9 used in normalizar_cpf.
+codex_banco_s3,codex_banco_s3,main,,Magic number,normalizar_cpf,35,projetos/codex_banco_s3/main.py,Magic number 10 used in normalizar_cpf.
+codex_banco_s3,codex_banco_s3,main,,Magic number,normalizar_cpf,37,projetos/codex_banco_s3/main.py,Magic number 10 used in normalizar_cpf.
+codex_banco_s3,codex_banco_s3,main,,Magic number,normalizar_cpf,37,projetos/codex_banco_s3/main.py,Magic number 11 used in normalizar_cpf.
+codex_banco_s3,codex_banco_s3,main,,Magic number,normalizar_cpf,37,projetos/codex_banco_s3/main.py,Magic number 10 used in normalizar_cpf.
+codex_banco_s3,codex_banco_s3,main,,Magic number,mostrar,154,projetos/codex_banco_s3/main.py,Magic number 100 used in mostrar.

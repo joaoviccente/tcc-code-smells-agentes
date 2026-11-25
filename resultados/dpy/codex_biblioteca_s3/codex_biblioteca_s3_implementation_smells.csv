@@ -1,0 +1,34 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Complex method,validar_exemplar,237 - 250,projetos/codex_biblioteca_s3/app.py,"Method 'validar_exemplar' has a cyclomatic complexity of 7, exceeding the max of 6."
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Complex method,criar_emprestimo,315 - 346,projetos/codex_biblioteca_s3/app.py,"Method 'criar_emprestimo' has a cyclomatic complexity of 7, exceeding the max of 6."
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,atualizar_atraso,126,projetos/codex_biblioteca_s3/app.py,A line with 129 chars in atualizar_atraso exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,atualizar_atraso,133,projetos/codex_biblioteca_s3/app.py,A line with 270 chars in atualizar_atraso exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,distribuir,142,projetos/codex_biblioteca_s3/app.py,A line with 153 chars in distribuir exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,distribuir,144,projetos/codex_biblioteca_s3/app.py,A line with 139 chars in distribuir exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,distribuir,149,projetos/codex_biblioteca_s3/app.py,A line with 161 chars in distribuir exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,sincronizar,164,projetos/codex_biblioteca_s3/app.py,A line with 234 chars in sincronizar exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,tem_acervo,216,projetos/codex_biblioteca_s3/app.py,A line with 164 chars in tem_acervo exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,tratar_baixa,230,projetos/codex_biblioteca_s3/app.py,A line with 128 chars in tratar_baixa exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,validar_exemplar,247,projetos/codex_biblioteca_s3/app.py,A line with 205 chars in validar_exemplar exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,cadastrar_crud,301,projetos/codex_biblioteca_s3/app.py,A line with 123 chars in cadastrar_crud exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,criar_emprestimo,328,projetos/codex_biblioteca_s3/app.py,A line with 142 chars in criar_emprestimo exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,criar_emprestimo,334,projetos/codex_biblioteca_s3/app.py,A line with 208 chars in criar_emprestimo exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,criar_emprestimo,343,projetos/codex_biblioteca_s3/app.py,A line with 229 chars in criar_emprestimo exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,renovar_emprestimo,363,projetos/codex_biblioteca_s3/app.py,A line with 158 chars in renovar_emprestimo exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,listar_emprestimos,392,projetos/codex_biblioteca_s3/app.py,A line with 124 chars in listar_emprestimos exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,fila_reservas,398,projetos/codex_biblioteca_s3/app.py,A line with 270 chars in fila_reservas exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,listar_multas,447,projetos/codex_biblioteca_s3/app.py,A line with 187 chars in listar_multas exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,livros_mais_emprestados,469,projetos/codex_biblioteca_s3/app.py,A line with 413 chars in livros_mais_emprestados exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,usuarios_com_mais_atrasos,479,projetos/codex_biblioteca_s3/app.py,A line with 375 chars in usuarios_com_mais_atrasos exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,ocupacao_por_area,489,projetos/codex_biblioteca_s3/app.py,A line with 684 chars in ocupacao_por_area exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Long statement,,16,projetos/codex_biblioteca_s3/app.py,A line with 1723 chars in app exceeds the maximum length of 120 characters.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Magic number,atualizar_atraso,124,projetos/codex_biblioteca_s3/app.py,Magic number 15 used in atualizar_atraso.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Magic number,atualizar_atraso,131,projetos/codex_biblioteca_s3/app.py,Magic number 2 used in atualizar_atraso.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Magic number,atualizar_atraso,132,projetos/codex_biblioteca_s3/app.py,Magic number 60 used in atualizar_atraso.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Magic number,cadastrar_crud,297,projetos/codex_biblioteca_s3/app.py,Magic number 201 used in cadastrar_crud.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Magic number,cadastrar_crud,297,projetos/codex_biblioteca_s3/app.py,Magic number 200 used in cadastrar_crud.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Magic number,cadastrar_crud,298,projetos/codex_biblioteca_s3/app.py,Magic number 200 used in cadastrar_crud.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Magic number,cadastrar_crud,298,projetos/codex_biblioteca_s3/app.py,Magic number 200 used in cadastrar_crud.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Magic number,cadastrar_crud,299,projetos/codex_biblioteca_s3/app.py,Magic number 204 used in cadastrar_crud.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Magic number,devolver_emprestimo,378,projetos/codex_biblioteca_s3/app.py,Magic number 60 used in devolver_emprestimo.
+codex_biblioteca_s3,codex_biblioteca_s3,app,,Magic number,publicar_multa,440,projetos/codex_biblioteca_s3/app.py,Magic number 100 used in publicar_multa.

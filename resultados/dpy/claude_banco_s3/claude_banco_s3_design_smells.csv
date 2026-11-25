@@ -1,0 +1,34 @@
+Project,Package,Module,Smell,Class,Line no,File,Description
+claude_banco_s3,claude_banco_s3.app,main,Multifaceted abstraction,main,1,projetos/claude_banco_s3/app/main.py,"Class 'main' has a high LCOM value of 1, indicating it may have multiple responsibilities."
+claude_banco_s3,claude_banco_s3.app,errors,Broken hierarchy,Conflito,17,projetos/claude_banco_s3/app/errors.py,Class 'Conflito' and its superclass 'ErroNegocio' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,errors,Broken hierarchy,RegraViolada,22,projetos/claude_banco_s3/app/errors.py,Class 'RegraViolada' and its superclass 'ErroNegocio' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,ClienteCreate,42,projetos/claude_banco_s3/app/schemas.py,Class 'ClienteCreate' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,ClienteUpdate,51,projetos/claude_banco_s3/app/schemas.py,Class 'ClienteUpdate' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,ClienteOut,58,projetos/claude_banco_s3/app/schemas.py,Class 'ClienteOut' and its superclass 'Saida' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,ContaCreate,69,projetos/claude_banco_s3/app/schemas.py,Class 'ContaCreate' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,ContaUpdate,75,projetos/claude_banco_s3/app/schemas.py,Class 'ContaUpdate' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,ContaOut,80,projetos/claude_banco_s3/app/schemas.py,Class 'ContaOut' and its superclass 'Saida' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,CartaoCreate,95,projetos/claude_banco_s3/app/schemas.py,Class 'CartaoCreate' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,CartaoUpdate,100,projetos/claude_banco_s3/app/schemas.py,Class 'CartaoUpdate' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,CartaoOut,105,projetos/claude_banco_s3/app/schemas.py,Class 'CartaoOut' and its superclass 'Saida' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,DepositoIn,116,projetos/claude_banco_s3/app/schemas.py,Class 'DepositoIn' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,SaqueIn,122,projetos/claude_banco_s3/app/schemas.py,Class 'SaqueIn' and its superclass 'DepositoIn' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,TransferenciaIn,126,projetos/claude_banco_s3/app/schemas.py,Class 'TransferenciaIn' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,EstornoIn,133,projetos/claude_banco_s3/app/schemas.py,Class 'EstornoIn' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,TransacaoOut,137,projetos/claude_banco_s3/app/schemas.py,Class 'TransacaoOut' and its superclass 'Saida' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,TarifaOut,149,projetos/claude_banco_s3/app/schemas.py,Class 'TarifaOut' and its superclass 'Saida' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,LancamentoExtrato,168,projetos/claude_banco_s3/app/schemas.py,Class 'LancamentoExtrato' and its superclass 'TransacaoOut' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,FaturaCreate,184,projetos/claude_banco_s3/app/schemas.py,Class 'FaturaCreate' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,PagamentoIn,190,projetos/claude_banco_s3/app/schemas.py,Class 'PagamentoIn' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Broken hierarchy,FaturaOut,194,projetos/claude_banco_s3/app/schemas.py,Class 'FaturaOut' and its superclass 'Saida' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,schemas,Wide hierarchy,Entrada,0,projetos/claude_banco_s3/app/schemas.py,Class 'Entrada' has a wide hierarchy with 11 direct subclasses.
+claude_banco_s3,claude_banco_s3.app,schemas,Wide hierarchy,Saida,0,projetos/claude_banco_s3/app/schemas.py,Class 'Saida' has a wide hierarchy with 6 direct subclasses.
+claude_banco_s3,claude_banco_s3.app,database,Wide hierarchy,Base,0,projetos/claude_banco_s3/app/database.py,Class 'Base' has a wide hierarchy with 6 direct subclasses.
+claude_banco_s3,claude_banco_s3.app,models,Broken hierarchy,Cliente,76,projetos/claude_banco_s3/app/models.py,Class 'Cliente' and its superclass 'Base' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,models,Broken hierarchy,Conta,90,projetos/claude_banco_s3/app/models.py,Class 'Conta' and its superclass 'Base' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,models,Broken hierarchy,Transacao,113,projetos/claude_banco_s3/app/models.py,Class 'Transacao' and its superclass 'Base' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,models,Broken hierarchy,Cartao,135,projetos/claude_banco_s3/app/models.py,Class 'Cartao' and its superclass 'Base' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,models,Broken hierarchy,Fatura,150,projetos/claude_banco_s3/app/models.py,Class 'Fatura' and its superclass 'Base' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app,models,Broken hierarchy,Tarifa,168,projetos/claude_banco_s3/app/models.py,Class 'Tarifa' and its superclass 'Base' may not share a proper 'IS-A' relationship.
+claude_banco_s3,claude_banco_s3.app.services,base,Multifaceted abstraction,base,1,projetos/claude_banco_s3/app/services/base.py,"Class 'base' has a high LCOM value of 1, indicating it may have multiple responsibilities."
+claude_banco_s3,claude_banco_s3.app.routers,cadastros,Multifaceted abstraction,cadastros,1,projetos/claude_banco_s3/app/routers/cadastros.py,"Class 'cadastros' has a high LCOM value of 1, indicating it may have multiple responsibilities."

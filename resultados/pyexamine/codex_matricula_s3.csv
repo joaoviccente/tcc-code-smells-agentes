@@ -1,0 +1,23 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'main' has 155 effective code lines
+(Total: 269, Code: 155, Doc: 43, Import: 11, Blank: 60)",projetos/codex_matricula_s3/main.py,main,,Medium
+Structural,High Number of Classes (NOC),"Project has 8.0 weighted classes:
+- Regular classes: 8
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_matricula_s3,Project,,Medium
+Code,Potential Shotgun Surgery,Method 'dict' called in 7 different contexts across 7 locations in projetos/codex_matricula_s3/main.py,projetos/codex_matricula_s3/main.py,dict,63,high
+Code,Feature Envy,Method 'salvar' makes 12 calls to 'regras' but only 0 local calls in projetos/codex_matricula_s3/main.py,projetos/codex_matricula_s3/main.py,salvar,69,medium
+Code,Feature Envy,Method 'registrar_crud' makes 5 calls to 'app' but only 0 local calls in projetos/codex_matricula_s3/main.py,projetos/codex_matricula_s3/main.py,registrar_crud,107,medium
+Code,Feature Envy,Method 'registrar_historico' makes 5 calls to 'entrada' but only 0 local calls in projetos/codex_matricula_s3/main.py,projetos/codex_matricula_s3/main.py,registrar_historico,179,medium
+Code,Feature Envy,Method 'registrar_pre_requisito' makes 4 calls to 'entrada' but only 0 local calls in projetos/codex_matricula_s3/main.py,projetos/codex_matricula_s3/main.py,registrar_pre_requisito,198,medium
+Code,Long Method,'alterar_matricula' has 46 lines in projetos/codex_matricula_s3/matriculas.py at line 159,projetos/codex_matricula_s3/matriculas.py,alterar_matricula,159,
+Code,Potential Shotgun Surgery,Method 'obter' called in 5 different contexts across 13 locations in projetos/codex_matricula_s3/matriculas.py,projetos/codex_matricula_s3/matriculas.py,obter,48,high
+Code,Potential Shotgun Surgery,Method 'exigir' called in 4 different contexts across 13 locations in projetos/codex_matricula_s3/matriculas.py,projetos/codex_matricula_s3/matriculas.py,exigir,79,high
+Code,Feature Envy,Method 'alterar_matricula' makes 6 calls to 'db' but only 0 local calls in projetos/codex_matricula_s3/matriculas.py,projetos/codex_matricula_s3/matriculas.py,alterar_matricula,159,medium
+Architectural,Hub-like Dependency,"Module 'main' is a potential hub with 11 connections (in: 0, out: 11, external: 0)",projetos/codex_matricula_s3/main.py,main,,high
+Architectural,God Object,Module 'main' has too many public functions (25),projetos/codex_matricula_s3/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'main' has repetitive API calls: post(7x), get(7x), add_api_route(5x), obter(15x), fetchone(3x), exigir(5x), execute(18x), join(3x), agora(6x)",projetos/codex_matricula_s3/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'matriculas' has repetitive API calls: fetchone(8x), execute(23x), fetchall(3x), isoformat(6x)",projetos/codex_matricula_s3/matriculas.py,matriculas,,medium
+Architectural,Unstable Dependency,Module 'main' has high instability (1.00) with 11 outgoing and 0 incoming dependencies,projetos/codex_matricula_s3/main.py,main,,medium

@@ -1,0 +1,16 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_matricula_s5,codex_matricula_s5,servico,,178,47,17,17,2,2,0.24,0,0,0,projetos/codex_matricula_s5/servico.py
+codex_matricula_s5,codex_matricula_s5,modelos,,35,5,0,0,4,4,-1,0,0,0,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,Categoria,4,0,0,0,3,3,-1,0,0,0,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,SituacaoAluno,4,0,0,0,3,3,-1,0,0,0,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,EstadoTurma,5,0,0,0,4,4,-1,0,0,0,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,SituacaoHistorico,4,0,0,0,3,3,-1,0,0,0,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,Entrada,2,0,0,0,1,1,-1,0,0,0,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,Aluno,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,Disciplina,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,Horario,5,2,1,1,0,0,0,0,0,1,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,Turma,6,3,1,1,0,0,0,0,0,1,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,Solicitacao,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,PreRequisito,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,modelos,Historico,1,0,0,0,0,0,-1,0,0,1,projetos/codex_matricula_s5/modelos.py
+codex_matricula_s5,codex_matricula_s5,app,,235,19,7,7,4,4,0.43,0,0,0,projetos/codex_matricula_s5/app.py

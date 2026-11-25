@@ -1,0 +1,30 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'main' has 198 effective code lines
+(Total: 322, Code: 198, Doc: 55, Import: 10, Blank: 59)",projetos/codex_matricula_s1/main.py,main,,Medium
+Structural,High Number of Classes (NOC),"Project has 8.0 weighted classes:
+- Regular classes: 8
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_matricula_s1,Project,,Medium
+Code,Long Method,'registrar_crud' has 49 lines in projetos/codex_matricula_s1/main.py at line 103,projetos/codex_matricula_s1/main.py,registrar_crud,103,
+Code,Potential Shotgun Surgery,Method 'dict' called in 11 different contexts across 11 locations in projetos/codex_matricula_s1/main.py,projetos/codex_matricula_s1/main.py,dict,54,high
+Code,Potential Shotgun Surgery,Method 'obter' called in 11 different contexts across 16 locations in projetos/codex_matricula_s1/main.py,projetos/codex_matricula_s1/main.py,obter,74,high
+Code,Potential Shotgun Surgery,Method 'erro' called in 5 different contexts across 8 locations in projetos/codex_matricula_s1/main.py,projetos/codex_matricula_s1/main.py,erro,79,high
+Code,Potential Shotgun Surgery,Method 'quantidade' called in 4 different contexts across 6 locations in projetos/codex_matricula_s1/main.py,projetos/codex_matricula_s1/main.py,quantidade,80,high
+Code,Potential Shotgun Surgery,Method 'expirar_ofertas' called in 7 different contexts across 7 locations in projetos/codex_matricula_s1/main.py,projetos/codex_matricula_s1/main.py,expirar_ofertas,106,high
+Code,Potential Shotgun Surgery,Method 'transacao' called in 8 different contexts across 8 locations in projetos/codex_matricula_s1/main.py,projetos/codex_matricula_s1/main.py,transacao,107,high
+Code,Potential Shotgun Surgery,Method 'conexao' called in 9 different contexts across 9 locations in projetos/codex_matricula_s1/main.py,projetos/codex_matricula_s1/main.py,conexao,132,high
+Code,Potential Shotgun Surgery,Method 'post' called in 7 different contexts across 10 locations in projetos/codex_matricula_s1/verificar.py,projetos/codex_matricula_s1/verificar.py,post,29,high
+Code,Potential Shotgun Surgery,Method 'dict' called in 5 different contexts across 6 locations in projetos/codex_matricula_s1/verificar.py,projetos/codex_matricula_s1/verificar.py,dict,29,high
+Code,Feature Envy,Method 'requisitar' makes 5 calls to 'resp' but only 0 local calls in projetos/codex_matricula_s1/verificar.py,projetos/codex_matricula_s1/verificar.py,requisitar,17,medium
+Code,Potential Shotgun Surgery,Method 'erro' called in 5 different contexts across 13 locations in projetos/codex_matricula_s1/matriculas.py,projetos/codex_matricula_s1/matriculas.py,erro,27,high
+Code,Potential Shotgun Surgery,Method 'obter' called in 5 different contexts across 11 locations in projetos/codex_matricula_s1/matriculas.py,projetos/codex_matricula_s1/matriculas.py,obter,46,high
+Code,Potential Shotgun Surgery,Method 'quantidade' called in 4 different contexts across 6 locations in projetos/codex_matricula_s1/matriculas.py,projetos/codex_matricula_s1/matriculas.py,quantidade,53,high
+Code,Feature Envy,Method 'retirar' makes 4 calls to 'db' but only 0 local calls in projetos/codex_matricula_s1/matriculas.py,projetos/codex_matricula_s1/matriculas.py,retirar,153,medium
+Architectural,Hub-like Dependency,"Module 'main' is a potential hub with 11 connections (in: 1, out: 10, external: 0)",projetos/codex_matricula_s1/main.py,main,,high
+Architectural,God Object,Module 'main' has too many public functions (26),projetos/codex_matricula_s1/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'main' has repetitive API calls: post(7x), get(8x), join(3x), execute(15x)",projetos/codex_matricula_s1/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'matriculas' has repetitive API calls: fetchone(3x), fetchall(3x), execute(17x), isoformat(6x)",projetos/codex_matricula_s1/matriculas.py,matriculas,,medium
+Architectural,Unstable Dependency,Module 'main' has high instability (0.91) with 10 outgoing and 1 incoming dependencies,projetos/codex_matricula_s1/main.py,main,,medium
+Architectural,Unstable Dependency,Module 'verificar' has high instability (1.00) with 8 outgoing and 0 incoming dependencies,projetos/codex_matricula_s1/verificar.py,verificar,,medium

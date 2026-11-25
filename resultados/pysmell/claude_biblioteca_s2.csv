@@ -1,0 +1,5 @@
+smell,file,entity,line,metrics
+LongParameterList,app/servicos.py,projetos/claude_biblioteca_s2/app/servicos.py,52,4
+LongParameterList,app/servicos.py,projetos/claude_biblioteca_s2/app/servicos.py,74,4
+LongMethod,app/servicos.py,projetos/claude_biblioteca_s2/app/servicos.py,248,34
+ComplexContainerComprehension,app/routers/relatorios.py,projetos/claude_biblioteca_s2/app/routers/relatorios.py,60,200|1|25

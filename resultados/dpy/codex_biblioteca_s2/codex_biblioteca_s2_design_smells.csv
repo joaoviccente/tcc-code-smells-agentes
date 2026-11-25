@@ -1,0 +1,7 @@
+Project,Package,Module,Smell,Class,Line no,File,Description
+codex_biblioteca_s2,codex_biblioteca_s2,app,Broken hierarchy,Usuario,29,projetos/codex_biblioteca_s2/app.py,Class 'Usuario' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s2,codex_biblioteca_s2,app,Broken hierarchy,Livro,44,projetos/codex_biblioteca_s2/app.py,Class 'Livro' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s2,codex_biblioteca_s2,app,Broken hierarchy,Exemplar,60,projetos/codex_biblioteca_s2/app.py,Class 'Exemplar' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s2,codex_biblioteca_s2,app,Broken hierarchy,NovoEmprestimo,66,projetos/codex_biblioteca_s2/app.py,Class 'NovoEmprestimo' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s2,codex_biblioteca_s2,app,Broken hierarchy,NovaReserva,71,projetos/codex_biblioteca_s2/app.py,Class 'NovaReserva' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s2,codex_biblioteca_s2,app,Insufficient modularization,app,1,projetos/codex_biblioteca_s2/app.py,"Module 'app' is insufficiently modularized with NOPM: 49, WMC: 96, NOM: 49."

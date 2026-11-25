@@ -1,0 +1,20 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'app' has 291 effective code lines
+(Total: 561, Code: 291, Doc: 141, Import: 9, Blank: 119)",projetos/codex_biblioteca_s2/app.py,app,,High
+Structural,Long File,File 'app' has 300 meaningful lines of code,projetos/codex_biblioteca_s2/app.py,app,,Medium
+Code,Potential Shotgun Surgery,Method 'Field' called in 4 different contexts across 6 locations in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,Field,48,high
+Code,Potential Shotgun Surgery,Method 'executar' called in 15 different contexts across 23 locations in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,executar,105,high
+Code,Potential Shotgun Surgery,Method 'obter' called in 20 different contexts across 27 locations in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,obter,123,high
+Code,Potential Shotgun Surgery,Method 'todos' called in 11 different contexts across 12 locations in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,todos,155,high
+Code,Potential Shotgun Surgery,Method 'editar' called in 10 different contexts across 17 locations in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,editar,162,high
+Code,Potential Shotgun Surgery,Method 'timedelta' called in 5 different contexts across 6 locations in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,timedelta,163,high
+Code,Potential Shotgun Surgery,Method 'distribuir' called in 6 different contexts across 6 locations in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,distribuir,184,high
+Code,Potential Shotgun Surgery,Method 'conflito' called in 8 different contexts across 15 locations in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,conflito,284,high
+Code,Feature Envy,Method 'criar_exemplar' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,criar_exemplar,307,medium
+Code,Feature Envy,Method 'atualizar_exemplar' makes 9 calls to 'dados' but only 0 local calls in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,atualizar_exemplar,327,medium
+Code,Feature Envy,Method 'criar_emprestimo' makes 8 calls to 'dados' but only 0 local calls in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,criar_emprestimo,368,medium
+Code,Feature Envy,Method 'criar_reserva' makes 6 calls to 'dados' but only 0 local calls in projetos/codex_biblioteca_s2/app.py,projetos/codex_biblioteca_s2/app.py,criar_reserva,467,medium
+Architectural,Hub-like Dependency,"Module 'app' is a potential hub with 9 connections (in: 0, out: 9, external: 0)",projetos/codex_biblioteca_s2/app.py,app,,medium
+Architectural,God Object,Module 'app' has too many public functions (50),projetos/codex_biblioteca_s2/app.py,app,,medium
+Architectural,Potential Improper API Usage,"Module 'app' has repetitive API calls: post(9x), get(13x), put(3x), delete(3x), fetchone(11x), join(4x), isoformat(14x), fromisoformat(5x), model_dump(8x), date(4x)",projetos/codex_biblioteca_s2/app.py,app,,medium
+Architectural,Unstable Dependency,Module 'app' has high instability (1.00) with 9 outgoing and 0 incoming dependencies,projetos/codex_biblioteca_s2/app.py,app,,medium

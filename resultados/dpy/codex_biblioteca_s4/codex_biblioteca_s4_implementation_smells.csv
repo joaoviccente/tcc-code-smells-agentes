@@ -1,0 +1,24 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Long method,criar_app,17 - 296,projetos/codex_biblioteca_s4/main.py,Method 'criar_app' is too long (219 lines).
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Long statement,criar_app,143,projetos/codex_biblioteca_s4/main.py,A line with 140 chars in criar_app exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Long statement,criar_app,150,projetos/codex_biblioteca_s4/main.py,A line with 140 chars in criar_app exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Long statement,criar_app,159,projetos/codex_biblioteca_s4/main.py,A line with 228 chars in criar_app exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Long statement,criar_app,237,projetos/codex_biblioteca_s4/main.py,A line with 247 chars in criar_app exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Long statement,criar_app,249,projetos/codex_biblioteca_s4/main.py,A line with 186 chars in criar_app exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Long statement,criar_app,267,projetos/codex_biblioteca_s4/main.py,A line with 387 chars in criar_app exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Long statement,criar_app,278,projetos/codex_biblioteca_s4/main.py,A line with 242 chars in criar_app exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Long statement,criar_app,286,projetos/codex_biblioteca_s4/main.py,A line with 577 chars in criar_app exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Magic number,criar_app,194,projetos/codex_biblioteca_s4/main.py,Magic number 60 used in criar_app.
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Magic number,criar_app,240,projetos/codex_biblioteca_s4/main.py,Magic number 100 used in criar_app.
+codex_biblioteca_s4,codex_biblioteca_s4,main,,Magic number,criar_app,241,projetos/codex_biblioteca_s4/main.py,Magic number 100 used in criar_app.
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Livro,Complex conditional,model_post_init,52,projetos/codex_biblioteca_s4/esquemas.py,"A conditional in model_post_init has 7 conditions, more than the recommended maximum 3 conditions."
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Livro,Magic number,model_post_init,52,projetos/codex_biblioteca_s4/esquemas.py,Magic number 13 used in model_post_init.
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Livro,Magic number,model_post_init,53,projetos/codex_biblioteca_s4/esquemas.py,Magic number 10 used in model_post_init.
+codex_biblioteca_s4,codex_biblioteca_s4,biblioteca,Biblioteca,Complex method,registrar_atraso,99 - 121,projetos/codex_biblioteca_s4/biblioteca.py,"Method 'registrar_atraso' has a cyclomatic complexity of 7, exceeding the max of 6."
+codex_biblioteca_s4,codex_biblioteca_s4,biblioteca,Biblioteca,Long statement,distribuir,65,projetos/codex_biblioteca_s4/biblioteca.py,A line with 148 chars in distribuir exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,biblioteca,Biblioteca,Long statement,fila,91,projetos/codex_biblioteca_s4/biblioteca.py,A line with 131 chars in fila exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,biblioteca,Biblioteca,Long statement,registrar_atraso,118,projetos/codex_biblioteca_s4/biblioteca.py,A line with 196 chars in registrar_atraso exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,biblioteca,Biblioteca,Long statement,sincronizar,133,projetos/codex_biblioteca_s4/biblioteca.py,A line with 139 chars in sincronizar exceeds the maximum length of 120 characters.
+codex_biblioteca_s4,codex_biblioteca_s4,biblioteca,Biblioteca,Magic number,registrar_atraso,116,projetos/codex_biblioteca_s4/biblioteca.py,Magic number 15 used in registrar_atraso.
+codex_biblioteca_s4,codex_biblioteca_s4,biblioteca,Biblioteca,Magic number,registrar_atraso,107,projetos/codex_biblioteca_s4/biblioteca.py,Magic number 2 used in registrar_atraso.
+codex_biblioteca_s4,codex_biblioteca_s4,biblioteca,Biblioteca,Magic number,registrar_atraso,104,projetos/codex_biblioteca_s4/biblioteca.py,Magic number 60 used in registrar_atraso.

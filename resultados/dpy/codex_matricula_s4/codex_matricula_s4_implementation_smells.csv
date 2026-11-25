@@ -1,0 +1,40 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_matricula_s4,codex_matricula_s4,main,,Complex method,salvar,64 - 96,projetos/codex_matricula_s4/main.py,"Method 'salvar' has a cyclomatic complexity of 10, exceeding the max of 6."
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,salvar,74,projetos/codex_matricula_s4/main.py,A line with 167 chars in salvar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,salvar,77,projetos/codex_matricula_s4/main.py,A line with 150 chars in salvar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,salvar,79,projetos/codex_matricula_s4/main.py,A line with 141 chars in salvar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,salvar,81,projetos/codex_matricula_s4/main.py,A line with 127 chars in salvar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,validar_creditos,144,projetos/codex_matricula_s4/main.py,A line with 194 chars in validar_creditos exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,validar_creditos,147,projetos/codex_matricula_s4/main.py,A line with 325 chars in validar_creditos exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,validar_creditos,155,projetos/codex_matricula_s4/main.py,A line with 149 chars in validar_creditos exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,adicionar_pre_requisito,169,projetos/codex_matricula_s4/main.py,A line with 257 chars in adicionar_pre_requisito exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,listar_pre_requisitos,184,projetos/codex_matricula_s4/main.py,A line with 134 chars in listar_pre_requisitos exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,excluir_pre_requisito,192,projetos/codex_matricula_s4/main.py,A line with 121 chars in excluir_pre_requisito exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,lista_de_espera,236,projetos/codex_matricula_s4/main.py,A line with 142 chars in lista_de_espera exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,registrar_historico,251,projetos/codex_matricula_s4/main.py,A line with 208 chars in registrar_historico exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,historico_do_aluno,266,projetos/codex_matricula_s4/main.py,A line with 121 chars in historico_do_aluno exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,encerrar_periodo,277,projetos/codex_matricula_s4/main.py,A line with 125 chars in encerrar_periodo exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,encerrar_periodo,286,projetos/codex_matricula_s4/main.py,A line with 179 chars in encerrar_periodo exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,disciplinas_mais_procuradas,294,projetos/codex_matricula_s4/main.py,A line with 338 chars in disciplinas_mais_procuradas exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,taxa_reprovacao,305,projetos/codex_matricula_s4/main.py,A line with 574 chars in taxa_reprovacao exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Long statement,ocupacao_turmas,319,projetos/codex_matricula_s4/main.py,A line with 724 chars in ocupacao_turmas exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,main,,Magic number,encerrar_periodo,283,projetos/codex_matricula_s4/main.py,Magic number 5 used in encerrar_periodo.
+codex_matricula_s4,codex_matricula_s4,regras,,Complex method,atualizar_fila,130 - 154,projetos/codex_matricula_s4/regras.py,"Method 'atualizar_fila' has a cyclomatic complexity of 7, exceeding the max of 6."
+codex_matricula_s4,codex_matricula_s4,regras,,Complex method,desligar,218 - 253,projetos/codex_matricula_s4/regras.py,"Method 'desligar' has a cyclomatic complexity of 8, exceeding the max of 6."
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,ocupacao,67,projetos/codex_matricula_s4/regras.py,A line with 247 chars in ocupacao exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,fila,76,projetos/codex_matricula_s4/regras.py,A line with 300 chars in fila exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,elegivel,91,projetos/codex_matricula_s4/regras.py,A line with 322 chars in elegivel exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,elegivel,99,projetos/codex_matricula_s4/regras.py,A line with 179 chars in elegivel exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,elegivel,105,projetos/codex_matricula_s4/regras.py,A line with 273 chars in elegivel exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,elegivel,112,projetos/codex_matricula_s4/regras.py,A line with 131 chars in elegivel exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,expirar_ofertas,158,projetos/codex_matricula_s4/regras.py,A line with 147 chars in expirar_ofertas exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,solicitar,170,projetos/codex_matricula_s4/regras.py,A line with 151 chars in solicitar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,solicitar,175,projetos/codex_matricula_s4/regras.py,A line with 251 chars in solicitar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,confirmar,193,projetos/codex_matricula_s4/regras.py,A line with 158 chars in confirmar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,aplicar_trancamento_semestral,202,projetos/codex_matricula_s4/regras.py,A line with 162 chars in aplicar_trancamento_semestral exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,desligar,227,projetos/codex_matricula_s4/regras.py,A line with 123 chars in desligar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,desligar,232,projetos/codex_matricula_s4/regras.py,A line with 188 chars in desligar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,desligar,239,projetos/codex_matricula_s4/regras.py,A line with 136 chars in desligar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Long statement,desligar,242,projetos/codex_matricula_s4/regras.py,A line with 297 chars in desligar exceeds the maximum length of 120 characters.
+codex_matricula_s4,codex_matricula_s4,regras,,Magic number,atualizar_fila,144,projetos/codex_matricula_s4/regras.py,Magic number 409 used in atualizar_fila.
+codex_matricula_s4,codex_matricula_s4,regras,,Magic number,aplicar_trancamento_semestral,207,projetos/codex_matricula_s4/regras.py,Magic number 3 used in aplicar_trancamento_semestral.

@@ -1,0 +1,40 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_matricula_s3,codex_matricula_s3,banco,,Long statement,,5,projetos/codex_matricula_s3/banco.py,A line with 1922 chars in banco exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Complex method,salvar,69 - 104,projetos/codex_matricula_s3/main.py,"Method 'salvar' has a cyclomatic complexity of 12, exceeding the max of 6."
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,salvar,78,projetos/codex_matricula_s3/main.py,A line with 165 chars in salvar exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,salvar,80,projetos/codex_matricula_s3/main.py,A line with 186 chars in salvar exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,salvar,83,projetos/codex_matricula_s3/main.py,A line with 131 chars in salvar exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,salvar,88,projetos/codex_matricula_s3/main.py,A line with 130 chars in salvar exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,consultar_historico,174,projetos/codex_matricula_s3/main.py,A line with 139 chars in consultar_historico exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,registrar_historico,183,projetos/codex_matricula_s3/main.py,A line with 241 chars in registrar_historico exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,listar_pre_requisitos,193,projetos/codex_matricula_s3/main.py,A line with 152 chars in listar_pre_requisitos exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,registrar_pre_requisito,202,projetos/codex_matricula_s3/main.py,A line with 286 chars in registrar_pre_requisito exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,excluir_pre_requisito,215,projetos/codex_matricula_s3/main.py,A line with 133 chars in excluir_pre_requisito exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,encerrar_periodo,227,projetos/codex_matricula_s3/main.py,A line with 308 chars in encerrar_periodo exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,demanda,239,projetos/codex_matricula_s3/main.py,A line with 352 chars in demanda exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,taxa_reprovacao,249,projetos/codex_matricula_s3/main.py,A line with 590 chars in taxa_reprovacao exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,main,,Long statement,ocupacao,262,projetos/codex_matricula_s3/main.py,A line with 569 chars in ocupacao exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Complex method,alterar_matricula,159 - 204,projetos/codex_matricula_s3/matriculas.py,"Method 'alterar_matricula' has a cyclomatic complexity of 8, exceeding the max of 6."
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,fila,31,projetos/codex_matricula_s3/matriculas.py,A line with 349 chars in fila exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,ocupadas,41,projetos/codex_matricula_s3/matriculas.py,A line with 217 chars in ocupadas exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,atualizar_fila,51,projetos/codex_matricula_s3/matriculas.py,A line with 218 chars in atualizar_fila exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,expirar_ofertas,70,projetos/codex_matricula_s3/matriculas.py,A line with 184 chars in expirar_ofertas exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,validar_matricula,82,projetos/codex_matricula_s3/matriculas.py,A line with 299 chars in validar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,validar_matricula,89,projetos/codex_matricula_s3/matriculas.py,A line with 192 chars in validar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,validar_matricula,94,projetos/codex_matricula_s3/matriculas.py,A line with 298 chars in validar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,validar_matricula,100,projetos/codex_matricula_s3/matriculas.py,A line with 148 chars in validar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,validar_matricula,104,projetos/codex_matricula_s3/matriculas.py,A line with 155 chars in validar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,solicitar,112,projetos/codex_matricula_s3/matriculas.py,A line with 150 chars in solicitar exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,solicitar,114,projetos/codex_matricula_s3/matriculas.py,A line with 251 chars in solicitar exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,solicitar,122,projetos/codex_matricula_s3/matriculas.py,A line with 206 chars in solicitar exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,confirmar,134,projetos/codex_matricula_s3/matriculas.py,A line with 181 chars in confirmar exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,confirmar,138,projetos/codex_matricula_s3/matriculas.py,A line with 179 chars in confirmar exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,cancelar_turma,149,projetos/codex_matricula_s3/matriculas.py,A line with 138 chars in cancelar_turma exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,cancelar_turma,153,projetos/codex_matricula_s3/matriculas.py,A line with 199 chars in cancelar_turma exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,alterar_matricula,172,projetos/codex_matricula_s3/matriculas.py,A line with 131 chars in alterar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,alterar_matricula,177,projetos/codex_matricula_s3/matriculas.py,A line with 184 chars in alterar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,alterar_matricula,181,projetos/codex_matricula_s3/matriculas.py,A line with 127 chars in alterar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,alterar_matricula,185,projetos/codex_matricula_s3/matriculas.py,A line with 292 chars in alterar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,alterar_matricula,192,projetos/codex_matricula_s3/matriculas.py,A line with 183 chars in alterar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Long statement,alterar_matricula,197,projetos/codex_matricula_s3/matriculas.py,A line with 202 chars in alterar_matricula exceeds the maximum length of 120 characters.
+codex_matricula_s3,codex_matricula_s3,matriculas,,Magic number,alterar_matricula,195,projetos/codex_matricula_s3/matriculas.py,Magic number 3 used in alterar_matricula.

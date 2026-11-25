@@ -1,0 +1,9 @@
+Project,Package,Module,Smell,Class,Line no,File,Description
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Broken hierarchy,Usuario,35,projetos/codex_biblioteca_s4/esquemas.py,Class 'Usuario' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Broken hierarchy,Livro,43,projetos/codex_biblioteca_s4/esquemas.py,Class 'Livro' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Broken hierarchy,Exemplar,59,projetos/codex_biblioteca_s4/esquemas.py,Class 'Exemplar' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Broken hierarchy,NovoEmprestimo,65,projetos/codex_biblioteca_s4/esquemas.py,Class 'NovoEmprestimo' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Broken hierarchy,NovaReserva,70,projetos/codex_biblioteca_s4/esquemas.py,Class 'NovaReserva' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Broken hierarchy,Periodo,75,projetos/codex_biblioteca_s4/esquemas.py,Class 'Periodo' and its superclass 'Entrada' may not share a proper 'IS-A' relationship.
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Broken modularization,EstadoExemplar,23,projetos/codex_biblioteca_s4/esquemas.py,Class 'EstadoExemplar' contains only data members without any method implementations.
+codex_biblioteca_s4,codex_biblioteca_s4,esquemas,Wide hierarchy,Entrada,0,projetos/codex_biblioteca_s4/esquemas.py,Class 'Entrada' has a wide hierarchy with 6 direct subclasses.

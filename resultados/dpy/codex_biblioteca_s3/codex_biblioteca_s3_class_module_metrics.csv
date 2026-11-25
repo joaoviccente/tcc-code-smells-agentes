@@ -1,0 +1,8 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_biblioteca_s3,codex_biblioteca_s3,app,,336,82,32,32,3,3,0,0,0,0,projetos/codex_biblioteca_s3/app.py
+codex_biblioteca_s3,codex_biblioteca_s3,app,Entrada,2,0,0,0,1,1,-1,0,0,0,projetos/codex_biblioteca_s3/app.py
+codex_biblioteca_s3,codex_biblioteca_s3,app,Usuario,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s3/app.py
+codex_biblioteca_s3,codex_biblioteca_s3,app,Livro,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s3/app.py
+codex_biblioteca_s3,codex_biblioteca_s3,app,Exemplar,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s3/app.py
+codex_biblioteca_s3,codex_biblioteca_s3,app,NovoEmprestimo,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s3/app.py
+codex_biblioteca_s3,codex_biblioteca_s3,app,NovaReserva,1,0,0,0,0,0,-1,0,0,1,projetos/codex_biblioteca_s3/app.py

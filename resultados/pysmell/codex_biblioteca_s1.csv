@@ -1,0 +1,4 @@
+smell,file,entity,line,metrics
+LongMethod,main.py,projetos/codex_biblioteca_s1/main.py,260,33
+LongParameterList,biblioteca.py,projetos/codex_biblioteca_s1/biblioteca.py,77,4
+LongParameterList,biblioteca.py,projetos/codex_biblioteca_s1/biblioteca.py,170,4

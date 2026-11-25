@@ -1,0 +1,12 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_banco_s3,codex_banco_s3,banco,,67,13,7,7,5,5,0.57,0,0,0,projetos/codex_banco_s3/banco.py
+codex_banco_s3,codex_banco_s3,main,,329,81,44,44,14,14,0.11,0,0,0,projetos/codex_banco_s3/main.py
+codex_banco_s3,codex_banco_s3,main,Entrada,2,0,0,0,1,1,-1,0,0,0,projetos/codex_banco_s3/main.py
+codex_banco_s3,codex_banco_s3,main,Cliente,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s3/main.py
+codex_banco_s3,codex_banco_s3,main,Conta,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s3/main.py
+codex_banco_s3,codex_banco_s3,main,AtualizarConta,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s3/main.py
+codex_banco_s3,codex_banco_s3,main,Cartao,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s3/main.py
+codex_banco_s3,codex_banco_s3,main,AtualizarCartao,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s3/main.py
+codex_banco_s3,codex_banco_s3,main,Movimento,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s3/main.py
+codex_banco_s3,codex_banco_s3,main,Transferencia,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s3/main.py
+codex_banco_s3,codex_banco_s3,main,NovaFatura,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s3/main.py

@@ -1,0 +1,34 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_banco_s5,codex_banco_s5,banco,,Complex method,movimentar,183 - 217,projetos/codex_banco_s5/banco.py,"Method 'movimentar' has a cyclomatic complexity of 10, exceeding the max of 6."
+codex_banco_s5,codex_banco_s5,banco,,Complex method,estornar,239 - 259,projetos/codex_banco_s5/banco.py,"Method 'estornar' has a cyclomatic complexity of 8, exceeding the max of 6."
+codex_banco_s5,codex_banco_s5,banco,,Long parameter list,movimentar,183 - 217,projetos/codex_banco_s5/banco.py,"movimentar has 6 parameters, exceeding the max of 5."
+codex_banco_s5,codex_banco_s5,banco,,Long statement,publico,95,projetos/codex_banco_s5/banco.py,A line with 167 chars in publico exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,conta_com_cliente,103,projetos/codex_banco_s5/banco.py,A line with 186 chars in conta_com_cliente exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,cobrar_pendentes,125,projetos/codex_banco_s5/banco.py,A line with 355 chars in cobrar_pendentes exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,manutencao,142,projetos/codex_banco_s5/banco.py,A line with 194 chars in manutencao exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,manutencao,147,projetos/codex_banco_s5/banco.py,A line with 387 chars in manutencao exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,manutencao,161,projetos/codex_banco_s5/banco.py,A line with 383 chars in manutencao exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,manutencao,168,projetos/codex_banco_s5/banco.py,A line with 534 chars in manutencao exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,movimentar,196,projetos/codex_banco_s5/banco.py,A line with 322 chars in movimentar exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,movimentar,209,projetos/codex_banco_s5/banco.py,A line with 223 chars in movimentar exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,registrar_tarifa_transferencia,225,projetos/codex_banco_s5/banco.py,A line with 315 chars in registrar_tarifa_transferencia exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,registrar_tarifa_transferencia,232,projetos/codex_banco_s5/banco.py,A line with 225 chars in registrar_tarifa_transferencia exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,estornar,254,projetos/codex_banco_s5/banco.py,A line with 224 chars in estornar exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Long statement,,19,projetos/codex_banco_s5/banco.py,A line with 1896 chars in banco exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,banco,,Magic number,manutencao,157,projetos/codex_banco_s5/banco.py,Magic number 4 used in manutencao.
+codex_banco_s5,codex_banco_s5,banco,,Magic number,manutencao,158,projetos/codex_banco_s5/banco.py,Magic number 3000 used in manutencao.
+codex_banco_s5,codex_banco_s5,banco,,Magic number,manutencao,158,projetos/codex_banco_s5/banco.py,Magic number 1500 used in manutencao.
+codex_banco_s5,codex_banco_s5,banco,,Magic number,registrar_tarifa_transferencia,222,projetos/codex_banco_s5/banco.py,Magic number 3 used in registrar_tarifa_transferencia.
+codex_banco_s5,codex_banco_s5,main,,Long statement,editar_cliente,187,projetos/codex_banco_s5/main.py,A line with 160 chars in editar_cliente exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,main,,Long statement,extrato,320,projetos/codex_banco_s5/main.py,A line with 146 chars in extrato exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,main,,Long statement,emitir_fatura,329,projetos/codex_banco_s5/main.py,A line with 148 chars in emitir_fatura exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,main,,Long statement,listar_faturas,339,projetos/codex_banco_s5/main.py,A line with 148 chars in listar_faturas exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,main,,Long statement,maior_movimentacao,378,projetos/codex_banco_s5/main.py,A line with 784 chars in maior_movimentacao exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,main,,Long statement,receita_tarifas,400,projetos/codex_banco_s5/main.py,A line with 481 chars in receita_tarifas exceeds the maximum length of 120 characters.
+codex_banco_s5,codex_banco_s5,main,,Magic number,lifespan,113,projetos/codex_banco_s5/main.py,Magic number 10 used in lifespan.
+codex_banco_s5,codex_banco_s5,main,,Magic number,lifespan,113,projetos/codex_banco_s5/main.py,Magic number 14 used in lifespan.
+codex_banco_s5,codex_banco_s5,main,Cliente,Magic number,validar_cpf,46,projetos/codex_banco_s5/main.py,Magic number 9 used in validar_cpf.
+codex_banco_s5,codex_banco_s5,main,Cliente,Magic number,validar_cpf,46,projetos/codex_banco_s5/main.py,Magic number 10 used in validar_cpf.
+codex_banco_s5,codex_banco_s5,main,Cliente,Magic number,validar_cpf,48,projetos/codex_banco_s5/main.py,Magic number 10 used in validar_cpf.
+codex_banco_s5,codex_banco_s5,main,Cliente,Magic number,validar_cpf,48,projetos/codex_banco_s5/main.py,Magic number 11 used in validar_cpf.
+codex_banco_s5,codex_banco_s5,main,Cliente,Magic number,validar_cpf,48,projetos/codex_banco_s5/main.py,Magic number 10 used in validar_cpf.

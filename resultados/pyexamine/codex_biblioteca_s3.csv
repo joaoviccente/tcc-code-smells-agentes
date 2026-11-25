@@ -1,0 +1,20 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Lines of Code (LOC),"Module 'app' has 286 effective code lines
+(Total: 496, Code: 286, Doc: 117, Import: 7, Blank: 86)",projetos/codex_biblioteca_s3/app.py,app,,High
+Structural,Long File,File 'app' has 293 meaningful lines of code,projetos/codex_biblioteca_s3/app.py,app,,Medium
+Code,Potential Shotgun Surgery,Method 'Field' called in 5 different contexts across 14 locations in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,Field,51,high
+Code,Potential Shotgun Surgery,Method 'erro' called in 10 different contexts across 17 locations in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,erro,97,high
+Code,Potential Shotgun Surgery,Method 'obter' called in 15 different contexts across 22 locations in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,obter,111,high
+Code,Potential Shotgun Surgery,Method 'linhas' called in 10 different contexts across 12 locations in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,linhas,142,high
+Code,Potential Shotgun Surgery,Method 'distribuir' called in 6 different contexts across 6 locations in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,distribuir,175,high
+Code,Potential Shotgun Surgery,Method 'transacao' called in 17 different contexts across 17 locations in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,transacao,259,high
+Code,Potential Shotgun Surgery,Method 'gravar' called in 7 different contexts across 10 locations in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,gravar,262,high
+Code,Feature Envy,Method 'transacao' makes 8 calls to 'db' but only 0 local calls in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,transacao,182,medium
+Code,Feature Envy,Method 'validar_exemplar' makes 4 calls to 'entrada' but only 0 local calls in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,validar_exemplar,237,medium
+Code,Feature Envy,Method 'cadastrar_crud' makes 5 calls to 'entrada' but only 0 local calls in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,cadastrar_crud,254,medium
+Code,Feature Envy,Method 'criar_emprestimo' makes 8 calls to 'entrada' but only 0 local calls in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,criar_emprestimo,314,medium
+Code,Feature Envy,Method 'criar_reserva' makes 6 calls to 'entrada' but only 0 local calls in projetos/codex_biblioteca_s3/app.py,projetos/codex_biblioteca_s3/app.py,criar_reserva,406,medium
+Architectural,Hub-like Dependency,"Module 'app' is a potential hub with 7 connections (in: 0, out: 7, external: 0)",projetos/codex_biblioteca_s3/app.py,app,,medium
+Architectural,God Object,Module 'app' has too many public functions (38),projetos/codex_biblioteca_s3/app.py,app,,medium
+Architectural,Potential Improper API Usage,"Module 'app' has repetitive API calls: post(6x), get(6x), fetchone(7x), execute(23x), isoformat(14x), date(5x), join(3x), fromisoformat(3x), model_dump(4x)",projetos/codex_biblioteca_s3/app.py,app,,medium
+Architectural,Unstable Dependency,Module 'app' has high instability (1.00) with 7 outgoing and 0 incoming dependencies,projetos/codex_biblioteca_s3/app.py,app,,medium

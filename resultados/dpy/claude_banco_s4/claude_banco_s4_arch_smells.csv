@@ -1,0 +1,4 @@
+Project,Package,Smell,Description
+claude_banco_s4,claude_banco_s4.banco,Feature concentration,The component realizes more than one architectural concern/feature. Independent sets of related modules within this component are: [main]; [clock]; [errors]; [config]; [schemas]; [database; models]; [enums]. LCC (Lack of Component Cohesion) = 0.88
+claude_banco_s4,claude_banco_s4.banco.services,Feature concentration,The component realizes more than one architectural concern/feature. Independent sets of related modules within this component are: [transacoes]; [comum]; [faturas]; [rotinas]; [relatorios]; [cadastros]. LCC (Lack of Component Cohesion) = 1.0
+claude_banco_s4,claude_banco_s4.banco.routers,Feature concentration,The component realizes more than one architectural concern/feature. Independent sets of related modules within this component are: [transacoes]; [contas]; [clientes]; [faturas]; [cartoes]; [relatorios]. LCC (Lack of Component Cohesion) = 1.0

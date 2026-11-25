@@ -1,0 +1,16 @@
+smell,file,entity,line,metrics
+LongBaseClassList,app/config.py,projetos/antigravity_biblioteca_s5/app/config.py,6,2
+LongBaseClassList,app/config.py,projetos/antigravity_biblioteca_s5/app/config.py,12,2
+LongBaseClassList,app/config.py,projetos/antigravity_biblioteca_s5/app/config.py,17,2
+LongBaseClassList,app/config.py,projetos/antigravity_biblioteca_s5/app/config.py,25,2
+LongBaseClassList,app/config.py,projetos/antigravity_biblioteca_s5/app/config.py,31,2
+LongBaseClassList,app/config.py,projetos/antigravity_biblioteca_s5/app/config.py,39,2
+LongMethod,app/services/reserva_service.py,projetos/antigravity_biblioteca_s5/app/services/reserva_service.py,36,37
+LongMethod,app/services/reserva_service.py,projetos/antigravity_biblioteca_s5/app/services/reserva_service.py,91,69
+LongMethod,app/services/reserva_service.py,projetos/antigravity_biblioteca_s5/app/services/reserva_service.py,205,38
+LongMethod,app/services/emprestimo_service.py,projetos/antigravity_biblioteca_s5/app/services/emprestimo_service.py,53,93
+LongMethod,app/services/emprestimo_service.py,projetos/antigravity_biblioteca_s5/app/services/emprestimo_service.py,200,45
+LongMethod,app/services/emprestimo_service.py,projetos/antigravity_biblioteca_s5/app/services/emprestimo_service.py,269,75
+LongTernaryConditionalExpression,app/services/emprestimo_service.py,projetos/antigravity_biblioteca_s5/app/services/emprestimo_service.py,275,124|3
+LongMethod,app/services/relatorio_service.py,projetos/antigravity_biblioteca_s5/app/services/relatorio_service.py,56,33
+LongMethod,app/services/usuario_service.py,projetos/antigravity_biblioteca_s5/app/services/usuario_service.py,12,29

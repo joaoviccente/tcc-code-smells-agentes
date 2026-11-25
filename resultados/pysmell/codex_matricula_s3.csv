@@ -1,0 +1,5 @@
+smell,file,entity,line,metrics
+LongMethod,main.py,projetos/codex_matricula_s3/main.py,69,33
+LongParameterList,matriculas.py,projetos/codex_matricula_s3/matriculas.py,109,4
+LongParameterList,matriculas.py,projetos/codex_matricula_s3/matriculas.py,159,4
+LongMethod,matriculas.py,projetos/codex_matricula_s3/matriculas.py,159,37

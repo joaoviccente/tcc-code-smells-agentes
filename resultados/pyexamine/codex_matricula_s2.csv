@@ -1,0 +1,25 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Number of Classes (NOC),"Project has 8.0 weighted classes:
+- Regular classes: 8
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_matricula_s2,Project,,Medium
+Code,Feature Envy,Method 'transacao' makes 5 calls to 'db' but only 0 local calls in projetos/codex_matricula_s2/banco.py,projetos/codex_matricula_s2/banco.py,transacao,22,medium
+Code,Long Method,'salvar' has 51 lines in projetos/codex_matricula_s2/main.py at line 45,projetos/codex_matricula_s2/main.py,salvar,45,
+Code,Potential Shotgun Surgery,Method 'dict' called in 8 different contexts across 9 locations in projetos/codex_matricula_s2/main.py,projetos/codex_matricula_s2/main.py,dict,38,high
+Code,Potential Shotgun Surgery,Method 'buscar' called in 10 different contexts across 16 locations in projetos/codex_matricula_s2/main.py,projetos/codex_matricula_s2/main.py,buscar,46,high
+Code,Potential Shotgun Surgery,Method 'transacao' called in 19 different contexts across 19 locations in projetos/codex_matricula_s2/main.py,projetos/codex_matricula_s2/main.py,transacao,102,high
+Code,Potential Shotgun Surgery,Method 'Depends' called in 6 different contexts across 6 locations in projetos/codex_matricula_s2/main.py,projetos/codex_matricula_s2/main.py,Depends,185,high
+Code,Feature Envy,Method 'salvar' makes 10 calls to 'dados' but only 0 local calls in projetos/codex_matricula_s2/main.py,projetos/codex_matricula_s2/main.py,salvar,45,medium
+Code,Feature Envy,Method 'registrar_crud' makes 5 calls to 'app' but only 0 local calls in projetos/codex_matricula_s2/main.py,projetos/codex_matricula_s2/main.py,registrar_crud,98,medium
+Code,Feature Envy,Method 'registrar_historico' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_matricula_s2/main.py,projetos/codex_matricula_s2/main.py,registrar_historico,163,medium
+Code,Potential Shotgun Surgery,Method 'HTTPException' called in 4 different contexts across 12 locations in projetos/codex_matricula_s2/servico.py,projetos/codex_matricula_s2/servico.py,HTTPException,26,high
+Code,Potential Shotgun Surgery,Method 'contar' called in 5 different contexts across 8 locations in projetos/codex_matricula_s2/servico.py,projetos/codex_matricula_s2/servico.py,contar,29,high
+Code,Potential Shotgun Surgery,Method 'buscar' called in 6 different contexts across 15 locations in projetos/codex_matricula_s2/servico.py,projetos/codex_matricula_s2/servico.py,buscar,46,high
+Code,Potential Shotgun Surgery,Method 'atualizar' called in 6 different contexts across 8 locations in projetos/codex_matricula_s2/servico.py,projetos/codex_matricula_s2/servico.py,atualizar,84,high
+Architectural,Hub-like Dependency,"Module 'main' is a potential hub with 8 connections (in: 0, out: 8, external: 0)",projetos/codex_matricula_s2/main.py,main,,medium
+Architectural,God Object,Module 'main' has too many public functions (22),projetos/codex_matricula_s2/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'main' has repetitive API calls: post(7x), get(7x), model_dump(3x), add_api_route(5x), fetchone(4x), execute(14x)",projetos/codex_matricula_s2/main.py,main,,medium
+Architectural,Potential Improper API Usage,"Module 'servico' has repetitive API calls: fetchall(3x), execute(5x), fromisoformat(3x)",projetos/codex_matricula_s2/servico.py,servico,,medium
+Architectural,Unstable Dependency,Module 'main' has high instability (1.00) with 8 outgoing and 0 incoming dependencies,projetos/codex_matricula_s2/main.py,main,,medium

@@ -1,0 +1,27 @@
+Project,Package,Module,Class,Smell,Method,Line no,File,Description
+codex_banco_s1,codex_banco_s1,app,,Complex method,manutencao,175 - 223,projetos/codex_banco_s1/app.py,"Method 'manutencao' has a cyclomatic complexity of 8, exceeding the max of 6."
+codex_banco_s1,codex_banco_s1,app,,Complex method,editar_conta,460 - 471,projetos/codex_banco_s1/app.py,"Method 'editar_conta' has a cyclomatic complexity of 7, exceeding the max of 6."
+codex_banco_s1,codex_banco_s1,app,,Complex method,estornar,600 - 622,projetos/codex_banco_s1/app.py,"Method 'estornar' has a cyclomatic complexity of 7, exceeding the max of 6."
+codex_banco_s1,codex_banco_s1,app,,Long parameter list,transacao,524 - 527,projetos/codex_banco_s1/app.py,"transacao has 7 parameters, exceeding the max of 5."
+codex_banco_s1,codex_banco_s1,app,,Long statement,bloquear_cliente,169,projetos/codex_banco_s1/app.py,A line with 177 chars in bloquear_cliente exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,manutencao,189,projetos/codex_banco_s1/app.py,A line with 253 chars in manutencao exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,manutencao,206,projetos/codex_banco_s1/app.py,A line with 285 chars in manutencao exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,manutencao,221,projetos/codex_banco_s1/app.py,A line with 143 chars in manutencao exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,campos,383,projetos/codex_banco_s1/app.py,A line with 142 chars in campos exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,transacao,525,projetos/codex_banco_s1/app.py,A line with 216 chars in transacao exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,sacar,552,projetos/codex_banco_s1/app.py,A line with 295 chars in sacar exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,transferir,579,projetos/codex_banco_s1/app.py,A line with 373 chars in transferir exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,transferir,590,projetos/codex_banco_s1/app.py,A line with 284 chars in transferir exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,extrato,628,projetos/codex_banco_s1/app.py,A line with 136 chars in extrato exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,periodo,683,projetos/codex_banco_s1/app.py,A line with 127 chars in periodo exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,maior_movimentacao,693,projetos/codex_banco_s1/app.py,A line with 763 chars in maior_movimentacao exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,receita_tarifas,720,projetos/codex_banco_s1/app.py,A line with 160 chars in receita_tarifas exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Long statement,,28,projetos/codex_banco_s1/app.py,A line with 2202 chars in app exceeds the maximum length of 120 characters.
+codex_banco_s1,codex_banco_s1,app,,Magic number,manutencao,177,projetos/codex_banco_s1/app.py,Magic number 7 used in manutencao.
+codex_banco_s1,codex_banco_s1,app,,Magic number,manutencao,188,projetos/codex_banco_s1/app.py,Magic number 2 used in manutencao.
+codex_banco_s1,codex_banco_s1,app,,Magic number,manutencao,220,projetos/codex_banco_s1/app.py,Magic number 10 used in manutencao.
+codex_banco_s1,codex_banco_s1,app,,Magic number,manutencao,213,projetos/codex_banco_s1/app.py,Magic number 4 used in manutencao.
+codex_banco_s1,codex_banco_s1,app,,Magic number,transferir,576,projetos/codex_banco_s1/app.py,Magic number 7 used in transferir.
+codex_banco_s1,codex_banco_s1,app,,Magic number,estornar,605,projetos/codex_banco_s1/app.py,Magic number 86400 used in estornar.
+codex_banco_s1,codex_banco_s1,app,,Magic number,maior_movimentacao,691,projetos/codex_banco_s1/app.py,Magic number 10 used in maior_movimentacao.
+codex_banco_s1,codex_banco_s1,app,AlterarCliente,Magic number,validar_email,315,projetos/codex_banco_s1/app.py,Magic number 254 used in validar_email.

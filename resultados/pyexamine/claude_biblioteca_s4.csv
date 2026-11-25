@@ -1,0 +1,64 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Number of Classes (NOCC),Module 'app.schemas' has 19 significant classes (avg complexity: 0.2),projetos/claude_biblioteca_s4/app/schemas.py,app.schemas,,Medium
+Structural,High Lines of Code (LOC),"Module 'app.servicos' has 278 effective code lines
+(Total: 418, Code: 278, Doc: 49, Import: 8, Blank: 64)",projetos/claude_biblioteca_s4/app/servicos.py,app.servicos,,High
+Structural,High Number of Classes (NOC),"Project has 26.3 weighted classes:
+- Regular classes: 26
+- Abstract/Interface classes: 0
+- Utility classes: 1
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/claude_biblioteca_s4,Project,,High
+Structural,Long File,File 'app.servicos' has 286 meaningful lines of code,projetos/claude_biblioteca_s4/app/servicos.py,app.servicos,,Medium
+Code,Potential Shotgun Surgery,Method 'ConfigDict' called in 7 different contexts across 7 locations in projetos/claude_biblioteca_s4/app/schemas.py,projetos/claude_biblioteca_s4/app/schemas.py,ConfigDict,20,high
+Code,Potential Shotgun Surgery,Method 'Texto' called in 4 different contexts across 8 locations in projetos/claude_biblioteca_s4/app/schemas.py,projetos/claude_biblioteca_s4/app/schemas.py,Texto,44,high
+Code,Potential Shotgun Surgery,Method 'Field' called in 4 different contexts across 6 locations in projetos/claude_biblioteca_s4/app/schemas.py,projetos/claude_biblioteca_s4/app/schemas.py,Field,113,high
+Code,Potential Shotgun Surgery,Method 'CheckConstraint' called in 5 different contexts across 8 locations in projetos/claude_biblioteca_s4/app/models.py,projetos/claude_biblioteca_s4/app/models.py,CheckConstraint,27,high
+Code,Potential Shotgun Surgery,Method '_in' called in 5 different contexts across 6 locations in projetos/claude_biblioteca_s4/app/models.py,projetos/claude_biblioteca_s4/app/models.py,_in,27,high
+Code,Potential Shotgun Surgery,Method 'mapped_column' called in 6 different contexts across 39 locations in projetos/claude_biblioteca_s4/app/models.py,projetos/claude_biblioteca_s4/app/models.py,mapped_column,31,high
+Code,Potential Shotgun Surgery,Method 'String' called in 6 different contexts across 14 locations in projetos/claude_biblioteca_s4/app/models.py,projetos/claude_biblioteca_s4/app/models.py,String,32,high
+Code,Potential Shotgun Surgery,Method 'relationship' called in 6 different contexts across 10 locations in projetos/claude_biblioteca_s4/app/models.py,projetos/claude_biblioteca_s4/app/models.py,relationship,41,high
+Code,Potential Shotgun Surgery,Method 'ForeignKey' called in 4 different contexts across 7 locations in projetos/claude_biblioteca_s4/app/models.py,projetos/claude_biblioteca_s4/app/models.py,ForeignKey,62,high
+Code,Long Method,'criar_emprestimo' has 53 lines in projetos/claude_biblioteca_s4/app/servicos.py at line 210,projetos/claude_biblioteca_s4/app/servicos.py,criar_emprestimo,210,
+Code,Potential Shotgun Surgery,Method 'select' called in 9 different contexts across 14 locations in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,select,60,high
+Code,Potential Shotgun Surgery,Method 'obter' called in 6 different contexts across 8 locations in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,obter,211,high
+Code,Potential Shotgun Surgery,Method 'conflito' called in 7 different contexts across 21 locations in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,conflito,217,high
+Code,Feature Envy,Method 'fila_reservas' makes 4 calls to 'Reserva' but only 0 local calls in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,fila_reservas,57,medium
+Code,Feature Envy,Method 'liberar_exemplar' makes 4 calls to 'Reserva' but only 0 local calls in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,liberar_exemplar,76,medium
+Code,Feature Envy,Method 'processar_pendencias' makes 6 calls to 'db' but only 0 local calls in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,processar_pendencias,144,medium
+Code,Feature Envy,Method 'criar_emprestimo' makes 7 calls to 'exemplar' but only 0 local calls in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,criar_emprestimo,210,medium
+Code,Feature Envy,Method 'renovar_emprestimo' makes 6 calls to 'emp' but only 0 local calls in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,renovar_emprestimo,272,medium
+Code,Feature Envy,Method 'devolver_emprestimo' makes 4 calls to 'usuario' but only 0 local calls in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,devolver_emprestimo,294,medium
+Code,Feature Envy,Method 'criar_reserva' makes 5 calls to 'db' but only 0 local calls in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,criar_reserva,353,medium
+Code,Feature Envy,Method 'cancelar_reserva' makes 4 calls to 'reserva' but only 0 local calls in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,cancelar_reserva,387,medium
+Code,Feature Envy,Method 'pagar_multa' makes 5 calls to 'multa' but only 0 local calls in projetos/claude_biblioteca_s4/app/servicos.py,projetos/claude_biblioteca_s4/app/servicos.py,pagar_multa,401,medium
+Code,Long Parameter List,'listar' has 6 parameters in projetos/claude_biblioteca_s4/app/routers/livros.py,projetos/claude_biblioteca_s4/app/routers/livros.py,listar,33,
+Code,Potential Shotgun Surgery,Method 'Depends' called in 8 different contexts across 8 locations in projetos/claude_biblioteca_s4/app/routers/livros.py,projetos/claude_biblioteca_s4/app/routers/livros.py,Depends,25,high
+Code,Feature Envy,Method 'listar' makes 4 calls to 'Livro' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/livros.py,projetos/claude_biblioteca_s4/app/routers/livros.py,listar,33,medium
+Code,Potential Shotgun Surgery,Method 'select' called in 5 different contexts across 6 locations in projetos/claude_biblioteca_s4/app/routers/usuarios.py,projetos/claude_biblioteca_s4/app/routers/usuarios.py,select,20,high
+Code,Potential Shotgun Surgery,Method 'Depends' called in 8 different contexts across 8 locations in projetos/claude_biblioteca_s4/app/routers/usuarios.py,projetos/claude_biblioteca_s4/app/routers/usuarios.py,Depends,35,high
+Code,Feature Envy,Method 'criar' makes 4 calls to 'dados' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/usuarios.py,projetos/claude_biblioteca_s4/app/routers/usuarios.py,criar,34,medium
+Code,Feature Envy,Method '_atualizar' makes 4 calls to 'valores' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/usuarios.py,projetos/claude_biblioteca_s4/app/routers/usuarios.py,_atualizar,65,medium
+Code,Feature Envy,Method 'remover' makes 4 calls to 'db' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/usuarios.py,projetos/claude_biblioteca_s4/app/routers/usuarios.py,remover,89,medium
+Code,Feature Envy,Method 'emprestimos_do_usuario' makes 4 calls to 'Emprestimo' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/usuarios.py,projetos/claude_biblioteca_s4/app/routers/usuarios.py,emprestimos_do_usuario,102,medium
+Code,Potential Shotgun Surgery,Method 'Depends' called in 11 different contexts across 11 locations in projetos/claude_biblioteca_s4/app/routers/circulacao.py,projetos/claude_biblioteca_s4/app/routers/circulacao.py,Depends,21,high
+Code,Feature Envy,Method 'livros_mais_emprestados' makes 9 calls to 'Livro' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/relatorios.py,projetos/claude_biblioteca_s4/app/routers/relatorios.py,livros_mais_emprestados,21,medium
+Code,Feature Envy,Method 'usuarios_com_mais_atrasos' makes 4 calls to 'u' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/relatorios.py,projetos/claude_biblioteca_s4/app/routers/relatorios.py,usuarios_com_mais_atrasos,47,medium
+Code,Feature Envy,Method 'ocupacao_por_area' makes 4 calls to 'Livro' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/relatorios.py,projetos/claude_biblioteca_s4/app/routers/relatorios.py,ocupacao_por_area,82,medium
+Code,Feature Envy,Method 'criar' makes 6 calls to 'dados' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/exemplares.py,projetos/claude_biblioteca_s4/app/routers/exemplares.py,criar,26,medium
+Code,Feature Envy,Method 'atualizar' makes 5 calls to 'dados' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/exemplares.py,projetos/claude_biblioteca_s4/app/routers/exemplares.py,atualizar,61,medium
+Code,Feature Envy,Method 'remover' makes 4 calls to 'db' but only 0 local calls in projetos/claude_biblioteca_s4/app/routers/exemplares.py,projetos/claude_biblioteca_s4/app/routers/exemplares.py,remover,77,medium
+Architectural,Scattered Functionality,"Function 'detalhar' appears in 3 modules: app.routers.livros, app.routers.usuarios, app.routers.exemplares",projetos/claude_biblioteca_s4/app/routers/livros.py,app.routers.livros,,medium
+Architectural,Scattered Functionality,"Function 'atualizar' appears in 3 modules: app.routers.livros, app.routers.usuarios, app.routers.exemplares",projetos/claude_biblioteca_s4/app/routers/livros.py,app.routers.livros,,medium
+Architectural,Scattered Functionality,"Function 'criar' appears in 3 modules: app.routers.livros, app.routers.usuarios, app.routers.exemplares",projetos/claude_biblioteca_s4/app/routers/livros.py,app.routers.livros,,medium
+Architectural,Scattered Functionality,"Function 'listar' appears in 3 modules: app.routers.livros, app.routers.usuarios, app.routers.exemplares",projetos/claude_biblioteca_s4/app/routers/livros.py,app.routers.livros,,medium
+Architectural,Scattered Functionality,"Function 'remover' appears in 3 modules: app.routers.livros, app.routers.usuarios, app.routers.exemplares",projetos/claude_biblioteca_s4/app/routers/livros.py,app.routers.livros,,medium
+Architectural,God Object,Module 'app.servicos' has too many public functions (22),projetos/claude_biblioteca_s4/app/servicos.py,app.servicos,,medium
+Architectural,Potential Improper API Usage,"Module 'app.servicos' has repetitive API calls: quantize(4x), first(4x), flush(14x), scalar(5x), scalars(9x), agora(9x), date(6x), add(3x), where(14x), in_(8x), order_by(3x), select_from(5x), count(5x)",projetos/claude_biblioteca_s4/app/servicos.py,app.servicos,,medium
+Architectural,Potential Improper API Usage,"Module 'app.routers.usuarios' has repetitive API calls: get(6x), commit(3x), order_by(3x), where(10x), scalar(3x), scalars(3x)",projetos/claude_biblioteca_s4/app/routers/usuarios.py,app.routers.usuarios,,medium
+Architectural,Potential Improper API Usage,"Module 'app.routers.circulacao' has repetitive API calls: post(6x), get(5x), commit(6x)",projetos/claude_biblioteca_s4/app/routers/circulacao.py,app.routers.circulacao,,medium
+Architectural,Potential Improper API Usage,"Module 'app.routers.relatorios' has repetitive API calls: get(3x), join(4x), where(3x), combine(4x)",projetos/claude_biblioteca_s4/app/routers/relatorios.py,app.routers.relatorios,,medium
+Architectural,Unstable Dependency,Module 'app.routers.livros' has high instability (1.00) with 8 outgoing and 0 incoming dependencies,projetos/claude_biblioteca_s4/app/routers/livros.py,app.routers.livros,,medium
+Architectural,Unstable Dependency,Module 'app.routers.usuarios' has high instability (0.90) with 9 outgoing and 1 incoming dependencies,projetos/claude_biblioteca_s4/app/routers/usuarios.py,app.routers.usuarios,,medium
+Architectural,Unstable Dependency,Module 'app.routers.circulacao' has high instability (1.00) with 8 outgoing and 0 incoming dependencies,projetos/claude_biblioteca_s4/app/routers/circulacao.py,app.routers.circulacao,,medium
+Architectural,Unstable Dependency,Module 'app.routers.relatorios' has high instability (1.00) with 9 outgoing and 0 incoming dependencies,projetos/claude_biblioteca_s4/app/routers/relatorios.py,app.routers.relatorios,,medium
+Architectural,Unstable Dependency,Module 'app.routers.exemplares' has high instability (1.00) with 8 outgoing and 0 incoming dependencies,projetos/claude_biblioteca_s4/app/routers/exemplares.py,app.routers.exemplares,,medium

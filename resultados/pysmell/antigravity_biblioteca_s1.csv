@@ -1,0 +1,14 @@
+smell,file,entity,line,metrics
+LongMethod,app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,38,30
+LongMethod,app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,79,33
+LongMethod,app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,368,81
+LongMethod,app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,487,33
+LongMethod,app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,535,63
+LongMethod,app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,651,33
+LongMethod,app/services.py,projetos/antigravity_biblioteca_s1/app/services.py,701,34
+LongBaseClassList,app/models.py,projetos/antigravity_biblioteca_s1/app/models.py,17,2
+LongBaseClassList,app/models.py,projetos/antigravity_biblioteca_s1/app/models.py,23,2
+LongBaseClassList,app/models.py,projetos/antigravity_biblioteca_s1/app/models.py,28,2
+LongBaseClassList,app/models.py,projetos/antigravity_biblioteca_s1/app/models.py,36,2
+LongBaseClassList,app/models.py,projetos/antigravity_biblioteca_s1/app/models.py,42,2
+LongBaseClassList,app/models.py,projetos/antigravity_biblioteca_s1/app/models.py,50,2

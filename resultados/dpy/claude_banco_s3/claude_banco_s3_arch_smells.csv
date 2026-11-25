@@ -1,0 +1,3 @@
+Project,Package,Smell,Description
+claude_banco_s3,claude_banco_s3.app,Feature concentration,The component realizes more than one architectural concern/feature. Independent sets of related modules within this component are: [main]; [clock]; [regras]; [errors]; [schemas]; [money]; [database; models]. LCC (Lack of Component Cohesion) = 0.88
+claude_banco_s3,claude_banco_s3.app.services,Feature concentration,The component realizes more than one architectural concern/feature. Independent sets of related modules within this component are: [financeiro]; [transacoes]; [base]; [rotinas]; [cadastros]. LCC (Lack of Component Cohesion) = 1.0

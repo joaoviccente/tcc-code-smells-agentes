@@ -1,0 +1,27 @@
+Type,Name,Description,File,Module/Class,Line Number,Severity
+Structural,High Number of Classes (NOC),"Project has 10.0 weighted classes:
+- Regular classes: 10
+- Abstract/Interface classes: 0
+- Utility classes: 0
+- Test classes: 0 (not counted in weighted total)
+Adjusted threshold: 7",projetos/codex_banco_s2,Project,,Medium
+Structural,Too Many Branches,Method 'validar_cpf' has 4 branches with max nesting of 4,projetos/codex_banco_s2/schemas.py,schemas.ClienteDados,33,Medium
+Code,Long Method,'movimentar' has 47 lines in projetos/codex_banco_s2/regras.py at line 86,projetos/codex_banco_s2/regras.py,movimentar,86,
+Code,Long Parameter List,'registrar' has 8 parameters in projetos/codex_banco_s2/regras.py,projetos/codex_banco_s2/regras.py,registrar,78,
+Code,Potential Shotgun Surgery,Method 'obter' called in 4 different contexts across 8 locations in projetos/codex_banco_s2/regras.py,projetos/codex_banco_s2/regras.py,obter,62,high
+Code,Potential Shotgun Surgery,Method 'conflito' called in 4 different contexts across 9 locations in projetos/codex_banco_s2/regras.py,projetos/codex_banco_s2/regras.py,conflito,64,high
+Code,Feature Envy,Method 'movimentar' makes 4 calls to 'politica' but only 0 local calls in projetos/codex_banco_s2/regras.py,projetos/codex_banco_s2/regras.py,movimentar,86,medium
+Code,Potential Shotgun Surgery,Method 'agora' called in 10 different contexts across 10 locations in projetos/codex_banco_s2/app.py,projetos/codex_banco_s2/app.py,agora,22,high
+Code,Potential Shotgun Surgery,Method 'obter' called in 17 different contexts across 22 locations in projetos/codex_banco_s2/app.py,projetos/codex_banco_s2/app.py,obter,80,high
+Code,Potential Shotgun Surgery,Method 'salvar' called in 8 different contexts across 8 locations in projetos/codex_banco_s2/app.py,projetos/codex_banco_s2/app.py,salvar,85,high
+Code,Potential Shotgun Surgery,Method 'listar' called in 7 different contexts across 7 locations in projetos/codex_banco_s2/app.py,projetos/codex_banco_s2/app.py,listar,90,high
+Code,Potential Shotgun Surgery,Method 'conflito' called in 6 different contexts across 9 locations in projetos/codex_banco_s2/app.py,projetos/codex_banco_s2/app.py,conflito,105,high
+Code,Feature Envy,Method 'lifespan' makes 4 calls to 'asyncio' but only 0 local calls in projetos/codex_banco_s2/app.py,projetos/codex_banco_s2/app.py,lifespan,34,medium
+Code,Feature Envy,Method 'criar_fatura' makes 4 calls to 'dados' but only 0 local calls in projetos/codex_banco_s2/app.py,projetos/codex_banco_s2/app.py,criar_fatura,250,medium
+Architectural,Hub-like Dependency,"Module 'app' is a potential hub with 11 connections (in: 0, out: 11, external: 0)",projetos/codex_banco_s2/app.py,app,,high
+Architectural,God Object,Module 'app' has too many public functions (31),projetos/codex_banco_s2/app.py,app,,medium
+Architectural,Potential Improper API Usage,"Module 'regras' has repetitive API calls: fetchone(5x), execute(20x), fetchall(3x), isoformat(6x), date(4x)",projetos/codex_banco_s2/regras.py,regras,,medium
+Architectural,Potential Improper API Usage,"Module 'app' has repetitive API calls: post(9x), get(14x), put(3x), delete(3x), isoformat(9x), execute(11x), model_dump(6x), fetchone(3x), to_thread(3x), join(3x)",projetos/codex_banco_s2/app.py,app,,medium
+Architectural,Unstable Dependency,Module 'regras' has high instability (0.83) with 5 outgoing and 1 incoming dependencies,projetos/codex_banco_s2/regras.py,regras,,medium
+Architectural,Unstable Dependency,Module 'schemas' has high instability (0.83) with 5 outgoing and 1 incoming dependencies,projetos/codex_banco_s2/schemas.py,schemas,,medium
+Architectural,Unstable Dependency,Module 'app' has high instability (1.00) with 11 outgoing and 0 incoming dependencies,projetos/codex_banco_s2/app.py,app,,medium

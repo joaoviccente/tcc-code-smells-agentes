@@ -1,0 +1,17 @@
+smell,file,entity,line,metrics
+LongBaseClassList,app/config.py,projetos/antigravity_banco_s2/app/config.py,13,2
+LongBaseClassList,app/config.py,projetos/antigravity_banco_s2/app/config.py,19,2
+LongBaseClassList,app/config.py,projetos/antigravity_banco_s2/app/config.py,24,2
+LongBaseClassList,app/config.py,projetos/antigravity_banco_s2/app/config.py,29,2
+LongBaseClassList,app/config.py,projetos/antigravity_banco_s2/app/config.py,35,2
+LongBaseClassList,app/config.py,projetos/antigravity_banco_s2/app/config.py,42,2
+LongBaseClassList,app/config.py,projetos/antigravity_banco_s2/app/config.py,48,2
+LongBaseClassList,app/config.py,projetos/antigravity_banco_s2/app/config.py,54,2
+LongBaseClassList,app/config.py,projetos/antigravity_banco_s2/app/config.py,61,2
+LongBaseClassList,app/config.py,projetos/antigravity_banco_s2/app/config.py,67,2
+LongMethod,app/services/transacao_service.py,projetos/antigravity_banco_s2/app/services/transacao_service.py,74,54
+LongMethod,app/services/transacao_service.py,projetos/antigravity_banco_s2/app/services/transacao_service.py,159,84
+LongMethod,app/services/transacao_service.py,projetos/antigravity_banco_s2/app/services/transacao_service.py,293,62
+LongMethod,app/services/relatorio_service.py,projetos/antigravity_banco_s2/app/services/relatorio_service.py,32,31
+LongMethod,app/services/relatorio_service.py,projetos/antigravity_banco_s2/app/services/relatorio_service.py,166,31
+LongMethod,app/services/conta_service.py,projetos/antigravity_banco_s2/app/services/conta_service.py,14,29

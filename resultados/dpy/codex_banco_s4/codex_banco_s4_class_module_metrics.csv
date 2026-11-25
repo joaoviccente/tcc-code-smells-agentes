@@ -1,0 +1,12 @@
+Project,Package,Module,Class,LOC,WMC,NOM,NOPM,NOF,NOPF,LCOM,Fan-In,Fan-Out,DIT,File
+codex_banco_s4,codex_banco_s4,main,,419,30,12,12,5,5,0,0,0,0,projetos/codex_banco_s4/main.py
+codex_banco_s4,codex_banco_s4,modelos,,22,5,0,0,7,7,-1,0,0,0,projetos/codex_banco_s4/modelos.py
+codex_banco_s4,codex_banco_s4,modelos,Entrada,2,0,0,0,1,1,-1,0,0,0,projetos/codex_banco_s4/modelos.py
+codex_banco_s4,codex_banco_s4,modelos,Cliente,13,5,1,1,0,0,0,0,0,1,projetos/codex_banco_s4/modelos.py
+codex_banco_s4,codex_banco_s4,modelos,ContaDados,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s4/modelos.py
+codex_banco_s4,codex_banco_s4,modelos,Conta,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s4/modelos.py
+codex_banco_s4,codex_banco_s4,modelos,CartaoDados,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s4/modelos.py
+codex_banco_s4,codex_banco_s4,modelos,Cartao,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s4/modelos.py
+codex_banco_s4,codex_banco_s4,modelos,Movimento,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s4/modelos.py
+codex_banco_s4,codex_banco_s4,modelos,Transferencia,1,0,0,0,0,0,-1,0,0,2,projetos/codex_banco_s4/modelos.py
+codex_banco_s4,codex_banco_s4,modelos,Fatura,1,0,0,0,0,0,-1,0,0,1,projetos/codex_banco_s4/modelos.py
